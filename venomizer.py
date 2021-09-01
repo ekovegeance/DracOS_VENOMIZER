@@ -38,7 +38,7 @@ def data():
     print(c('4. exploit', 'green'))
     print(c('5. forensic', 'green'))
     print(c('00. exit'))
-    menu = input(c('[','green')+c('input menu:','red')+c(']> ','green'))
+    menu = input(DracOS)
     if menu == '4':
     	fluxion()
     elif menu == '0':
