@@ -4,6 +4,7 @@ import sys
 import os.path
 from os import path
 
+
 # logo constant
 def LOGO():
     os.system("clear")
@@ -28,6 +29,7 @@ def LOGO():
     print("    \/   |_____|_|  \__|\_____/|_|    |_|_____/_____|_____|_|  \_\ ")
     print(c('[(c) 2018 |', 'red'), c('dracos-linux.org | https://github.com/DracOS-Remaster', 'red')+c(']', 'red'))
 
+
 # menu head
 def menu():
     # call logo
@@ -38,7 +40,10 @@ def menu():
     print(c('3. hacking', 'green'))
     print(c('4. exploit', 'green'))
     print(c('5. forensic', 'green'))
+    print(c('6. social engineering', 'green'))
+    print(c('7. sniffing and spoffing'))
     print(c('00. exit'))
+    
     menu = input(DracOS)
     if menu == '0':
         var = input('sudo apt update && sudo apt upgrade(y/n)? ')
@@ -51,9 +56,14 @@ def menu():
     	back()
     elif menu == '3':
         hacking()
-        # back()
     elif menu == '4':
         eksploit()
+    elif menu == '5':
+        forensic()
+    elif menu == '6':
+        social_engineering()
+    elif menu == '7':
+
     elif menu == '00':
     	sys.exit()    
     elif menu == 'clear':
@@ -69,6 +79,7 @@ def menu():
         
         #else:
         #	print('your failed!')
+
 
 global DracOS
 DracOS = (c('[','green')+c('DracOS','red')+c(']select>','green'))
@@ -97,24 +108,25 @@ def hacking():
             exit()
 
 
-# menu/hacking/fluxion
+# menu/hacking/fluxion--1
 def fluxion():  
     os.system('''
     cd fluxionOLD/
     sudo ./fluxion
     ''')
 
-# menu/hacking/fatrat
+
+# menu/hacking/fatrat--2
 def fatrat():
     os.system('''
     cd /home/faiz/hacking/TheFatRat/
     sudo ./fatrat''')
 
 
-# menu/eksploit
+# menu/eksploit--4
 def eksploit():
     while True:
-        print('menu\n1. tools\n2. tools2\n0. back','green')
+        print(c('menu\n1. tools\n2. tools2\n0. back','green'))
         print('00. exit')
         menu = input(DracOS)
         if menu == '1':
@@ -127,12 +139,36 @@ def eksploit():
             exit()
 
 
-# menu/forensic
-# def 
+#  menu/forensic--5
+def forensic():
+    LOGO()
+    while True:
+        print(c('MENU:\n1. tools1\n2. tools2\n3. tools3\n0. back', 'green'))
+        print('00. exit')
+        menu = input(DracOS)
+        if menu == '1':
+            print('kosong')
+        elif menu  == '2':
+            print('kosong')
+        elif menu == '0':
+            back()
+        elif menu == '00':
+            exit()
 
 
-# menu/social engineering
-
+# menu/social engineering--6
+def social_engineering():
+    LOGO()
+    print(c('MENU:\n1. tools1\n2. tools2\n0. back', 'green'))
+    print('00. exit')
+    menu = input(DracOS)
+    if menu == '1':
+        print('kosong')
+    elif menu == '0':
+        back()
+    elif menu == '00':
+        exit()
+    
 
 # menu/information gathering
 
@@ -142,6 +178,7 @@ def eksploit():
 
 def back():
     menu()
+
 
 while True:
 	menu()
