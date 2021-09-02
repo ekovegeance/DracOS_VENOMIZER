@@ -4,7 +4,7 @@ import sys
 import os.path
 from os import path
 
-
+# logo constant
 def LOGO():
     os.system("clear")
     print(c("        -os:",'red'))
@@ -28,8 +28,9 @@ def LOGO():
     print("    \/   |_____|_|  \__|\_____/|_|    |_|_____/_____|_____|_|  \_\ ")
     print(c('[(c) 2018 |', 'red'), c('dracos-linux.org | https://github.com/DracOS-Remaster', 'red')+c(']', 'red'))
 
-def data():
-    # os.system("clear")
+# menu head
+def menu():
+    # call logo
     LOGO()
     print(c('0. sudo apt update && sudo apt upgrade', 'green'))
     print(c('1. install', 'green'))
@@ -39,9 +40,7 @@ def data():
     print(c('5. forensic', 'green'))
     print(c('00. exit'))
     menu = input(DracOS)
-    if menu == '4':
-    	fluxion()
-    elif menu == '0':
+    if menu == '0':
         var = input('sudo apt update && sudo apt upgrade(y/n)? ')
         if var == 'y': 
                 os.system('sudo apt update && sudo apt upgrade')
@@ -53,7 +52,8 @@ def data():
     elif menu == '3':
         hacking()
         # back()
-        
+    elif menu == '4':
+        eksploit()
     elif menu == '00':
     	sys.exit()    
     elif menu == 'clear':
@@ -73,30 +73,75 @@ def data():
 global DracOS
 DracOS = (c('[','green')+c('DracOS','red')+c(']select>','green'))
 
-def hacking():
-    LOGO()
-    print(c('MENU:\n'
-    '1. fluxion\n'
-    '2. The Fatrat', 'green'
-    ))
-    print('00. exit')
-    menu = input(DracOS)
-    if menu == '1':
-        print('fluxionOLD')
-    elif menu == '2':
-        print('the fatrat')
-    elif menu == '0':
-        exit()
-    
-def fluxion():
+
+# menu/hacking
+def hacking():  
+    while True:
+        LOGO()
+        print(c('MENU:\n'
+		'1. fluxion\n'
+		'2. The Fatrat\n'
+		'0. back', 'green'
+		))
+        print('00. exit')
+        menu = input(DracOS)
+        if menu == '1':
+            # print('fluxionOLD')
+            fluxion()
+        elif menu == '2':
+            # print('the fatrat')
+            fatrat()
+        elif menu == '0':
+            back()
+        elif menu == '00':
+            exit()
+
+
+# menu/hacking/fluxion
+def fluxion():  
     os.system('''
     cd fluxionOLD/
     sudo ./fluxion
     ''')
 
+# menu/hacking/fatrat
+def fatrat():
+    os.system('''
+    cd /home/faiz/hacking/TheFatRat/
+    sudo ./fatrat''')
+
+
+# menu/eksploit
+def eksploit():
+    while True:
+        print('menu\n1. tools\n2. tools2\n0. back','green')
+        print('00. exit')
+        menu = input(DracOS)
+        if menu == '1':
+            print()
+        elif menu == '2':
+            print()
+        elif menu == '0':
+            back()
+        elif menu == '00':
+            exit()
+
+
+# menu/forensic
+# def 
+
+
+# menu/social engineering
+
+
+# menu/information gathering
+
+
+# password attack
+
 
 def back():
-    data()
+    menu()
 
 while True:
-	data()
+	menu()
