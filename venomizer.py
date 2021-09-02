@@ -85,7 +85,7 @@ global DracOS
 DracOS = (c('[','green')+c('DracOS','red')+c(']select>','green'))
 
 
-# menu/hacking
+# menu/hacking--3
 def hacking():  
     while True:
         LOGO()
