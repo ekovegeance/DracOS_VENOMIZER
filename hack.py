@@ -34,9 +34,7 @@ def hacking():
         
 
 def fatrat():
-    os.system('''
-    cd /home/faiz/hacking/TheFatRat/
-    sudo ./fatrat''')
+    os.system('sudo fatrat')
 
 
 def fluxion():
