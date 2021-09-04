@@ -102,7 +102,9 @@ def menu():
     # elif menu == '13':
     #     post_eksploitation()
     elif menu == '00':
+        os.system('exit')
         sys.exit()
+        exit()
     elif menu == 'clear':
         os.system('clear')
         back()
