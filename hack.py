@@ -7,9 +7,9 @@ from color import*
 # from os import path
 
 
-def LOGO_hacking():
-    os.system('clear')
-    Logo.logo_8()
+# def LOGO_hacking():
+#     os.system('clear')
+#     Logo.logo_8()
     # print(c('____   ____     _____      _______  ___  _______ __    ___________   ','red'))
     # print(c('|   |  |   |   /  _   \   /  ___  /|  | / |_   _|  \  |  |   _____ \ ','red'))
     # print(c('|   |__|   |  /  /__\  \ |  |   |  |  |/  / | | |   \ |  |  /   ___  ','red'))
@@ -19,7 +19,8 @@ def LOGO_hacking():
 
 
 def hacking():
-    LOGO_hacking()
+    # LOGO_hacking()
+    Logo.logo_8()
     print(G('1. fluxion\n'
     '2. the fatrat\n'
     '0. back'))

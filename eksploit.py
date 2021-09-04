@@ -9,7 +9,7 @@ def eksploit():
     os.system('clear')
     Logo.logo_9()
     # while True:
-    print(c('menu\n1. tools\n2. tools2\n0. back','green'))
+    print(G('menu\n1. tools\n2. tools2\n0. back'))
     print('00. exit')
     menu = input(G('[')+R('DracOS')+G(']> '))
     if menu == '1':
