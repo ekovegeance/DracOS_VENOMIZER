@@ -1,10 +1,15 @@
 from termcolor import colored as c
 import os
 import sys
-import os.path
-from os import path
+# import os.path
+# from os import path
+import hack, eksploit#, forensic, SocialEngineering
 
 
+
+global DracOS
+DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
+ 
 # logo constant
 def LOGO():
     os.system("clear")
@@ -30,150 +35,77 @@ def LOGO():
     print(c('[(c) 2018 |', 'red'), c('dracos-linux.org | https://github.com/DracOS-Remaster', 'red')+c(']', 'red'))
 
 
-# menu head
+# def LOGO_hacking():
+#     os.system('clear')
+#     print(c('[','green')+c('GROUP', 'red')+c(']','green'))
+#     print(c('____   ____     _____      _______  ___  _______ __    ___________   ','red'))
+#     print(c('|   |  |   |   /  _   \   /  ___  /|  | / |_   _|  \  |  |   _____ \ ','red'))
+#     print(c('|   |__|   |  /  /__\  \ |  |   |  |  |/  / | | |   \ |  |  /   ___  ','red'))
+#     print(c('|    __    | /   ____   \|  |   |  |     x  | | |    \|  |  |  |_  \ ','red'))
+#     print(c('|   |  |   |/   /    \   \   \__---|  |\  \_| |_|  |\    |   \__|  | ','red'))
+#     print(c('|___|  |___|___/      \___\_______/|__| \__\____|__| \__ |\______  / ','red'))
+
 def menu():
     # call logo
     LOGO()
-    print(c('0. sudo apt update && sudo apt upgrade', 'green'))
-    print(c('1. install', 'green'))
-    print(c('2. check update tools', 'green'))
-    print(c('3. hacking', 'green'))
-    print(c('4. exploit', 'green'))
-    print(c('5. forensic', 'green'))
-    print(c('6. social engineering', 'green'))
-    print(c('7. sniffing and spoffing'))
+    print(c('0. sudo apt update', 'green'))
+    print(c('1. sudo apt upgrade', 'green'))
+    print(c('2. Install', 'green'))
+    print(c('3. Check Update Tools', 'green'))
+    print(c('4. Hacking', 'green'))
+    print(c('5. Exploit', 'green'))
+    print(c('6. Forensic', 'green'))
+    print(c('7. Social Engineering', 'green'))
+    print(c('8. Informating Gathering', 'green'))
+    print(c('9. Password Attack', 'green'))
+    print(c('10. web application analysis', 'green'))
+    print(c('11. database assesment', 'green'))
+    print(c('12. wireless attacks', 'green'))
+    print(c('13. post eksploitation', 'green'))
     print(c('00. exit'))
-    
     menu = input(DracOS)
     if menu == '0':
-        var = input('sudo apt update && sudo apt upgrade(y/n)? ')
+        var = input('sudo apt update(y/n)? ')
         if var == 'y': 
-                os.system('sudo apt update && sudo apt upgrade')
+                os.system('sudo apt update')
         else:
             back()
     elif menu == '1':
-    	print()
-    	back()
-    elif menu == '3':
-        hacking()
+        var = input('sudo apt upgrade(y/n)? ')
+        if var == 'y':
+            os.system('sudo apt upgrade')
+        else:
+            back()
+    # elif menu == '2':
+        # install()
+        # back()
+    # elif menu == '3':
+    #     check_update_tools()
     elif menu == '4':
-        eksploit()
+        hack.hacking()
     elif menu == '5':
-        forensic()
-    elif menu == '6':
-        social_engineering()
-    elif menu == '7':
-
+        eksploit.eksploit()
+    # elif menu == '6':
+    #     forensic()
+    # elif menu == '7':
+    #     forensic()
+    # elif menu == '8':
+    #     social_engineering()
+    # elif menu == '9':
+    #     informating_gathering()
+    # elif menu == '10':
+    #     password_attack()
+    # elif menu == '11':
+    #     web_application_analysis()
+    # elif menu == '12':
+    #     wireless_attack()
+    # elif menu == '13':
+    #     post_eksploitation()
     elif menu == '00':
-    	sys.exit()    
+        sys.exit()
     elif menu == 'clear':
-    	os.system('clear')
-    	back()	
-        # os.system("python3 sh/a.py")
-        # os.system('mkdir tools')
-        # os.system('cd tools')
-        # os.system('sudo apt update')
-        # os.system
-        # os.system('')
-        # os.system("sudo bash /home/faiz/hacking/fluxionOLD/fluxion")
-        
-        #else:
-        #	print('your failed!')
-
-
-global DracOS
-DracOS = (c('[','green')+c('DracOS','red')+c(']select>','green'))
-
-
-# menu/hacking--3
-def hacking():  
-    while True:
-        LOGO()
-        print(c('MENU:\n'
-		'1. fluxion\n'
-		'2. The Fatrat\n'
-		'0. back', 'green'
-		))
-        print('00. exit')
-        menu = input(DracOS)
-        if menu == '1':
-            # print('fluxionOLD')
-            fluxion()
-        elif menu == '2':
-            # print('the fatrat')
-            fatrat()
-        elif menu == '0':
-            back()
-        elif menu == '00':
-            exit()
-
-
-# menu/hacking/fluxion--1
-def fluxion():  
-    os.system('''
-    cd fluxionOLD/
-    sudo ./fluxion
-    ''')
-
-
-# menu/hacking/fatrat--2
-def fatrat():
-    os.system('''
-    cd /home/faiz/hacking/TheFatRat/
-    sudo ./fatrat''')
-
-
-# menu/eksploit--4
-def eksploit():
-    while True:
-        print(c('menu\n1. tools\n2. tools2\n0. back','green'))
-        print('00. exit')
-        menu = input(DracOS)
-        if menu == '1':
-            print()
-        elif menu == '2':
-            print()
-        elif menu == '0':
-            back()
-        elif menu == '00':
-            exit()
-
-
-#  menu/forensic--5
-def forensic():
-    LOGO()
-    while True:
-        print(c('MENU:\n1. tools1\n2. tools2\n3. tools3\n0. back', 'green'))
-        print('00. exit')
-        menu = input(DracOS)
-        if menu == '1':
-            print('kosong')
-        elif menu  == '2':
-            print('kosong')
-        elif menu == '0':
-            back()
-        elif menu == '00':
-            exit()
-
-
-# menu/social engineering--6
-def social_engineering():
-    LOGO()
-    print(c('MENU:\n1. tools1\n2. tools2\n0. back', 'green'))
-    print('00. exit')
-    menu = input(DracOS)
-    if menu == '1':
-        print('kosong')
-    elif menu == '0':
+        os.system('clear')
         back()
-    elif menu == '00':
-        exit()
-    
-
-# menu/information gathering
-
-
-# password attack
 
 
 def back():
@@ -181,4 +113,4 @@ def back():
 
 
 while True:
-	menu()
+    menu()
