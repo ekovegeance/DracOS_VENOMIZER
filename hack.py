@@ -26,7 +26,6 @@ def hacking():
     print('00. exit')
     menu = input(G('[')+R('DracOS')+G(']select> '))
     if menu == '1':
-        # while True:
         fluxion()
     elif menu == '2':
         fatrat()
