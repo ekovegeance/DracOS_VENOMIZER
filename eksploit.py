@@ -1,5 +1,4 @@
 import os
-from termcolor import colored as c
 from color import*
 import Logo
 import sys
