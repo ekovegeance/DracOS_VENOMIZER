@@ -21,6 +21,3 @@ def eksploit():
         os.system('python3 venomizer.py')
     elif menu == '00':
         exit()
-
-# test
-# eksploit()
