@@ -1,3 +1,4 @@
+#! usr/share/bin/python3
 from termcolor import colored as c
 import os
 import sys
