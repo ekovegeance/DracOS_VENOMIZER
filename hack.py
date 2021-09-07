@@ -3,6 +3,7 @@ import os
 import sys
 import Logo
 from color import*
+from os import path
 # import os.path
 # from os import path
 
@@ -35,7 +36,11 @@ def hacking():
         
 
 def fatrat():
-    os.system('sudo fatrat')
+    if os.path.isfile('/usr/bin/git'):
+        print()
+    else:
+        os.system('sudo apt install git')
+    os.system('')
 
 
 def fluxion():

@@ -92,7 +92,7 @@ def menu():
     #     forensic()
     # elif menu == '8':
     #     social_engineering()
-    # elif menu == '9':
+    # # elif menu == '9':
     #     informating_gathering()
     # elif menu == '10':
     #     password_attack()
