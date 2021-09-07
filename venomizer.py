@@ -54,15 +54,21 @@ def menu():
     print(c('2. Install', 'green'))
     print(c('3. Check Update Tools', 'green'))
     print(c('4. Hacking', 'green'))
-    print(c('5. Exploit', 'green'))
-    print(c('6. Forensic', 'green'))
-    print(c('7. Social Engineering', 'green'))
-    print(c('8. Informating Gathering', 'green'))
-    print(c('9. Password Attack', 'green'))
-    print(c('10. web application analysis', 'green'))
-    print(c('11. database assesment', 'green'))
-    print(c('12. wireless attacks', 'green'))
-    print(c('13. post eksploitation', 'green'))
+    print(c('5. Informating gathering', 'green'))
+    print(c('6. Vulnerability Assessment', 'green'))
+    print(c('7. Web Attack', 'green'))
+    print(c('8. Exploitation Testing', 'green'))
+    print(c('9. Privilege Escalation', 'green'))
+    print(c('10. Password Attack', 'green'))
+    print(c('11. Social Engineering', 'green'))
+    print(c('12. Man In The Middle attack', 'green'))
+    print(c('13. Stress Testing', 'green'))
+    print(c('14. Wireless Attack', 'green'))
+    print(c('15. Maintining Access', 'green'))
+    print(c('16. Forensic Tools', 'green'))
+    print(c('17. Reverse Engineering', 'green'))
+    print(c('18. Malware Analysis', 'green'))
+    print(c('19. Covering Track', 'green'))
     print(c('00. exit'))
     menu = input(DracOS)
     if menu == '0':
@@ -84,24 +90,36 @@ def menu():
     #     check_update_tools()
     elif menu == '4':
         hack.hacking()
-    elif menu == '5':
-        eksploit.eksploit()
+    # elif menu == '5':
+        # InformatingGathering()
     # elif menu == '6':
-    #     forensic()
+    #     VulnerabilityAssessment()
     # elif menu == '7':
-    #     forensic()
+    #     WebAttack()
     # elif menu == '8':
-    #     social_engineering()
+    #     ExploitationTesting()
     # # elif menu == '9':
-    #     informating_gathering()
+    #     PrivilegeEscalation()
     # elif menu == '10':
-    #     password_attack()
+    #     PasswordAttack()
     # elif menu == '11':
-    #     web_application_analysis()
+    #     SocialEngineering()
     # elif menu == '12':
-    #     wireless_attack()
+    #     ManInTheMiddleAttack()
     # elif menu == '13':
-    #     post_eksploitation()
+    #     StressTesting()
+    # elif menu == '14':
+    #     WirelessAttack()
+    # elif menu == '15':
+    #     MaintiningAcces()
+    # elif menu == '16':
+    #     ForensicTools()
+    # elif menu == '17':
+    #     ReverseEngineering()
+    # elif menu == '18':
+    #     MalwareAnalysis()
+    # elif menu == '19':
+    #     CoveringTrack()
     elif menu == '00':
         os.system('exit')
         sys.exit()
