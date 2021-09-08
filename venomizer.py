@@ -91,7 +91,6 @@ def menu():
             back()
     elif menu == '2':
         install()
-        # back()
     # elif menu == '3':
     #     check_update_tools()
     elif menu == '4':
