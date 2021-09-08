@@ -3,7 +3,7 @@ import os
 import sys
 import Logo
 from color import*
-from os import path
+import os.path
 # import os.path
 # from os import path
 
@@ -40,7 +40,7 @@ def fatrat():
         print()
     else:
         os.system('sudo apt install git')
-    os.system('')
+    # os.system('')
 
 
 def fluxion():

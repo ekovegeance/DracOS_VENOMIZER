@@ -69,4 +69,4 @@ def install():
                 os.system('clear')
         
     elif menu == '0':
-        os.system('python3 /home/faiz/git/DracOS_VENOMIZER/venomizer.py')
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/venomizer.py')

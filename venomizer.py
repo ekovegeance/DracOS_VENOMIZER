@@ -1,12 +1,10 @@
 #! usr/share/bin/python3
 from termcolor import colored as c
-import os
 import sys
 import Logo
-# import os.path
-# from os import path
-import hack, eksploit#, forensic, SocialEngineering
-from os import path
+import hack, eksploit # InformatingGathering, VulnerabilityAssesment, webAttack, dll
+import os.path
+import os
 from install import install
 
 if os.path.isfile('/usr/bin/git'):
@@ -14,8 +12,8 @@ if os.path.isfile('/usr/bin/git'):
 else:
     os.system('sudo apt install git')
 
-global DracOS
-DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
+os.system('clear')
+
 
 # logo 
 def LOGO():
@@ -52,8 +50,12 @@ def LOGO():
 #     print(c('|   |  |   |/   /    \   \   \__---|  |\  \_| |_|  |\    |   \__|  | ','red'))
 #     print(c('|___|  |___|___/      \___\_______/|__| \__\____|__| \__ |\______  / ','red'))
 
+global DracOS
+DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
+
 def menu():
     # call logo
+    os.system('clear')
     LOGO()
     print(c('0. sudo apt update', 'green'))
     print(c('1. sudo apt upgrade', 'green'))
@@ -81,13 +83,17 @@ def menu():
         var = input('sudo apt update(y/n)? ')
         if var == 'y': 
                 os.system('sudo apt update')
+                os.system('clear')
         else:
+            os.system('clear')
             back()
     elif menu == '1':
         var = input('sudo apt upgrade(y/n)? ')
         if var == 'y':
             os.system('sudo apt upgrade')
+            os.system('clear')
         else:
+            os.system('clear')
             back()
     elif menu == '2':
         install()
