@@ -2,10 +2,12 @@
 from termcolor import colored as c
 import os
 import sys
+import Logo
 # import os.path
 # from os import path
 import hack, eksploit#, forensic, SocialEngineering
 from os import path
+from install import install
 
 if os.path.isfile('/usr/bin/git'):
     print()
@@ -14,7 +16,7 @@ else:
 
 global DracOS
 DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
- 
+
 # logo 
 def LOGO():
     os.system("clear")
@@ -87,8 +89,8 @@ def menu():
             os.system('sudo apt upgrade')
         else:
             back()
-    # elif menu == '2':
-        # install()
+    elif menu == '2':
+        install()
         # back()
     # elif menu == '3':
     #     check_update_tools()
