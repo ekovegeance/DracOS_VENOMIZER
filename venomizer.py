@@ -5,8 +5,12 @@ import sys
 # import os.path
 # from os import path
 import hack, eksploit#, forensic, SocialEngineering
+from os import path
 
-
+if os.path.isfile('/usr/bin/git'):
+    print()
+else:
+    os.system('sudo apt install git')
 
 global DracOS
 DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
