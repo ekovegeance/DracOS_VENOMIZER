@@ -11,7 +11,7 @@ import hack, eksploit#, forensic, SocialEngineering
 global DracOS
 DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
  
-# logo constant
+# logo 
 def LOGO():
     os.system("clear")
     print(c("        -os:",'red'))

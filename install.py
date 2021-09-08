@@ -1,4 +1,4 @@
-import check
+from os import path
 import os
 from color import*
 
@@ -21,10 +21,11 @@ def install():
     menu = input(G('[')+R('DracOS')+G(']select> '))
     if menu == '1':
         print(G(""" 
+        [ HACKING ]
         MENU:
         1. install fatrat
         2. install fluxion
         0. back """))
         menu = input(G('[')+R('DracOS')+G(']select> '))
         if menu == '1':
-            os.system('')
+            if os.path.isdir('/usr/bin/')
