@@ -2,7 +2,7 @@
 from termcolor import colored as c
 import sys
 import Logo
-import hack, eksploit # InformatingGathering, VulnerabilityAssesment, webAttack, dll
+import hack, eksploit #, InformatingGathering #, VulnerabilityAssesment, webAttack, dll
 import os.path
 import os
 from install import install
@@ -100,8 +100,9 @@ def menu():
     #     check_update_tools()
     elif menu == '4':
         hack.hacking()
-    # elif menu == '5':
-        # InformatingGathering()
+    elif menu == '5':
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/InformatingGathering.py')
+    #     InformatingGathering.InfoGat()
     # elif menu == '6':
     #     VulnerabilityAssessment()
     # elif menu == '7':
@@ -143,5 +144,8 @@ def back():
     menu()
 
 
-while True:
+while menu():
     menu()
+# if __name__ == "__main__":
+# 	os.system("clear")
+# 	menu()
