@@ -44,7 +44,7 @@ def install():
                 if os.path.isdir('/usr/bin/VENOMIZER/fluxion/'):
                     print(G('status installed!'))
                 
-                # jika folder kosong! 
+                # jika folder kosong!
                 else:
                     # cek apakah folder VENOMIZER sudah dibuat?
                     # jika sudah langsung di clone dalam folder VENOMIZER

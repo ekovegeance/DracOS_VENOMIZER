@@ -7,12 +7,11 @@ import os.path
 import os
 from install import install
 
+
 if os.path.isfile('/usr/bin/git'):
     print()
 else:
     os.system('sudo apt install git')
-
-os.system('clear')
 
 
 # logo 
@@ -83,17 +82,17 @@ def menu():
         var = input('sudo apt update(y/n)? ')
         if var == 'y': 
                 os.system('sudo apt update')
-                os.system('clear')
+                # os.system('clear')
         else:
-            os.system('clear')
+            # os.system('clear')
             back()
     elif menu == '1':
         var = input('sudo apt upgrade(y/n)? ')
         if var == 'y':
             os.system('sudo apt upgrade')
-            os.system('clear')
+            # os.system('clear')
         else:
-            os.system('clear')
+            # os.system('clear')
             back()
     elif menu == '2':
         install()
