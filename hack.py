@@ -21,6 +21,7 @@ import os.path
 
 def hacking():
     # LOGO_hacking()
+    os.system('clear')
     Logo.logo_8()
     print(G('1. fluxion\n'
     '2. the fatrat\n'
@@ -32,7 +33,7 @@ def hacking():
     elif menu == '2':
         fatrat()
     elif menu == '0':
-        os.system('python3 venomizer.py')
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/venomizer.py')
         
 
 def fatrat():
