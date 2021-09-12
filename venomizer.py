@@ -15,7 +15,7 @@ else:
     # jika belum install dulu
     os.system('xterm -T "☣ INSTALL GIT ☣" -geometry 100x30 -e "sudo apt-get install git -y"')
 
-
+# 
 # logo 
 def LOGO():
     os.system("clear")
