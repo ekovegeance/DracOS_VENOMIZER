@@ -11,12 +11,15 @@ import os.path
 import os
 from install import install
 
-
+if os.path.isfile('sudo /usr/local/lib/python3.7/dist-packages/termcolor.py'):
+    print()
+else:
+    os.system('xterm -T " INSTALL TERMCOLOR " -geometry 100x30 -e "sudo pip install termcolor -y"')
 #check if root (Masih ada bug) mohon di perbaiki )
 def checkroot():
     if os.geteuid() != 0:
         print(c("[-]", 'red')+c(" You must be root to run this script", 'red'))
-        sys.exit()         
+        sys.exit()
 # cek apakah file git sudah ada!
 # jika sudah ada maka kita lewati
 if os.path.isfile('/usr/bin/git'):
@@ -56,9 +59,11 @@ global DracOS
 DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
 
 def menu():
+    checkroot()
     # call logo
     os.system('clear')
     LOGO()
+    # print(c('[PERHATIAN UNTUK PERTAMA KALI LAKUKAN SETUP!!!] klik Y', 'green'))
     print(c('0.  sudo apt update', 'green'))
     print(c('1.  sudo apt upgrade', 'green'))
     print(c('2.  Install', 'green'))
@@ -101,7 +106,7 @@ def menu():
         hack.hacking()
     elif menu == '5':
         os.system('python3 $HOME/git/DracOS_VENOMIZER/InformatingGathering.py')
-    #     InformatingGathering.InfoGat()
+        # InformatingGathering.InfoGat()
     # elif menu == '6':
     #     VulnerabilityAssessment()
     # elif menu == '7':
