@@ -51,16 +51,7 @@ def LOGO():
     print(c('[(c) 2018 |', 'red'), c('dracos-linux.org | https://github.com/dracos-linux', 'red')+c(']', 'red'))
 
 
-# def LOGO_hacking():
-#     os.system('clear')
-#     print(c('[','green')+c('GROUP', 'red')+c(']','green'))
-#     print(c('____   ____     _____      _______  ___  _______ __    ___________   ','red'))
-#     print(c('|   |  |   |   /  _   \   /  ___  /|  | / |_   _|  \  |  |   _____ \ ','red'))
-#     print(c('|   |__|   |  /  /__\  \ |  |   |  |  |/  / | | |   \ |  |  /   ___  ','red'))
-#     print(c('|    __    | /   ____   \|  |   |  |     x  | | |    \|  |  |  |_  \ ','red'))
-#     print(c('|   |  |   |/   /    \   \   \__---|  |\  \_| |_|  |\    |   \__|  | ','red'))
-#     print(c('|___|  |___|___/      \___\_______/|__| \__\____|__| \__ |\______  / ','red'))
-
+# menu
 global DracOS
 DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
 
@@ -76,7 +67,7 @@ def menu():
     print(c('5.  Informating gathering', 'green'))
     print(c('6.  Vulnerability Assessment', 'green'))
     print(c('7.  Web Attack', 'green'))
-    print(c('8.  Exploitation Testing', 'green'))
+    print(c('8.  Exploitation Tools', 'green'))
     print(c('9.  Privilege Escalation', 'green'))
     print(c('10. Password Attack', 'green'))
     print(c('11. Social Engineering', 'green'))
@@ -115,8 +106,8 @@ def menu():
     #     VulnerabilityAssessment()
     # elif menu == '7':
     #     WebAttack()
-    # elif menu == '8':
-    #     ExploitationTesting()
+    elif menu == '8':
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/exploit.py')
     # # elif menu == '9':
     #     PrivilegeEscalation()
     # elif menu == '10':

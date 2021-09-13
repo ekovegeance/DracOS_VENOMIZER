@@ -55,124 +55,124 @@ def InfoGat():
     print(R("    00. exit"))
     menu = input(G("[") + R("DracOS") + G("]select>"))
     if menu == "1":
-        # fungsi yang dipanggil
+        # Call function
         nmap()
     elif menu == "2":
-        # fungsi yang dipanggil
+        # Call function
         amap()
     elif menu == "3":
-        # fungsi yang dipanggil
+        # Call function
         whatweb()
     elif menu == "4":
-        # fungsi yang dipanggil
+        # Call function
         sublist3r()
     elif menu == "5":
-        # fungsi yang dipanggil
+        # Call function
         arp_scan()
     elif menu == "6":
-        # fungsi yang dipanggil
+        # Call function
         automater()
     elif menu == "7":
-        # fungsi yang dipanggil
+        # Call function
         braa()
     elif menu == "8":
-        # fungsi yang dipanggil
+        # Call function
         casefile()
     elif menu == "9":
-        # fungsi yang dipanggil
+        # Call function
         cdpsnarf()
     elif menu == "10":
-        # fungsi yang dipanggil
+        # Call function
         cisco_torch()
     elif menu == "11":
-        # fungsi yang dipanggil
+        # Call function
         dmitry()
     elif menu == "12":
-        # fungsi yang dipanggil
+        # Call function
         dnsenum()
     elif menu == "13":
-        # fungsi yang dipanggil
+        # Call function
         dnsmap()
     elif menu == "14":
-        # fungsi yang dipanggil
+        # Call function
         dnsrecon()
     elif menu == "15":
-        # fungsi yang dipanggil
+        # Call function
         dnstracer()
     elif menu == "16":
-        # fungsi yang dipanggil
+        # Call function
         dnswalk()
     elif menu == "17":
-        # fungsi yang dipanggil
+        # Call function
         faraday()
     elif menu == "18":
-        # fungsi yang dipanggil
+        # Call function
         fierce()
     elif menu == "19":
-        # fungsi yang dipanggil
+        # Call function
         firewalk()
     elif menu == "20":
-        # fungsi yang dipanggil
+        # Call function
         fragroute()
     elif menu == "21":
-        # fungsi yang dipanggil
+        # Call function
         fragrouter()
     elif menu == "22":
-        # fungsi yang dipanggil
+        # Call function
         ghost_phisher()
     elif menu == "23":
-        # fungsi yang dipanggil
+        # Call function
         golismero()
     elif menu == "24":
-        # fungsi yang dipanggil
+        # Call function
         goofile()
     elif menu == "25":
-        # fungsi yang dipanggil
+        # Call function
         hping3()
     elif menu == "26":
-        # fungsi yang dipanggil
+        # Call function
         inspy()
     elif menu == "27":
-        # fungsi yang dipanggil
+        # Call function
         intrace()
     elif menu == "28":
-        # fungsi yang dipanggil
+        # Call function
         ismtp()
     elif menu == "29":
-        # fungsi yang dipanggil
+        # Call function
         maltego_teeth()
     elif menu == "30":
-        # fungsi yang dipanggil
+        # Call function
         masscan()
     elif menu == "31":
-        # fungsi yang dipanggil
+        # Call function
         metagoofil()
     elif menu == "32":
-        # fungsi yang dipanggil
+        # Call function
         miranda()
     elif menu == "33":
-        # fungsi yang dipanggil
+        # Call function
         nikto()
     elif menu == "34":
-        # fungsi yang dipanggil
+        # Call function
         ntop()
     elif menu == "35":
-        # fungsi yang dipanggil
+        # Call function
         recon_ng()
     elif menu == "36":
-        # fungsi yang dipanggil
+        # Call function
         smbmap()
     elif menu == "37":
-        # fungsi yang dipanggil
+        # Call function
         smtp_user_enum()
     elif menu == "38":
-        # fungsi yang dipanggil
+        # Call function
         snmp_check()
     elif menu == "39":
-        # fungsi yang dipanggil
+        # Call function
         sslcaudit_()
     elif menu == "40":
-        # fungsi yang dipanggil
+        # Call function
         sslsplit()
     elif menu == "0":
         os.system("python3 $HOME/git/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
