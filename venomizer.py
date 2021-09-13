@@ -1,12 +1,22 @@
 #! usr/share/bin/python3
+#! -*- coding: utf-8 -*-
+#! venomizer.py
+
+from color import R
 from termcolor import colored as c
 import sys
 import Logo
-import hack, eksploit #, InformatingGathering #, VulnerabilityAssesment, webAttack, dll
+import hack#, eksploit #, InformatingGathering #, VulnerabilityAssesment, webAttack, dll
 import os.path
 import os
 from install import install
 
+
+#check if root (Masih ada bug) mohon di perbaiki )
+def checkroot():
+    if os.geteuid() != 0:
+        print(c("[-]", 'red')+c(" You must be root to run this script", 'red'))
+        sys.exit()         
 # cek apakah file git sudah ada!
 # jika sudah ada maka kita lewati
 if os.path.isfile('/usr/bin/git'):
@@ -16,7 +26,7 @@ else:
     os.system('xterm -T "☣ INSTALL GIT ☣" -geometry 100x30 -e "sudo apt-get install git -y"')
 
 # 
-# logo 
+# logo
 def LOGO():
     os.system("clear")
     print(c("        -os:",'red'))
@@ -38,7 +48,7 @@ def LOGO():
     print("  \ \/ / |  __|| |\ \| | |   | | | \/ | | | |   / / |  __||  _  /  ")
     print("   \  /  | |___| | \   | |___| | |    | |_| |_ / /__| |___| | \ \  ") 
     print("    \/   |_____|_|  \__|\_____/|_|    |_|_____/_____|_____|_|  \_\ ")
-    print(c('[(c) 2018 |', 'red'), c('dracos-linux.org | https://github.com/DracOS-Remaster', 'red')+c(']', 'red'))
+    print(c('[(c) 2018 |', 'red'), c('dracos-linux.org | https://github.com/dracos-linux', 'red')+c(']', 'red'))
 
 
 # def LOGO_hacking():
@@ -58,16 +68,16 @@ def menu():
     # call logo
     os.system('clear')
     LOGO()
-    print(c('0. sudo apt update', 'green'))
-    print(c('1. sudo apt upgrade', 'green'))
-    print(c('2. Install', 'green'))
-    print(c('3. Check Update Tools', 'green'))
-    print(c('4. Hacking', 'green'))
-    print(c('5. Informating gathering', 'green'))
-    print(c('6. Vulnerability Assessment', 'green'))
-    print(c('7. Web Attack', 'green'))
-    print(c('8. Exploitation Testing', 'green'))
-    print(c('9. Privilege Escalation', 'green'))
+    print(c('0.  sudo apt update', 'green'))
+    print(c('1.  sudo apt upgrade', 'green'))
+    print(c('2.  Install', 'green'))
+    print(c('3.  Check Update Tools', 'green'))
+    print(c('4.  Hacking', 'green'))
+    print(c('5.  Informating gathering', 'green'))
+    print(c('6.  Vulnerability Assessment', 'green'))
+    print(c('7.  Web Attack', 'green'))
+    print(c('8.  Exploitation Testing', 'green'))
+    print(c('9.  Privilege Escalation', 'green'))
     print(c('10. Password Attack', 'green'))
     print(c('11. Social Engineering', 'green'))
     print(c('12. Man In The Middle attack', 'green'))
@@ -130,6 +140,7 @@ def menu():
     # elif menu == '19':
     #     CoveringTrack()
     elif menu == '00':
+        print(R("Thanks for using venomizer "))
         os.system('exit')
         sys.exit()
         exit()
