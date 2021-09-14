@@ -1,11 +1,14 @@
+#! usr/share/bin/python3
+#! -*- coding: utf-8 -*-
+#! PasswordAttack.py
 import os
 from color import *
 import Logo
 
 
-def Exploit():
+def PassAtck():
     os.system("clear")
-    Logo.logo_10()
+    Logo.logo_15()
     print(
         G(
             """
@@ -767,4 +770,4 @@ def zaproxy():
 
 
 while True:
-    Exploit()
+    PassAtck()
