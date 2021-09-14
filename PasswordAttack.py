@@ -5,7 +5,7 @@ import Logo
 #
 def Exploit():
     os.system("clear")
-    Logo.logo_8()
+    Logo.logo_10()
     print(
         G(
             """
