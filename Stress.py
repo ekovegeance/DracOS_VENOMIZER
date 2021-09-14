@@ -84,7 +84,7 @@ def Stress():
 #Funciton
 # DHCPig
 def DHCPig():
-    if os.isfile("usr/bin/dhcpig"):
+    if os.path.isfile("usr/bin/dhcpig"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -99,7 +99,7 @@ def DHCPig():
 
 #FunkLoad
 def FunkLoad():
-    if os.isfile("usr/bin/funkload"):
+    if os.path.isfile("usr/bin/funkload"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -114,7 +114,7 @@ def FunkLoad():
 
 #iaxflood
 def iaxflood():
-    if os.isfile("usr/bin/iaxflood"):
+    if os.path.isfile("usr/bin/iaxflood"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -129,7 +129,7 @@ def iaxflood():
 
 #Inundator
 def Inundator():
-    if os.isfile("usr/bin/inundator"):
+    if os.path.isfile("usr/bin/inundator"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -144,7 +144,7 @@ def Inundator():
 
 #inviteflood
 def inviteflood():
-    if os.isfile("usr/bin/inviteflood"):
+    if os.path.isfile("usr/bin/inviteflood"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -159,7 +159,7 @@ def inviteflood():
 
 #ipv6toolkit
 def ipv6toolkit():
-    if os.isfile("usr/bin/ipv6toolkit"):
+    if os.path.isfile("usr/bin/ipv6toolkit"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -174,7 +174,7 @@ def ipv6toolkit():
 
 #mdk3
 def mdk3():
-    if os.isfile("usr/bin/mdk3"):
+    if os.path.isfile("usr/bin/mdk3"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -189,7 +189,7 @@ def mdk3():
 
 #Reaver
 def Reaver():
-    if os.isfile("usr/bin/reaver"):
+    if os.path.isfile("usr/bin/reaver"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -204,7 +204,7 @@ def Reaver():
 
 #rtpflood
 def rtpflood():
-    if os.isfile("usr/bin/rtpflood"):
+    if os.path.isfile("usr/bin/rtpflood"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -219,7 +219,7 @@ def rtpflood():
 
 #SlowHTTPTest
 def SlowHTTPTest():
-    if os.isfile("usr/bin/slowhttptest"):
+    if os.path.isfile("usr/bin/slowhttptest"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -234,7 +234,7 @@ def SlowHTTPTest():
 
 #t50
 def t50():
-    if os.isfile("usr/bin/t50"):
+    if os.path.isfile("usr/bin/t50"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -249,7 +249,7 @@ def t50():
 
 #Termineter
 def Termineter():
-    if os.isfile("usr/bin/termineter"):
+    if os.path.isfile("usr/bin/termineter"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -264,7 +264,7 @@ def Termineter():
 
 #THC-IPV6
 def THC_IPV6():
-    if os.isfile("usr/bin/thc-ipv6"):
+    if os.path.isfile("usr/bin/thc-ipv6"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -279,7 +279,7 @@ def THC_IPV6():
 
 #THC-SSL-DOS
 def THC_SSL_DOS():
-    if os.isfile("usr/bin/thc-ssl-dos"):
+    if os.path.isfile("usr/bin/thc-ssl-dos"):
         os.system("clear")
         print(B("Tools Available"))
         input()
