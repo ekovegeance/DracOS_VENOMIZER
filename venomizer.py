@@ -90,12 +90,14 @@ def menu():
         var = input('sudo apt update(y/n)? ')
         if var == 'y': 
                 os.system('sudo apt update')
+                back()
         else:
             back()
     elif menu == '1':
         var = input('sudo apt upgrade(y/n)? ')
         if var == 'y':
             os.system('sudo apt upgrade')
+            back()
         else:
             back()
     elif menu == '2':
