@@ -117,14 +117,14 @@ def menu():
         os.system('python3 $HOME/git/DracOS_VENOMIZER/exploit.py')
     # # elif menu == '9':
     #     PrivilegeEscalation()
-    # elif menu == '10':
-    #     PasswordAttack()
+    elif menu == '10':
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/PasswordAttack.py')
     # elif menu == '11':
     #     SocialEngineering()
     # elif menu == '12':
     #     ManInTheMiddleAttack()
-    # elif menu == '13':
-    #     StressTesting()
+    elif menu == '13':
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/Stress.py')
     # elif menu == '14':
     #     WirelessAttack()
     # elif menu == '15':
