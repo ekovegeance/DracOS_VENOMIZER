@@ -2,7 +2,7 @@ import os
 from color import *
 import Logo
 
-#
+
 def Exploit():
     os.system("clear")
     Logo.logo_10()
