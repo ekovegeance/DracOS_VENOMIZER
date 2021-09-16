@@ -88,6 +88,7 @@ def DHCPig():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL DHCPig ☣" -geometry 100x30 -e "sudo apt install dhcpig"'
@@ -95,6 +96,7 @@ def DHCPig():
         os.system("clear")
         print(B("DHCPig Already Installed"))
         input()
+        back()
     # end DHCPig
 
 #FunkLoad
@@ -103,6 +105,7 @@ def FunkLoad():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL FunkLoad ☣" -geometry 100x30 -e "sudo apt install funkload"'
@@ -110,6 +113,7 @@ def FunkLoad():
         os.system("clear")
         print(B("FunkLoad Already Installed"))
         input()
+        back()
     # end FunkLoad
 
 #iaxflood
@@ -118,6 +122,7 @@ def iaxflood():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL iaxflood ☣" -geometry 100x30 -e "sudo apt install iaxflood"'
@@ -125,6 +130,7 @@ def iaxflood():
         os.system("clear")
         print(B("iaxflood Already Installed"))
         input()
+        back()
     # end iaxflood
 
 #Inundator
@@ -133,6 +139,7 @@ def Inundator():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Inundator ☣" -geometry 100x30 -e "sudo apt install inundator"'
@@ -140,6 +147,7 @@ def Inundator():
         os.system("clear")
         print(B("Inundator Already Installed"))
         input()
+        back()
     # end Inundator
 
 #inviteflood
@@ -148,6 +156,7 @@ def inviteflood():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL inviteflood ☣" -geometry 100x30 -e "sudo apt install inviteflood"'
@@ -155,6 +164,7 @@ def inviteflood():
         os.system("clear")
         print(B("inviteflood Already Installed"))
         input()
+        back()
     # end inviteflood
 
 #ipv6toolkit
@@ -163,6 +173,7 @@ def ipv6toolkit():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL ipv6toolkit ☣" -geometry 100x30 -e "sudo apt install ipv6toolkit"'
@@ -170,6 +181,7 @@ def ipv6toolkit():
         os.system("clear")
         print(B("ipv6toolkit Already Installed"))
         input()
+        back()
     # end ipv6toolkit
 
 #mdk3
@@ -178,6 +190,7 @@ def mdk3():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL mdk3 ☣" -geometry 100x30 -e "sudo apt install mdk3"'
@@ -185,6 +198,7 @@ def mdk3():
         os.system("clear")
         print(B("mdk3 Already Installed"))
         input()
+        back()
     # end mdk3
 
 #Reaver
@@ -193,6 +207,7 @@ def Reaver():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Reaver ☣" -geometry 100x30 -e "sudo apt install reaver"'
@@ -200,6 +215,7 @@ def Reaver():
         os.system("clear")
         print(B("Reaver Already Installed"))
         input()
+        back()
     # end Reaver
 
 #rtpflood
@@ -208,6 +224,7 @@ def rtpflood():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL rtpflood ☣" -geometry 100x30 -e "sudo apt install rtpflood"'
@@ -215,6 +232,7 @@ def rtpflood():
         os.system("clear")
         print(B("rtpflood Already Installed"))
         input()
+        back()
     # end rtpflood
 
 #SlowHTTPTest
@@ -223,6 +241,7 @@ def SlowHTTPTest():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL SlowHTTPTest ☣" -geometry 100x30 -e "sudo apt install slowhttptest"'
@@ -230,6 +249,7 @@ def SlowHTTPTest():
         os.system("clear")
         print(B("SlowHTTPTest Already Installed"))
         input()
+        back()
     # end SlowHTTPTest
 
 #t50
@@ -238,6 +258,7 @@ def t50():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL t50 ☣" -geometry 100x30 -e "sudo apt install t50"'
@@ -245,6 +266,7 @@ def t50():
         os.system("clear")
         print(B("t50 Already Installed"))
         input()
+        back()
     # end t50
 
 #Termineter
@@ -253,6 +275,7 @@ def Termineter():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Termineter ☣" -geometry 100x30 -e "sudo apt install termineter"'
@@ -260,6 +283,7 @@ def Termineter():
         os.system("clear")
         print(B("Termineter Already Installed"))
         input()
+        back()
     # end Termineter
 
 #THC-IPV6
@@ -268,6 +292,7 @@ def THC_IPV6():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL THC-IPV6 ☣" -geometry 100x30 -e "sudo apt install thc-ipv6"'
@@ -275,6 +300,7 @@ def THC_IPV6():
         os.system("clear")
         print(B("THC-IPV6 Already Installed"))
         input()
+        back()
     # end THC-IPV6
 
 #THC-SSL-DOS
@@ -283,6 +309,7 @@ def THC_SSL_DOS():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL THC-SSL-DOS ☣" -geometry 100x30 -e "sudo apt install thc-ssl-dos"'
@@ -290,8 +317,10 @@ def THC_SSL_DOS():
         os.system("clear")
         print(B("THC-SSL-DOS Already Installed"))
         input()
+        back()
     # end THC-SSL-DOS          
 
-
-while True:
+def back():
     Stress()
+# while True:
+#     Stress()

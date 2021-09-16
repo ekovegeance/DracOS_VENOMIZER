@@ -179,7 +179,8 @@ def PassAtck():
     elif menu == "00":
         exit()
 
-
+def back():
+    PassAtck()
 #Funciton
 #BruteSpray
 def BruteSpray():
@@ -187,6 +188,7 @@ def BruteSpray():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL BruteSpray ☣" -geometry 100x30 -e "sudo apt install brutespray"'
@@ -194,6 +196,7 @@ def BruteSpray():
         os.system("clear")
         print(B("BruteSpray Already Installed"))
         input()
+        back()
     # end BruteSpray
 
 #Brup Suite
@@ -202,6 +205,7 @@ def BrupSuite():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Brup Suite ☣" -geometry 100x30 -e "sudo apt install burpsuite"'
@@ -209,6 +213,7 @@ def BrupSuite():
         os.system("clear")
         print(B("Brup Suite Already Installed"))
         input()
+        back()
     # end BrupSuite
 
 #CeWL
@@ -217,6 +222,7 @@ def CeWL():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL CeWL ☣" -geometry 100x30 -e "sudo apt install cewl"'
@@ -224,6 +230,7 @@ def CeWL():
         os.system("clear")
         print(B("CeWL Already Installed"))
         input()
+        back()
     # end CeWL
 
 #chntpw
@@ -232,6 +239,7 @@ def chntpw():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL chntpw ☣" -geometry 100x30 -e "sudo apt install chntpw"'
@@ -239,6 +247,7 @@ def chntpw():
         os.system("clear")
         print(B("chntpw Already Installed"))
         input()
+        back()
     # end chntpw
 
 #cisco-auditing-tool
@@ -247,6 +256,7 @@ def cisco_auditing_tool():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL cisco-auditing-tool ☣" -geometry 100x30 -e "sudo apt install cisco-auditing-tool"'
@@ -254,6 +264,7 @@ def cisco_auditing_tool():
         os.system("clear")
         print(B("cisco-auditing-tool Already Installed"))
         input()
+        back()
     # end cisco-auditing-tool
 
 #CmosPwd
@@ -262,6 +273,7 @@ def CmosPwd():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL CmosPwd ☣" -geometry 100x30 -e "sudo apt install cmos-pwd"'
@@ -269,6 +281,7 @@ def CmosPwd():
         os.system("clear")
         print(B("CmosPwd Already Installed"))
         input()
+        back()
     # end CmosPwd
 
 #Creddump
@@ -277,6 +290,7 @@ def Creddump():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Creddump ☣" -geometry 100x30 -e "sudo apt install creddump"'
@@ -284,6 +298,7 @@ def Creddump():
         os.system("clear")
         print(B("Creddump Already Installed"))
         input()
+        back()
     # end Creddump
 
 #Crowbar
@@ -292,6 +307,7 @@ def Crowbar():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Crowbar ☣" -geometry 100x30 -e "sudo apt install crowbar"'
@@ -299,6 +315,7 @@ def Crowbar():
         os.system("clear")
         print(B("Crowbar Already Installed"))
         input()
+        back()
     # end Crowbar
 
 #Crunch
@@ -307,6 +324,7 @@ def Crunch():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Crunch ☣" -geometry 100x30 -e "sudo apt install crunch"'
@@ -314,6 +332,7 @@ def Crunch():
         os.system("clear")
         print(B("Crunch Already Installed"))
         input()
+        back()
     # end Crunch
 
 #Findmyhash
@@ -322,6 +341,7 @@ def Findmyhash():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Findmyhash ☣" -geometry 100x30 -e "sudo apt install findmyhash"'
@@ -329,6 +349,7 @@ def Findmyhash():
         os.system("clear")
         print(B("Findmyhash Already Installed"))
         input()
+        back()
     # end Findmyhash
 
 #Gpp-decrypt
@@ -337,6 +358,7 @@ def Gpp_decrypt():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Gpp-decrypt ☣" -geometry 100x30 -e "sudo apt install gpp-decrypt"'
@@ -344,6 +366,7 @@ def Gpp_decrypt():
         os.system("clear")
         print(B("Gpp-decrypt Already Installed"))
         input()
+        back()
     # end Gpp-decrypt
 
 #Hash-identifier
@@ -359,6 +382,7 @@ def Hash_identifier():
         os.system("clear")
         print(B("Hash-identifier Already Installed"))
         input()
+        back()
     # end Hash-identifier
 
 #Hashcat
@@ -367,6 +391,7 @@ def Hashcat():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Hashcat ☣" -geometry 100x30 -e "sudo apt install hashcat"'
@@ -374,6 +399,7 @@ def Hashcat():
         os.system("clear")
         print(B("Hashcat Already Installed"))
         input()
+        back()
     # end Hashcat
 
 #HexorBase
@@ -382,6 +408,7 @@ def HexorBase():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL HexorBase ☣" -geometry 100x30 -e "sudo apt install hexorbase"'
@@ -389,6 +416,7 @@ def HexorBase():
         os.system("clear")
         print(B("HexorBase Already Installed"))
         input()
+        back()
     # end HexorBase
 
 #THC-Hydra
@@ -397,6 +425,7 @@ def THC_Hydra():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL THC-Hydra ☣" -geometry 100x30 -e "sudo apt install hydra"'
@@ -404,6 +433,7 @@ def THC_Hydra():
         os.system("clear")
         print(B("THC-Hydra Already Installed"))
         input()
+        back()
     # end THC-Hydra
 
 #John the Ripper
@@ -412,6 +442,7 @@ def John_the_Ripper():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL John the Ripper ☣" -geometry 100x30 -e "sudo apt install john"'
@@ -419,6 +450,7 @@ def John_the_Ripper():
         os.system("clear")
         print(B("John the Ripper Already Installed"))
         input()
+        back()
     # end John the Ripper
 
 #Johnny
@@ -427,6 +459,7 @@ def Johnny():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Johnny ☣" -geometry 100x30 -e "sudo apt install johnny"'
@@ -434,6 +467,7 @@ def Johnny():
         os.system("clear")
         print(B("Johnny Already Installed"))
         input()
+        back()
     # end Johnny
 
 #keimpx
@@ -442,6 +476,7 @@ def keimpx():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL keimpx ☣" -geometry 100x30 -e "sudo apt install keimpx"'
@@ -449,6 +484,7 @@ def keimpx():
         os.system("clear")
         print(B("keimpx Already Installed"))
         input()
+        back()
     # end keimpx
 
 #Maltego Teeth
@@ -457,6 +493,7 @@ def Maltego_Teeth():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Maltego Teeth ☣" -geometry 100x30 -e "sudo apt install maltego"'
@@ -464,6 +501,7 @@ def Maltego_Teeth():
         os.system("clear")
         print(B("Maltego Teeth Already Installed"))
         input()
+        back()
     # end Maltego Teeth
 
 #Maskprocessor
@@ -472,6 +510,7 @@ def Maskprocessor():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Maskprocessor ☣" -geometry 100x30 -e "sudo apt install maskprocessor"'
@@ -479,6 +518,7 @@ def Maskprocessor():
         os.system("clear")
         print(B("Maskprocessor Already Installed"))
         input()
+        back()
     # end Maskprocessor
 
 #Multiforcer
@@ -487,6 +527,7 @@ def Multiforcer():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Multiforcer ☣" -geometry 100x30 -e "sudo apt install multiforcer"'
@@ -494,6 +535,7 @@ def Multiforcer():
         os.system("clear")
         print(B("Multiforcer Already Installed"))
         input()
+        back()
     # end Multiforcer
 
 #Ncrack
@@ -502,6 +544,7 @@ def Ncrack():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Ncrack ☣" -geometry 100x30 -e "sudo apt install ncrack"'
@@ -509,6 +552,7 @@ def Ncrack():
         os.system("clear")
         print(B("Ncrack Already Installed"))
         input()
+        back()
     # end Ncrack
 
 #Oclgausscrack
@@ -517,6 +561,7 @@ def Oclgausscrack():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Oclgausscrack ☣" -geometry 100x30 -e "sudo apt install oclgausscrack"'
@@ -524,6 +569,7 @@ def Oclgausscrack():
         os.system("clear")
         print(B("Oclgausscrack Already Installed"))
         input()
+        back()
     # end Oclgausscrack
 
 #Ophcrack
@@ -532,6 +578,7 @@ def Ophcrack():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Ophcrack ☣" -geometry 100x30 -e "sudo apt install ophcrack"'
@@ -539,6 +586,7 @@ def Ophcrack():
         os.system("clear")
         print(B("Ophcrack Already Installed"))
         input()
+        back()
     # end Ophcrack
 
 #PACK
@@ -547,6 +595,7 @@ def PACK():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL PACK ☣" -geometry 100x30 -e "sudo apt install pack"'
@@ -554,6 +603,7 @@ def PACK():
         os.system("clear")
         print(B("PACK Already Installed"))
         input()
+        back()
     # end PACK
 
 #patator
@@ -562,6 +612,7 @@ def Patator():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Patator ☣" -geometry 100x30 -e "sudo apt install patator"'
@@ -569,6 +620,7 @@ def Patator():
         os.system("clear")
         print(B("Patator Already Installed"))
         input()
+        back()
     # end Patator
 
 #Phrasendrescher
@@ -577,6 +629,7 @@ def Phrasendrescher():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Phrasendrescher ☣" -geometry 100x30 -e "sudo apt install phrasendrescher"'
@@ -584,6 +637,7 @@ def Phrasendrescher():
         os.system("clear")
         print(B("Phrasendrescher Already Installed"))
         input()
+        back()
     # end Phrasendrescher
 
 #Polenum
@@ -592,6 +646,7 @@ def Polenum():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Polenum ☣" -geometry 100x30 -e "sudo apt install polenum"'
@@ -599,6 +654,7 @@ def Polenum():
         os.system("clear")
         print(B("Polenum Already Installed"))
         input()
+        back()
     # end Polenum
 
 #RainbowCrack
@@ -607,6 +663,7 @@ def RainbowCrack():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL RainbowCrack ☣" -geometry 100x30 -e "sudo apt install rainbowcrack"'
@@ -614,6 +671,7 @@ def RainbowCrack():
         os.system("clear")
         print(B("RainbowCrack Already Installed"))
         input()
+        back()
     # end RainbowCrack
 
 #Rcracki-mt
@@ -622,6 +680,7 @@ def Rcracki_mt():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Rcracki-mt ☣" -geometry 100x30 -e "sudo apt install rcracki-mt"'
@@ -629,6 +688,7 @@ def Rcracki_mt():
         os.system("clear")
         print(B("Rcracki-mt Already Installed"))
         input()
+        back()
     # end Rcracki-mt
 
 #RSMangler
@@ -637,6 +697,7 @@ def RSMangler():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL RSMangler ☣" -geometry 100x30 -e "sudo apt install rsmangler"'
@@ -644,6 +705,7 @@ def RSMangler():
         os.system("clear")
         print(B("RSMangler Already Installed"))
         input()
+        back()
     # end RSMangler
 
 #SecLists
@@ -652,6 +714,7 @@ def SecLists():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL SecLists ☣" -geometry 100x30 -e "sudo apt install secLists"'
@@ -659,6 +722,7 @@ def SecLists():
         os.system("clear")
         print(B("SecLists Already Installed"))
         input()
+        back()
     # end SecLists
 
 #SQLdict
@@ -667,6 +731,7 @@ def SQLdict():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL SQLdict ☣" -geometry 100x30 -e "sudo apt install sqldict"'
@@ -674,6 +739,7 @@ def SQLdict():
         os.system("clear")
         print(B("SQLdict Already Installed"))
         input()
+        back()
     # end SQLdict
 
 #Statsprocessor
@@ -682,6 +748,7 @@ def Statsprocessor():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Statsprocessor ☣" -geometry 100x30 -e "sudo apt install statsprocessor"'
@@ -689,6 +756,7 @@ def Statsprocessor():
         os.system("clear")
         print(B("Statsprocessor Already Installed"))
         input()
+        back()
     # end Statsprocessor
 
 #THC-pptp-bruter
@@ -697,6 +765,7 @@ def THC_pptp_bruter():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL THC-pptp-bruter ☣" -geometry 100x30 -e "sudo apt install thc-pptp-bruter"'
@@ -704,6 +773,7 @@ def THC_pptp_bruter():
         os.system("clear")
         print(B("THC-pptp-bruter Already Installed"))
         input()
+        back()
     # end THC-pptp-bruter
 
 #TrueCrack
@@ -712,6 +782,7 @@ def TrueCrack():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL TrueCrack ☣" -geometry 100x30 -e "sudo apt install truecrack"'
@@ -719,6 +790,7 @@ def TrueCrack():
         os.system("clear")
         print(B("TrueCrack Already Installed"))
         input()
+        back()
     # end TrueCrack
     
 #WebScarab
@@ -727,6 +799,7 @@ def WebScarab():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL WebScarab ☣" -geometry 100x30 -e "sudo apt install webscarab"'
@@ -734,6 +807,7 @@ def WebScarab():
         os.system("clear")
         print(B("WebScarab Already Installed"))
         input()
+        back()
     # end WebScarab
 
 #Wordlists
@@ -742,6 +816,7 @@ def Wordlists():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Wordlists ☣" -geometry 100x30 -e "sudo apt install wordlists"'
@@ -749,6 +824,7 @@ def Wordlists():
         os.system("clear")
         print(B("Wordlists Already Installed"))
         input()
+        back()
     # end Wordlists
 
 #zaproxy
@@ -757,6 +833,7 @@ def zaproxy():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL zaproxy ☣" -geometry 100x30 -e "sudo apt install zaproxy"'
@@ -764,10 +841,11 @@ def zaproxy():
         os.system("clear")
         print(B("zaproxy Already Installed"))
         input()
+        back()
     # end zaproxy        
 
 
 
 
-while True:
-    PassAtck()
+# while True:
+#     PassAtck()

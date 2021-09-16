@@ -6,20 +6,21 @@ from color import R
 from termcolor import colored as c
 import sys
 import Logo
-import hack#, eksploit #, InformatingGathering #, VulnerabilityAssesment, webAttack, dll
+import hack, exploit, InformatingGathering, VulnerabilityAssesment#, webAttack, dll
 import os.path
 import os
 from install import install
 
-if os.path.isfile('sudo /usr/local/lib/python3.7/dist-packages/termcolor.py'):
-    print()
-else:
-    os.system('xterm -T " INSTALL TERMCOLOR " -geometry 100x30 -e "sudo pip install termcolor -y"')
-#check if root (Masih ada bug) mohon di perbaiki )
-def checkroot():
-    if os.geteuid() != 0:
-        print(c("[-]", 'red')+c(" You must be root to run this script", 'red'))
-        sys.exit()
+
+# if os.path.isfile('sudo /usr/local/lib/python3.7/dist-packages/termcolor.py'):
+#     print()
+# else:
+#     os.system('xterm -T " INSTALL TERMCOLOR " -geometry 100x30 -e "sudo pip install termcolor -y"')
+#check if root 
+# def checkroot():
+#     if os.geteuid() != 0:
+#         print(c("[-]", 'red')+c(" You must be root to run this script", 'red'))
+#         sys.exit()
 # cek apakah file git sudah ada!
 # jika sudah ada maka kita lewati
 if os.path.isfile('/usr/bin/git'):
@@ -59,7 +60,7 @@ global DracOS
 DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
 
 def menu():
-    checkroot()
+    # checkroot()
     # call logo
     os.system('clear')
     LOGO()
@@ -107,14 +108,15 @@ def menu():
     elif menu == '4':
         hack.hacking()
     elif menu == '5':
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/InformatingGathering.py')
-        # InformatingGathering.InfoGat()
-    # elif menu == '6':
-    #     VulnerabilityAssessment()
+        # os.system('python3 $HOME/git/DracOS_VENOMIZER/InformatingGathering.py')
+        InformatingGathering.InfoGat()
+    elif menu == '6':
+        VulnerabilityAssesment.VulnAs()
     # elif menu == '7':
     #     WebAttack()
     elif menu == '8':
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/exploit.py')
+        # os.system('python3 $HOME/git/DracOS_VENOMIZER/exploit.py')
+        exploit.Exploit()
     # # elif menu == '9':
     #     PrivilegeEscalation()
     elif menu == '10':

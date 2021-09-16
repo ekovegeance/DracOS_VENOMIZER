@@ -187,6 +187,7 @@ def nmap():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL NMAP ☣" -geometry 100x30 -e "sudo apt install nmap"'
@@ -194,6 +195,7 @@ def nmap():
         os.system("clear")
         print(B("NMAP Already Installed"))
         input()
+        back()
     # end NMAP
 
 
@@ -203,6 +205,7 @@ def amap():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL AMAP ☣" -geometry 100x30 -e "sudo apt install amap"'
@@ -210,6 +213,7 @@ def amap():
         os.system("clear")
         print(B("AMAP Already Installed"))
         input()
+        back()
     # end AMAP
 
 
@@ -219,6 +223,7 @@ def whatweb():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL WHATWEB ☣" -geometry 100x30 -e "sudo apt install whatweb"'
@@ -226,6 +231,7 @@ def whatweb():
         os.system("clear")
         print(B("WHATWEB Already Installed"))
         input()
+        back()
     # end WHATWEB
 
 
@@ -235,6 +241,7 @@ def sublist3r():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Sublist3r ☣" -geometry 100x30 -e "sudo apt install sublist3r"'
@@ -242,6 +249,7 @@ def sublist3r():
         os.system("clear")
         print(B("Sublist3r Already Installed"))
         input()
+        back()
     # end Sublist3r
 
 
@@ -251,6 +259,7 @@ def arp_scan():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL ARP-SCAN ☣" -geometry 100x30 -e "sudo apt install arp-scan"'
@@ -258,6 +267,7 @@ def arp_scan():
         os.system("clear")
         print(B("ARP-SCAN Already Installed"))
         input()
+        back()
     # end ARP-SCAN
 
 
@@ -267,6 +277,7 @@ def automater():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Automater ☣" -geometry 100x30 -e "sudo apt install automater"'
@@ -274,6 +285,7 @@ def automater():
         os.system("clear")
         print(B("Automater Already Installed"))
         input()
+        back()
     # end Automater
 
 
@@ -283,6 +295,7 @@ def braa():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Braa ☣" -geometry 100x30 -e "sudo apt install braa"'
@@ -290,6 +303,7 @@ def braa():
         os.system("clear")
         print(B("Braa Already Installed"))
         input()
+        back()
     # end Braa
 
 
@@ -299,6 +313,7 @@ def casefile():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Casefile ☣" -geometry 100x30 -e "sudo apt install casefile"'
@@ -306,6 +321,7 @@ def casefile():
         os.system("clear")
         print(B("Casefile Already Installed"))
         input()
+        back()
     # end Casefile
 
 
@@ -315,6 +331,7 @@ def cdpsnarf():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Cdpsnarf ☣" -geometry 100x30 -e "sudo apt install cdpsnarf"'
@@ -322,6 +339,7 @@ def cdpsnarf():
         os.system("clear")
         print(B("Cdpsnarf Already Installed"))
         input()
+        back()
     # end Cdpsnarf
 
 
@@ -331,6 +349,7 @@ def cisco_torch():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Cisco-torch ☣" -geometry 100x30 -e "sudo apt install cisco-torch"'
@@ -338,6 +357,7 @@ def cisco_torch():
         os.system("clear")
         print(B("Cisco-torch Already Installed"))
         input()
+        back()
     # end Cisco-torch
 
 
@@ -347,6 +367,7 @@ def dmitry():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dmitry ☣" -geometry 100x30 -e "sudo apt install dmitry"'
@@ -354,6 +375,7 @@ def dmitry():
         os.system("clear")
         print(B("Dmitry Already Installed"))
         input()
+        back()
     # end Dmitry
 
 
@@ -363,6 +385,7 @@ def dnsenum():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dnsenum ☣" -geometry 100x30 -e "sudo apt install dnsenum"'
@@ -370,6 +393,7 @@ def dnsenum():
         os.system("clear")
         print(B("Dnsenum Already Installed"))
         input()
+        back()
     # end Dnsenum
 
 
@@ -379,6 +403,7 @@ def dnsmap():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dnsmap ☣" -geometry 100x30 -e "sudo apt install dnsmap"'
@@ -386,6 +411,7 @@ def dnsmap():
         os.system("clear")
         print(B("Dnsmap Already Installed"))
         input()
+        back()
     # end Dnsmap
 
 
@@ -395,6 +421,7 @@ def dnsrecon():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL DNSRecon ☣" -geometry 100x30 -e "sudo apt install dnsrecon"'
@@ -402,6 +429,7 @@ def dnsrecon():
         os.system("clear")
         print(B("DNSRecon Already Installed"))
         input()
+        back()
     # end DNSRecon
 
 
@@ -411,6 +439,7 @@ def dnstracer():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dnstracer ☣" -geometry 100x30 -e "sudo apt install dnstracer"'
@@ -418,6 +447,7 @@ def dnstracer():
         os.system("clear")
         print(B("Dnstracer Already Installed"))
         input()
+        back()
     # end Dnstracer
 
 
@@ -427,6 +457,7 @@ def dnswalk():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dnswalk ☣" -geometry 100x30 -e "sudo apt install dnswalk"'
@@ -434,6 +465,7 @@ def dnswalk():
         os.system("clear")
         print(B("Dnswalk Already Installed"))
         input()
+        back()
     # end Dnswalk
 
 
@@ -443,6 +475,7 @@ def faraday():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Faraday ☣" -geometry 100x30 -e "sudo apt install faraday"'
@@ -450,6 +483,7 @@ def faraday():
         os.system("clear")
         print(B("Faraday Already Installed"))
         input()
+        back()
     # end Faraday
 
 
@@ -459,6 +493,7 @@ def fierce():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Fierce ☣" -geometry 100x30 -e "sudo apt install fierce"'
@@ -466,6 +501,7 @@ def fierce():
         os.system("clear")
         print(B("Fierce Already Installed"))
         input()
+        back()
     # end Fierce
 
 
@@ -475,6 +511,7 @@ def firewalk():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Firewalk ☣" -geometry 100x30 -e "sudo apt install firewalk"'
@@ -482,6 +519,7 @@ def firewalk():
         os.system("clear")
         print(B("Firewalk Already Installed"))
         input()
+        back()
     # end Firewalk
 
 
@@ -491,6 +529,7 @@ def fragroute():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Fragroute ☣" -geometry 100x30 -e "sudo apt install fragroute"'
@@ -498,6 +537,7 @@ def fragroute():
         os.system("clear")
         print(B("Fragroute Already Installed"))
         input()
+        back()
     # end Fragroute
 
 
@@ -507,6 +547,7 @@ def fragrouter():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Fragrouter ☣" -geometry 100x30 -e "sudo apt install fragrouter"'
@@ -514,6 +555,7 @@ def fragrouter():
         os.system("clear")
         print(B("Fragrouter Already Installed"))
         input()
+        back()
     # end Fragrouter
 
 
@@ -523,6 +565,7 @@ def ghost_phisher():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Ghost-Phisher ☣" -geometry 100x30 -e "sudo apt install ghost-phisher"'
@@ -530,6 +573,7 @@ def ghost_phisher():
         os.system("clear")
         print(B("Ghost-Phisher Already Installed"))
         input()
+        back()
     # end Ghost-Phisher
 
 
@@ -539,6 +583,7 @@ def golismero():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL GoLismero ☣" -geometry 100x30 -e "sudo apt install golismero"'
@@ -546,6 +591,7 @@ def golismero():
         os.system("clear")
         print(B("GoLismero Already Installed"))
         input()
+        back()
     # end GoLismero
 
 
@@ -555,6 +601,7 @@ def goofile():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Goofile ☣" -geometry 100x30 -e "sudo apt install goofile"'
@@ -562,6 +609,7 @@ def goofile():
         os.system("clear")
         print(B("Goofile Already Installed"))
         input()
+        back()
     # end Goofile
 
 
@@ -571,6 +619,7 @@ def hping3():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Hping3 ☣" -geometry 100x30 -e "sudo apt install hping3"'
@@ -578,6 +627,7 @@ def hping3():
         os.system("clear")
         print(B("Hping3 Already Installed"))
         input()
+        back()
     # end Hping3
 
 
@@ -587,6 +637,7 @@ def inspy():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Inspy ☣" -geometry 100x30 -e "sudo apt install inspy"'
@@ -594,6 +645,7 @@ def inspy():
         os.system("clear")
         print(B("Inspy Already Installed"))
         input()
+        back()
     # end Inspy
 
 
@@ -603,6 +655,7 @@ def intrace():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Intrace ☣" -geometry 100x30 -e "sudo apt install intrace"'
@@ -610,6 +663,7 @@ def intrace():
         os.system("clear")
         print(B("Intrace Already Installed"))
         input()
+        back()
     # end Intrace
 
 
@@ -619,6 +673,7 @@ def ismtp():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL iSMTP ☣" -geometry 100x30 -e "sudo apt install ismtp"'
@@ -626,6 +681,7 @@ def ismtp():
         os.system("clear")
         print(B("iSMTP Already Installed"))
         input()
+        back()
     # end iSMTP
 
 
@@ -635,6 +691,7 @@ def teeth():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Teeth ☣" -geometry 100x30 -e "sudo apt install teeth"'
@@ -642,6 +699,7 @@ def teeth():
         os.system("clear")
         print(B("Teeth Already Installed"))
         input()
+        back()
     # end Teeth
 
 
@@ -651,6 +709,7 @@ def masscan():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Masscan ☣" -geometry 100x30 -e "sudo apt install masscan"'
@@ -658,6 +717,7 @@ def masscan():
         os.system("clear")
         print(B("Masscan Already Installed"))
         input()
+        back()
     # end Masscan
 
 
@@ -667,6 +727,7 @@ def metagoofil():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Metagoofil ☣" -geometry 100x30 -e "sudo apt install metagoofil"'
@@ -674,6 +735,7 @@ def metagoofil():
         os.system("clear")
         print(B("Metagoofil Already Installed"))
         input()
+        back()
     # end Metagoofil
 
 
@@ -683,6 +745,7 @@ def miranda():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Miranda ☣" -geometry 100x30 -e "sudo apt install miranda"'
@@ -690,6 +753,7 @@ def miranda():
         os.system("clear")
         print(B("Miranda Already Installed"))
         input()
+        back()
     # end Miranda
 
 
@@ -699,6 +763,7 @@ def nikto():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Nikto ☣" -geometry 100x30 -e "sudo apt install nikto"'
@@ -706,6 +771,7 @@ def nikto():
         os.system("clear")
         print(B("Nikto Already Installed"))
         input()
+        back()
     # end Nikto
 
 
@@ -715,6 +781,7 @@ def ntop():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Ntop ☣" -geometry 100x30 -e "sudo apt install ntop"'
@@ -722,6 +789,7 @@ def ntop():
         os.system("clear")
         print(B("Ntop Already Installed"))
         input()
+        back()
     # end Ntop
 
 
@@ -731,6 +799,7 @@ def reconng():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Recon-ng ☣" -geometry 100x30 -e "sudo apt install recon-ng"'
@@ -738,6 +807,7 @@ def reconng():
         os.system("clear")
         print(B("Recon-ng Already Installed"))
         input()
+        back()
     # end Recon-ng
 
 
@@ -747,6 +817,7 @@ def smbmap():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Smbmap ☣" -geometry 100x30 -e "sudo apt install smbmap"'
@@ -754,6 +825,7 @@ def smbmap():
         os.system("clear")
         print(B("Smbmap Already Installed"))
         input()
+        back()
     # end Smbmap
 
 
@@ -763,6 +835,7 @@ def smtpuserenum():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Smtp-user-enum ☣" -geometry 100x30 -e "sudo apt install smtp-user-enum"'
@@ -770,6 +843,7 @@ def smtpuserenum():
         os.system("clear")
         print(B("Smtp-user-enum Already Installed"))
         input()
+        back()
     # end Smtp-user-enum
 
 
@@ -779,6 +853,7 @@ def snmpcheck():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Snmp-check ☣" -geometry 100x30 -e "sudo apt install snmp-check"'
@@ -786,6 +861,7 @@ def snmpcheck():
         os.system("clear")
         print(B("Snmp-check Already Installed"))
         input()
+        back()
     # end Snmp-check
 
 
@@ -795,6 +871,7 @@ def sslaudit():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Sslcaudit ☣" -geometry 100x30 -e "sudo apt install sslcaudit"'
@@ -802,6 +879,7 @@ def sslaudit():
         os.system("clear")
         print(B("Sslcaudit Already Installed"))
         input()
+        back()
     # end Sslcaudit
 
 
@@ -811,6 +889,7 @@ def sslsplit():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Sslsplit ☣" -geometry 100x30 -e "sudo apt install sslsplit"'
@@ -818,6 +897,7 @@ def sslsplit():
         os.system("clear")
         print(B("Sslsplit Already Installed"))
         input()
+        back()
     # end Sslsplit
 
 
@@ -827,6 +907,7 @@ def maltego_teeth():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Maltego-teeth ☣" -geometry 100x30 -e "sudo apt install maltego-teeth"'
@@ -834,6 +915,7 @@ def maltego_teeth():
         os.system("clear")
         print(B("Maltego-teeth Already Installed"))
         input()
+        back()
     # end Maltego-teeth
 
 
@@ -843,6 +925,7 @@ def recon_ng():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Recon-ng ☣" -geometry 100x30 -e "sudo apt install recon-ng"'
@@ -850,6 +933,7 @@ def recon_ng():
         os.system("clear")
         print(B("Recon-ng Already Installed"))
         input()
+        back()
     # end Recon-ng
 
 
@@ -859,6 +943,7 @@ def smtp_user_enum():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Smtp-user-enum ☣" -geometry 100x30 -e "sudo apt install smtp-user-enum"'
@@ -866,6 +951,7 @@ def smtp_user_enum():
         os.system("clear")
         print(B("Smtp-user-enum Already Installed"))
         input()
+        back()
     # end Smtp-user-enum
 
 
@@ -875,6 +961,7 @@ def snmp_check():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Snmp-check ☣" -geometry 100x30 -e "sudo apt install snmp-check"'
@@ -882,6 +969,7 @@ def snmp_check():
         os.system("clear")
         print(B("Snmp-check Already Installed"))
         input()
+        back()
     # end Snmp-check
 
 
@@ -891,6 +979,7 @@ def sslcaudit_():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Sslcaudit ☣" -geometry 100x30 -e "sudo apt install sslcaudit"'
@@ -898,9 +987,13 @@ def sslcaudit_():
         os.system("clear")
         print(B("Sslcaudit Already Installed"))
         input()
+        back()
     # end Sslcaudit
 
-
-# Looping
-while True:
+# fungsi untuk memanggil lagi InfoGat
+# supaya program tidak keluar
+def back():
     InfoGat()
+# Looping
+# while True:
+#     InfoGat()

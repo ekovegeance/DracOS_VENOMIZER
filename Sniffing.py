@@ -156,7 +156,8 @@ def Sniffing():
         exit()
 
 
-
+def back():
+    Sniffing()
 
 
 #function
@@ -166,6 +167,7 @@ def Bettercap():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Bettercap ☣" -geometry 100x30 -e "sudo apt install bettercap"'
@@ -173,6 +175,7 @@ def Bettercap():
         os.system("clear")
         print(B("Bettercap Already Installed"))
         input()
+        back()
     # end Bettercap
 
 #Brup Suite
@@ -181,6 +184,7 @@ def Brup_Suite():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Brup Suite ☣" -geometry 100x30 -e "sudo apt install brup"'
@@ -188,6 +192,7 @@ def Brup_Suite():
         os.system("clear")
         print(B("Brup Suite Already Installed"))
         input()
+        back()
     # end Brup_Suite
 
 #DNSChef
@@ -196,6 +201,7 @@ def DNSChef():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL DNSChef ☣" -geometry 100x30 -e "sudo apt install dnschef"'
@@ -203,6 +209,7 @@ def DNSChef():
         os.system("clear")
         print(B("DNSChef Already Installed"))
         input()
+        back()
     # end DNSChef
 
 #Fiked
@@ -211,6 +218,7 @@ def Fiked():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Fiked ☣" -geometry 100x30 -e "sudo apt install fiked"'
@@ -218,6 +226,7 @@ def Fiked():
         os.system("clear")
         print(B("Fiked Already Installed"))
         input()
+        back()
     # end Fiked
 
 #Hamster-sidejack
@@ -226,6 +235,7 @@ def Hamster_sidejack():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Hamster-sidejack ☣" -geometry 100x30 -e "sudo apt install hamster-sidejack"'
@@ -233,6 +243,7 @@ def Hamster_sidejack():
         os.system("clear")
         print(B("Hamster-sidejack Already Installed"))
         input()
+        back()
     # end Hamster_sidejack
 
 #HexInject
@@ -241,6 +252,7 @@ def HexInject():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL HexInject ☣" -geometry 100x30 -e "sudo apt install hexinject"'
@@ -248,6 +260,7 @@ def HexInject():
         os.system("clear")
         print(B("HexInject Already Installed"))
         input()
+        back()
     # end HexInject
 
 #IaxFlood
@@ -256,6 +269,7 @@ def IaxFlood():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL IaxFlood ☣" -geometry 100x30 -e "sudo apt install iaxflood"'
@@ -263,6 +277,7 @@ def IaxFlood():
         os.system("clear")
         print(B("IaxFlood Already Installed"))
         input()
+        back()
     # end IaxFlood
     
 #Inviteflood
@@ -271,6 +286,7 @@ def Inviteflood():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Inviteflood ☣" -geometry 100x30 -e "sudo apt install inviteflood"'
@@ -278,6 +294,7 @@ def Inviteflood():
         os.system("clear")
         print(B("Inviteflood Already Installed"))
         input()
+        back()
     # end Inviteflood
 
 #iSMTP
@@ -286,6 +303,7 @@ def iSMTP():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL iSMTP ☣" -geometry 100x30 -e "sudo apt install ismtp"'
@@ -293,6 +311,7 @@ def iSMTP():
         os.system("clear")
         print(B("iSMTP Already Installed"))
         input()
+        back()
     # end iSMTP
 
 #isr-evilgrade
@@ -301,6 +320,7 @@ def isr_evilgrade():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL isr-evilgrade ☣" -geometry 100x30 -e "sudo apt install isr-evilgrade"'
@@ -308,6 +328,7 @@ def isr_evilgrade():
         os.system("clear")
         print(B("isr-evilgrade Already Installed"))
         input()
+        back()
     # end isr_evilgrade
 
 #Mitmproxy
@@ -316,6 +337,7 @@ def Mitmproxy():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Mitmproxy ☣" -geometry 100x30 -e "sudo apt install mitmproxy"'
@@ -323,6 +345,7 @@ def Mitmproxy():
         os.system("clear")
         print(B("Mitmproxy Already Installed"))
         input()
+        
     # end Mitmproxy
 
 #ohrwurm
@@ -331,6 +354,7 @@ def ohrwurm():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL ohrwurm ☣" -geometry 100x30 -e "sudo apt install ohrwurm"'
@@ -338,6 +362,7 @@ def ohrwurm():
         os.system("clear")
         print(B("ohrwurm Already Installed"))
         input()
+        back()
     # end ohrwurm
 
 #protos-sip
@@ -346,6 +371,7 @@ def protos_sip():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL protos-sip ☣" -geometry 100x30 -e "sudo apt install protos-sip"'
@@ -353,6 +379,7 @@ def protos_sip():
         os.system("clear")
         print(B("protos-sip Already Installed"))
         input()
+        back()
     # end protos_sip
 
 #rebind
@@ -361,6 +388,7 @@ def rebind():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL rebind ☣" -geometry 100x30 -e "sudo apt install rebind"'
@@ -368,6 +396,7 @@ def rebind():
         os.system("clear")
         print(B("rebind Already Installed"))
         input()
+        back()
     # end rebind
 
 #responder
@@ -376,6 +405,7 @@ def responder():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Responder ☣" -geometry 100x30 -e "sudo apt install responder"'
@@ -383,6 +413,7 @@ def responder():
         os.system("clear")
         print(B("Responder Already Installed"))
         input()
+        back()
     # end responder
 
 #rtpbreak
@@ -391,6 +422,7 @@ def rtpbreak():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL rtpbreak ☣" -geometry 100x30 -e "sudo apt install rtpbreak"'
@@ -398,6 +430,7 @@ def rtpbreak():
         os.system("clear")
         print(B("rtpbreak Already Installed"))
         input()
+        back()
     # end rtpbreak
 
 #rtpinsertsound
@@ -406,6 +439,7 @@ def rtpinsertsound():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL rtpinsertsound ☣" -geometry 100x30 -e "sudo apt install rtpinsertsound"'
@@ -413,6 +447,7 @@ def rtpinsertsound():
         os.system("clear")
         print(B("rtpinsertsound Already Installed"))
         input()
+        back()
     # end rtpinsertsound
 
 #rtpmixsound
@@ -421,6 +456,7 @@ def rtpmixsound():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL rtpmixsound ☣" -geometry 100x30 -e "sudo apt install rtpmixsound"'
@@ -428,6 +464,7 @@ def rtpmixsound():
         os.system("clear")
         print(B("rtpmixsound Already Installed"))
         input()
+        back()
     # end rtpmixsound
 
 #sctpscan
@@ -436,6 +473,7 @@ def sctpscan():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL sctpscan ☣" -geometry 100x30 -e "sudo apt install sctpscan"'
@@ -443,6 +481,7 @@ def sctpscan():
         os.system("clear")
         print(B("sctpscan Already Installed"))
         input()
+        back()
     # end sctpscan
 
 #SIPArmyKnife
@@ -451,6 +490,7 @@ def SIPArmyKnife():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL SIPArmyKnife ☣" -geometry 100x30 -e "sudo apt install siparmyknife"'
@@ -458,6 +498,7 @@ def SIPArmyKnife():
         os.system("clear")
         print(B("SIPArmyKnife Already Installed"))
         input()
+        back()
     # end SIPArmyKnife
 
 #SIPp
@@ -466,6 +507,7 @@ def SIPp():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL SIPp ☣" -geometry 100x30 -e "sudo apt install sipp"'
@@ -473,6 +515,7 @@ def SIPp():
         os.system("clear")
         print(B("SIPp Already Installed"))
         input()
+        back()
     # end SIPp
 
 #SIPVicious
@@ -481,6 +524,7 @@ def SIPVicious():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL SIPVicious ☣" -geometry 100x30 -e "sudo apt install sipvicious"'
@@ -488,6 +532,7 @@ def SIPVicious():
         os.system("clear")
         print(B("SIPVicious Already Installed"))
         input()
+        back()
     # end SIPVicious
 
 #SniffJoke
@@ -496,6 +541,7 @@ def SniffJoke():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL SniffJoke ☣" -geometry 100x30 -e "sudo apt install sniffjoke"'
@@ -503,6 +549,7 @@ def SniffJoke():
         os.system("clear")
         print(B("SniffJoke Already Installed"))
         input()
+        back()
     # end SniffJoke
 
 #SSLsplit
@@ -511,6 +558,7 @@ def SSLsplit():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL SSLsplit ☣" -geometry 100x30 -e "sudo apt install sslsplit"'
@@ -518,6 +566,7 @@ def SSLsplit():
         os.system("clear")
         print(B("sslsplit Already Installed"))
         input()
+        back()
     # end sslsplit
 
 #sslstrip
@@ -526,6 +575,7 @@ def sslstrip():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL sslstrip ☣" -geometry 100x30 -e "sudo apt install sslstrip"'
@@ -533,6 +583,7 @@ def sslstrip():
         os.system("clear")
         print(B("sslstrip Already Installed"))
         input()
+        back()
     # end sslstrip
 
 #thc-ipv6
@@ -541,6 +592,7 @@ def thc_ipv6():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL thc-ipv6 ☣" -geometry 100x30 -e "sudo apt install thc-ipv6"'
@@ -548,6 +600,7 @@ def thc_ipv6():
         os.system("clear")
         print(B("thc-ipv6 Already Installed"))
         input()
+        back()
     # end thc-ipv6
 
 #VoIPHopper
@@ -556,6 +609,7 @@ def VoIPHopper():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL VoIPHopper ☣" -geometry 100x30 -e "sudo apt install voiphopper"'
@@ -563,6 +617,7 @@ def VoIPHopper():
         os.system("clear")
         print(B("VoIPHopper Already Installed"))
         input()
+        back()
     # end VoIPHopper
 
 #WebScarab
@@ -571,6 +626,7 @@ def WebScarab():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL WebScarab ☣" -geometry 100x30 -e "sudo apt install webscarab"'
@@ -578,6 +634,7 @@ def WebScarab():
         os.system("clear")
         print(B("WebScarab Already Installed"))
         input()
+        back()
     # end WebScarab
 
 #Wifi Honey
@@ -586,6 +643,7 @@ def Wifi_Honey():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Wifi Honey ☣" -geometry 100x30 -e "sudo apt install wifi-honey"'
@@ -593,6 +651,7 @@ def Wifi_Honey():
         os.system("clear")
         print(B("Wifi Honey Already Installed"))
         input()
+        back()
     # end Wifi Honey
 
 #Wireshark
@@ -601,6 +660,7 @@ def Wireshark():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Wireshark ☣" -geometry 100x30 -e "sudo apt install wireshark"'
@@ -608,6 +668,7 @@ def Wireshark():
         os.system("clear")
         print(B("Wireshark Already Installed"))
         input()
+        back()
     # end Wireshark
 
 #xspy
@@ -616,6 +677,7 @@ def xspy():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL xspy ☣" -geometry 100x30 -e "sudo apt install xspy"'
@@ -623,6 +685,7 @@ def xspy():
         os.system("clear")
         print(B("xspy Already Installed"))
         input()
+        back()
     # end xspy
 
 #Yersinia
@@ -631,6 +694,7 @@ def Yersinia():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Yersinia ☣" -geometry 100x30 -e "sudo apt install yersinia"'
@@ -638,6 +702,7 @@ def Yersinia():
         os.system("clear")
         print(B("Yersinia Already Installed"))
         input()
+        back()
     # end Yersinia
 
 #zaproxy 
@@ -646,6 +711,7 @@ def zaproxy():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL zaproxy ☣" -geometry 100x30 -e "sudo apt install zaproxy"'
@@ -653,10 +719,11 @@ def zaproxy():
         os.system("clear")
         print(B("zaproxy Already Installed"))
         input()
+        back()
     # end zaproxy
 
 
 
 #loop
-while True:
-    Sniffing()
+# while True:
+#     Sniffing()
