@@ -117,7 +117,8 @@ def Forensics():
 
 
 
-
+def back():
+    Forensics()
 
 #Function
 #Binwalk
@@ -126,6 +127,7 @@ def Binwalk():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Binwalk ☣" -geometry 100x30 -e "sudo apt install binwalk"'
@@ -133,6 +135,7 @@ def Binwalk():
         os.system("clear")
         print(B("Binwalk Already Installed"))
         input()
+        back()
     # end Binwalk
 
 #Bulk Extractor
@@ -141,6 +144,7 @@ def BulkExtractor():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Bulk Extractor ☣" -geometry 100x30 -e "sudo apt install bulk_extractor"'
@@ -148,6 +152,7 @@ def BulkExtractor():
         os.system("clear")
         print(B("Bulk Extractor Already Installed"))
         input()
+        back()
     # end Bulk Extractor
 
 #Capstone
@@ -156,6 +161,7 @@ def Capstone():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Capstone ☣" -geometry 100x30 -e "sudo apt install capstone"'
@@ -163,6 +169,7 @@ def Capstone():
         os.system("clear")
         print(B("Capstone Already Installed"))
         input()
+        back()
     # end Capstone
 
 #Chntpw
@@ -171,6 +178,7 @@ def Chntpw():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Chntpw ☣" -geometry 100x30 -e "sudo apt install chntpw"'
@@ -178,6 +186,7 @@ def Chntpw():
         os.system("clear")
         print(B("Chntpw Already Installed"))
         input()
+        back()
     # end Chntpw
 
 #Cuckoo
@@ -186,6 +195,7 @@ def Cuckoo():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Cuckoo ☣" -geometry 100x30 -e "sudo apt install cuckoo"'
@@ -193,6 +203,7 @@ def Cuckoo():
         os.system("clear")
         print(B("Cuckoo Already Installed"))
         input()
+        back()
     # end Cuckoo
 
 #Dc3dd
@@ -201,6 +212,7 @@ def Dc3dd():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dc3dd ☣" -geometry 100x30 -e "sudo apt install dc3dd"'
@@ -208,6 +220,7 @@ def Dc3dd():
         os.system("clear")
         print(B("Dc3dd Already Installed"))
         input()
+        back()
     # end Dc3dd
 
 #DDrescue
@@ -216,6 +229,7 @@ def DDrescue():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL DDrescue ☣" -geometry 100x30 -e "sudo apt install ddrescue"'
@@ -223,6 +237,7 @@ def DDrescue():
         os.system("clear")
         print(B("DDrescue Already Installed"))
         input()
+        back()
     # end DDrescue
 
 #DFF
@@ -231,6 +246,7 @@ def DFF():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL DFF ☣" -geometry 100x30 -e "sudo apt install dff"'
@@ -238,6 +254,7 @@ def DFF():
         os.system("clear")
         print(B("DFF Already Installed"))
         input()
+        back()
     # end DFF
 
 #DiStorm3
@@ -246,6 +263,7 @@ def DiStorm3():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL DiStorm3 ☣" -geometry 100x30 -e "sudo apt install distorm3"'
@@ -253,6 +271,7 @@ def DiStorm3():
         os.system("clear")
         print(B("DiStorm3 Already Installed"))
         input()
+        back()
     # end DiStorm3
 
 #Dumpzilla
@@ -261,6 +280,7 @@ def Dumpzilla():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dumpzilla ☣" -geometry 100x30 -e "sudo apt install dumpzilla"'
@@ -268,6 +288,7 @@ def Dumpzilla():
         os.system("clear")
         print(B("Dumpzilla Already Installed"))
         input()
+        back()
     # end Dumpzilla
 
 #Extundelete
@@ -276,6 +297,7 @@ def Extundelete():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Extundelete ☣" -geometry 100x30 -e "sudo apt install extundelete"'
@@ -283,6 +305,7 @@ def Extundelete():
         os.system("clear")
         print(B("Extundelete Already Installed"))
         input()
+        back()
     # end Extundelete
 
 #Foremost
@@ -291,6 +314,7 @@ def Foremost():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Foremost ☣" -geometry 100x30 -e "sudo apt install foremost"'
@@ -298,6 +322,7 @@ def Foremost():
         os.system("clear")
         print(B("Foremost Already Installed"))
         input()
+        back()
     # end Foremost
 
 #Galleta
@@ -313,6 +338,7 @@ def Galleta():
         os.system("clear")
         print(B("Galleta Already Installed"))
         input()
+        back()
     # end Galleta
 
 #Guymager
@@ -321,6 +347,7 @@ def Guymager():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Guymager ☣" -geometry 100x30 -e "sudo apt install guymager"'
@@ -328,6 +355,7 @@ def Guymager():
         os.system("clear")
         print(B("Guymager Already Installed"))
         input()
+        back()
     # end Guymager
 
 #IPhone Backup Analyzer
@@ -336,6 +364,7 @@ def IPhone():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL IPhone Backup Analyzer ☣" -geometry 100x30 -e "sudo apt install iphonebackupanalyzer"'
@@ -343,6 +372,7 @@ def IPhone():
         os.system("clear")
         print(B("IPhone Backup Analyzer Already Installed"))
         input()
+        back()
     # end IPhone Backup Analyzer
 
 #P0f
@@ -351,6 +381,7 @@ def P0f():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL P0f ☣" -geometry 100x30 -e "sudo apt install p0f"'
@@ -358,6 +389,7 @@ def P0f():
         os.system("clear")
         print(B("P0f Already Installed"))
         input()
+        back()
     # end P0f
 
 #Pdf-parser
@@ -366,6 +398,7 @@ def Pdf():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Pdf-parser ☣" -geometry 100x30 -e "sudo apt install pdf-parser"'
@@ -373,6 +406,7 @@ def Pdf():
         os.system("clear")
         print(B("Pdf-parser Already Installed"))
         input()
+        back()
     # end Pdf-parser
 
 #Pdfid
@@ -381,6 +415,7 @@ def Pdfid():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Pdfid ☣" -geometry 100x30 -e "sudo apt install pdfid"'
@@ -388,6 +423,7 @@ def Pdfid():
         os.system("clear")
         print(B("Pdfid Already Installed"))
         input()
+        back()
     # end Pdfid
 
 #Pdgmail
@@ -396,6 +432,7 @@ def Pdgmail():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Pdgmail ☣" -geometry 100x30 -e "sudo apt install pdgmail"'
@@ -403,6 +440,7 @@ def Pdgmail():
         os.system("clear")
         print(B("Pdgmail Already Installed"))
         input()
+        back()
     # end Pdgmail
 
 #Peepdf
@@ -411,6 +449,7 @@ def Peepdf():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Peepdf ☣" -geometry 100x30 -e "sudo apt install peepdf"'
@@ -418,6 +457,7 @@ def Peepdf():
         os.system("clear")
         print(B("Peepdf Already Installed"))
         input()
+        back()
     # end Peepdf
 
 #RegRipper
@@ -426,6 +466,7 @@ def Regripper():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL RegRipper ☣" -geometry 100x30 -e "sudo apt install regripper"'
@@ -433,6 +474,7 @@ def Regripper():
         os.system("clear")
         print(B("RegRipper Already Installed"))
         input()
+        back()
     # end RegRipper
 
 #Volatility
@@ -441,6 +483,7 @@ def Volatility():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Volatility ☣" -geometry 100x30 -e "sudo apt install volatility"'
@@ -448,6 +491,7 @@ def Volatility():
         os.system("clear")
         print(B("Volatility Already Installed"))
         input()
+        back()
     # end Volatility
 
 #Xplico
@@ -456,6 +500,7 @@ def Xplico():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Xplico ☣" -geometry 100x30 -e "sudo apt install xplico"'
@@ -463,6 +508,7 @@ def Xplico():
         os.system("clear")
         print(B("Xplico Already Installed"))
         input()
+        back()
     # end Xplico
 
 
@@ -470,5 +516,5 @@ def Xplico():
 
 
 # Looping
-while True:
-    Forensics()
+# while True:
+#     Forensics()

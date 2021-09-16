@@ -64,6 +64,8 @@ def Reverse():
 
 
 
+def back():
+    Reverse()
 
 
 #Function
@@ -73,6 +75,7 @@ def Apktool():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Apktool ☣" -geometry 100x30 -e "sudo apt install apktool"'
@@ -80,6 +83,7 @@ def Apktool():
         os.system("clear")
         print(B("Apktool Already Installed"))
         input()
+        back()
     # end Apktool
 
 #Dex2jar
@@ -88,6 +92,7 @@ def Dex2jar():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dex2jar ☣" -geometry 100x30 -e "sudo apt install dex2jar"'
@@ -95,6 +100,7 @@ def Dex2jar():
         os.system("clear")
         print(B("Dex2jar Already Installed"))
         input()
+        back()
     # end Dex2jar
 
 #Edb-debugger
@@ -103,6 +109,7 @@ def Edb_debugger():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Edb-debugger ☣" -geometry 100x30 -e "sudo apt install edb-debugger"'
@@ -110,6 +117,7 @@ def Edb_debugger():
         os.system("clear")
         print(B("Edb-debugger Already Installed"))
         input()
+        back()
     # end Edb-debugger
 
 #Jad
@@ -118,6 +126,7 @@ def Jad():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Jad ☣" -geometry 100x30 -e "sudo apt install jad"'
@@ -125,6 +134,7 @@ def Jad():
         os.system("clear")
         print(B("Jad Already Installed"))
         input()
+        back()
     # end Jad
 
 #Javasnoop
@@ -133,6 +143,7 @@ def Javasnoop():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Javasnoop ☣" -geometry 100x30 -e "sudo apt install javasnoop"'
@@ -140,6 +151,7 @@ def Javasnoop():
         os.system("clear")
         print(B("Javasnoop Already Installed"))
         input()
+        back()
     # end Javasnoop
 
 #JD-GUI
@@ -148,6 +160,7 @@ def JD_GUI():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL JD-GUI ☣" -geometry 100x30 -e "sudo apt install jd-gui"'
@@ -155,6 +168,7 @@ def JD_GUI():
         os.system("clear")
         print(B("JD-GUI Already Installed"))
         input()
+        back()
     # end JD-GUI
 
 #OllyDbg
@@ -163,6 +177,7 @@ def OllyDbg():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL OllyDbg ☣" -geometry 100x30 -e "sudo apt install ollydbg"'
@@ -170,6 +185,7 @@ def OllyDbg():
         os.system("clear")
         print(B("OllyDbg Already Installed"))
         input()
+        back()
     # end OllyDbg
 
 #Smali
@@ -178,6 +194,7 @@ def Smali():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Smali ☣" -geometry 100x30 -e "sudo apt install smali"'
@@ -185,6 +202,7 @@ def Smali():
         os.system("clear")
         print(B("Smali Already Installed"))
         input()
+        back()
     # end Smali
 
 #Valgrind
@@ -193,6 +211,7 @@ def Valgrind():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Valgrind ☣" -geometry 100x30 -e "sudo apt install valgrind"'
@@ -200,6 +219,7 @@ def Valgrind():
         os.system("clear")
         print(B("Valgrind Already Installed"))
         input()
+        back()
     # end Valgrind
 
 #YARA
@@ -208,6 +228,7 @@ def YARA():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL YARA ☣" -geometry 100x30 -e "sudo apt install yara"'
@@ -215,6 +236,7 @@ def YARA():
         os.system("clear")
         print(B("YARA Already Installed"))
         input()
+        back()
     # end YARA
 
 
@@ -222,5 +244,5 @@ def YARA():
 
 
 # Looping
-while True:
-    Reverse()
+# while True:
+#     Reverse()

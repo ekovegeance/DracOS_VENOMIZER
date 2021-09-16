@@ -48,7 +48,8 @@ def Hardware():
 
 
 
-
+def back():
+    Hardware()
 
 #Function
 #Android-sdk
@@ -57,6 +58,7 @@ def Android_sdk():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Android-sdk ☣" -geometry 100x30 -e "sudo apt install android-sdk"'
@@ -64,6 +66,7 @@ def Android_sdk():
         os.system("clear")
         print(B("Android-sdk Already Installed"))
         input()
+        back()
     # end android-sdk
 
 #Apktool
@@ -72,6 +75,7 @@ def Apktool():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Apktool ☣" -geometry 100x30 -e "sudo apt install apktool"'
@@ -79,6 +83,7 @@ def Apktool():
         os.system("clear")
         print(B("Apktool Already Installed"))
         input()
+        back()
     # end apktool
 
 #Arduino
@@ -87,6 +92,7 @@ def Arduino():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Arduino ☣" -geometry 100x30 -e "sudo apt install arduino"'
@@ -94,6 +100,7 @@ def Arduino():
         os.system("clear")
         print(B("Arduino Already Installed"))
         input()
+        back()
     # end arduino
 
 #Dex2jar
@@ -102,6 +109,7 @@ def Dex2jar():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dex2jar ☣" -geometry 100x30 -e "sudo apt install dex2jar"'
@@ -109,6 +117,7 @@ def Dex2jar():
         os.system("clear")
         print(B("Dex2jar Already Installed"))
         input()
+        back()
     # end dex2jar
 
 #Sakis3G
@@ -117,6 +126,7 @@ def Sakis3G():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Sakis3G ☣" -geometry 100x30 -e "sudo apt install sakis3g"'
@@ -124,6 +134,7 @@ def Sakis3G():
         os.system("clear")
         print(B("Sakis3G Already Installed"))
         input()
+        back()
     # end sakis3g
 
 #Smalis
@@ -132,6 +143,7 @@ def Smalis():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Smalis ☣" -geometry 100x30 -e "sudo apt install smali"'
@@ -139,6 +151,7 @@ def Smalis():
         os.system("clear")
         print(B("Smalis Already Installed"))
         input()
+        back()
     # end smalis
 
 
@@ -146,5 +159,5 @@ def Smalis():
 
 
 # Looping
-while True:
-    Hardware()
+# while True:
+#     Hardware()

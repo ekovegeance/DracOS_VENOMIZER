@@ -92,7 +92,8 @@ def Maintining():
 
 
 
-
+def back():
+    Maintining()
 
 #Function
 #Cryptcat
@@ -101,6 +102,7 @@ def Cryptcat():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Cryptcat ☣" -geometry 100x30 -e "sudo apt install cryptcat"'
@@ -108,6 +110,7 @@ def Cryptcat():
         os.system("clear")
         print(B("Cryptcat Already Installed"))
         input()
+        back()
     # end Cryptcat
 
 #Cymothoa
@@ -116,6 +119,7 @@ def Cymothoa():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Cymothoa ☣" -geometry 100x30 -e "sudo apt install cymothoa"'
@@ -123,6 +127,7 @@ def Cymothoa():
         os.system("clear")
         print(B("Cymothoa Already Installed"))
         input()
+        back()
     # end Cymothoa
 
 #Dbd
@@ -131,6 +136,7 @@ def Dbd():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dbd ☣" -geometry 100x30 -e "sudo apt install dbd"'
@@ -138,6 +144,7 @@ def Dbd():
         os.system("clear")
         print(B("Dbd Already Installed"))
         input()
+        back()
     # end Dbd
 
 #Dns2tcp
@@ -146,6 +153,7 @@ def Dns2tcp():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dns2tcp ☣" -geometry 100x30 -e "sudo apt install dns2tcp"'
@@ -153,6 +161,7 @@ def Dns2tcp():
         os.system("clear")
         print(B("Dns2tcp Already Installed"))
         input()
+        back()
     # end Dns2tcp
     
 #HTTPTunnel
@@ -161,6 +170,7 @@ def HTTPTunnel():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL HTTPTunnel ☣" -geometry 100x30 -e "sudo apt install http-tunnel"'
@@ -168,6 +178,7 @@ def HTTPTunnel():
         os.system("clear")
         print(B("HTTPTunnel Already Installed"))
         input()
+        back()
     # end HTTPTunnel
 
 #Intersect
@@ -176,6 +187,7 @@ def Intersect():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Intersect ☣" -geometry 100x30 -e "sudo apt install intersect"'
@@ -183,6 +195,7 @@ def Intersect():
         os.system("clear")
         print(B("Intersect Already Installed"))
         input()
+        back()
     # end Intersect
 
 #Nishang
@@ -191,6 +204,7 @@ def Nishang():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Nishang ☣" -geometry 100x30 -e "sudo apt install nishang"'
@@ -198,6 +212,7 @@ def Nishang():
         os.system("clear")
         print(B("Nishang Already Installed"))
         input()
+        back()
     # end Nishang
 
 #Polenum
@@ -206,6 +221,7 @@ def Polenum():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Polenum ☣" -geometry 100x30 -e "sudo apt install polenum"'
@@ -213,6 +229,7 @@ def Polenum():
         os.system("clear")
         print(B("Polenum Already Installed"))
         input()
+        back()
     # end Polenum
 
 #PowerSploit
@@ -221,6 +238,7 @@ def PowerSploit():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL PowerSploit ☣" -geometry 100x30 -e "sudo apt install powersploit"'
@@ -228,6 +246,7 @@ def PowerSploit():
         os.system("clear")
         print(B("PowerSploit Already Installed"))
         input()
+        back()
     # end PowerSploit
 
 #Pwnat
@@ -236,6 +255,7 @@ def Pwnat():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Pwnat ☣" -geometry 100x30 -e "sudo apt install pwnat"'
@@ -243,6 +263,7 @@ def Pwnat():
         os.system("clear")
         print(B("Pwnat Already Installed"))
         input()
+        back()
     # end Pwnat
 
 #RidEnum
@@ -251,6 +272,7 @@ def RidEnum():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL RidEnum ☣" -geometry 100x30 -e "sudo apt install ridenum"'
@@ -258,6 +280,7 @@ def RidEnum():
         os.system("clear")
         print(B("RidEnum Already Installed"))
         input()
+        back()
     # end RidEnum
 
 #Sbd
@@ -266,6 +289,7 @@ def Sbd():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Sbd ☣" -geometry 100x30 -e "sudo apt install sbd"'
@@ -273,6 +297,7 @@ def Sbd():
         os.system("clear")
         print(B("Sbd Already Installed"))
         input()
+        back()
     # end Sbd
 
 #Shellter
@@ -281,6 +306,7 @@ def Shellter():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Shellter ☣" -geometry 100x30 -e "sudo apt install shellter"'
@@ -288,6 +314,7 @@ def Shellter():
         os.system("clear")
         print(B("Shellter Already Installed"))
         input()
+        back()
     # end Shellter
 
 #U3-Pwn
@@ -296,6 +323,7 @@ def U3Pwn():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL U3-Pwn ☣" -geometry 100x30 -e "sudo apt install u3-pwn"'
@@ -303,6 +331,7 @@ def U3Pwn():
         os.system("clear")
         print(B("U3-Pwn Already Installed"))
         input()
+        back()
     # end U3-Pwn
 
 #Webshells
@@ -311,6 +340,7 @@ def Webshells():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Webshells ☣" -geometry 100x30 -e "sudo apt install webshells"'
@@ -318,6 +348,7 @@ def Webshells():
         os.system("clear")
         print(B("Webshells Already Installed"))
         input()
+        back()
     # end Webshells
 
 #Weevely
@@ -326,6 +357,7 @@ def Weevely():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Weevely ☣" -geometry 100x30 -e "sudo apt install weevely"'
@@ -333,6 +365,7 @@ def Weevely():
         os.system("clear")
         print(B("Weevely Already Installed"))
         input()
+        back()
     # end Weevely
 
 #Winexe
@@ -341,6 +374,7 @@ def Winexe():
         os.system("clear")
         print(B("Tools Available"))
         input()
+        back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Winexe ☣" -geometry 100x30 -e "sudo apt install winexe"'
@@ -348,11 +382,12 @@ def Winexe():
         os.system("clear")
         print(B("Winexe Already Installed"))
         input()
+        back()
     # end Winexe
 
 
 
 
 # Looping
-while True:
-    Maintining()
+# while True:
+#     Maintining()
