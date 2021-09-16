@@ -108,16 +108,10 @@ def menu():
     elif menu == '4':
         hack.hacking()
     elif menu == '5':
-<<<<<<< HEAD
         # os.system('python3 $HOME/git/DracOS_VENOMIZER/InformatingGathering.py')
         InformatingGathering.InfoGat()
     elif menu == '6':
         VulnerabilityAssesment.VulnAs()
-=======
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/InformatingGathering.py')
-    elif menu == '6':
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/VulnerabilityAssesment.py')
->>>>>>> 37286b64aa1bac35f9bb743f70433c6d0d438598
     # elif menu == '7':
     #     WebAttack()
     elif menu == '8':
