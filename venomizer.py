@@ -108,9 +108,8 @@ def menu():
         hack.hacking()
     elif menu == '5':
         os.system('python3 $HOME/git/DracOS_VENOMIZER/InformatingGathering.py')
-        # InformatingGathering.InfoGat()
-    # elif menu == '6':
-    #     VulnerabilityAssessment()
+    elif menu == '6':
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/VulnerabilityAssesment.py')
     # elif menu == '7':
     #     WebAttack()
     elif menu == '8':
@@ -127,12 +126,12 @@ def menu():
         os.system('python3 $HOME/git/DracOS_VENOMIZER/Stress.py')
     # elif menu == '14':
     #     WirelessAttack()
-    # elif menu == '15':
-    #     MaintiningAcces()
-    # elif menu == '16':
-    #     ForensicTools()
-    # elif menu == '17':
-    #     ReverseEngineering()
+    elif menu == '15':
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/Maintaining.py')
+    elif menu == '16':
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/Forensic.py')
+    elif menu == '17':
+        os.system('python3 $HOME/git/DracOS_VENOMIZER/reverse.py')
     # elif menu == '18':
     #     MalwareAnalysis()
     # elif menu == '19':
@@ -153,6 +152,3 @@ def back():
 
 while menu():
     menu()
-# if __name__ == "__main__":
-# 	os.system("clear")
-# 	menu()
