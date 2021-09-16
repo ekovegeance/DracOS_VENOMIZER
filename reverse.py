@@ -234,7 +234,10 @@ def YARA():
             'xterm -T "☣ INSTALL YARA ☣" -geometry 100x30 -e "sudo apt install yara"'
         )
         os.system("clear")
-        print(B("YARA Already Installed"))
+        if os.path.isfile('usr/bin/yara'):
+            print(B("YARA Already Installed"))
+        else:
+            print(R('YARA not Installed'))
         input()
         back()
     # end YARA

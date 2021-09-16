@@ -6,7 +6,7 @@ from color import R
 from termcolor import colored as c
 import sys
 import Logo
-import hack, exploit, InformatingGathering, VulnerabilityAssesment#, webAttack, dll
+import hack, exploit, InformatingGathering, VulnerabilityAssesment, PasswordAttack, Stress, Maintaining, Forensic, reverse#, webAttack, dll
 import os.path
 import os
 from install import install
@@ -120,21 +120,26 @@ def menu():
     # # elif menu == '9':
     #     PrivilegeEscalation()
     elif menu == '10':
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/PasswordAttack.py')
+        # os.system('python3 $HOME/git/DracOS_VENOMIZER/PasswordAttack.py')
+        PasswordAttack.PassAtck()
     # elif menu == '11':
     #     SocialEngineering()
     # elif menu == '12':
     #     ManInTheMiddleAttack()
     elif menu == '13':
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/Stress.py')
+        # os.system('python3 $HOME/git/DracOS_VENOMIZER/Stress.py')
+        Stress.Stress()
     # elif menu == '14':
     #     WirelessAttack()
     elif menu == '15':
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/Maintaining.py')
+        # os.system('python3 $HOME/git/DracOS_VENOMIZER/Maintaining.py')
+        Maintaining.Maintining()
     elif menu == '16':
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/Forensic.py')
+        # os.system('python3 $HOME/git/DracOS_VENOMIZER/Forensic.py')
+        Forensic.Forensics()
     elif menu == '17':
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/reverse.py')
+        # os.system('python3 $HOME/git/DracOS_VENOMIZER/reverse.py')
+        reverse.Reverse()
     # elif menu == '18':
     #     MalwareAnalysis()
     # elif menu == '19':
