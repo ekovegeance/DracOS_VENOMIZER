@@ -1,4 +1,4 @@
-#! usr/share/bin/python3
+#! /usr/share/bin/python3
 #! -*- coding: utf-8 -*-
 #! PasswordAttack.py
 import os
@@ -86,7 +86,7 @@ def MaintiningF():
         # Call function
         Winexe()
     elif menu == "0":
-        os.system("python3 $HOME/git/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
+        os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # //usr/bin/
     elif menu == "00":
         exit()
 
@@ -98,7 +98,7 @@ def back():
 #Function
 #Cryptcat
 def Cryptcat():
-    if os.path.isfile("usr/bin/cryptcat"):
+    if os.path.isfile("/usr/bin/cryptcat"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -115,7 +115,7 @@ def Cryptcat():
 
 #Cymothoa
 def Cymothoa():
-    if os.path.isfile("usr/bin/cymothoa"):
+    if os.path.isfile("/usr/bin/cymothoa"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -132,7 +132,7 @@ def Cymothoa():
 
 #Dbd
 def Dbd():
-    if os.path.isfile("usr/bin/dbd"):
+    if os.path.isfile("/usr/bin/dbd"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -149,7 +149,7 @@ def Dbd():
 
 #Dns2tcp
 def Dns2tcp():
-    if os.path.isfile("usr/bin/dns2tcp"):
+    if os.path.isfile("/usr/bin/dns2tcp"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -166,7 +166,7 @@ def Dns2tcp():
     
 #HTTPTunnel
 def HTTPTunnel():
-    if os.path.isfile("usr/bin/http-tunnel"):
+    if os.path.isfile("/usr/bin/http-tunnel"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -183,7 +183,7 @@ def HTTPTunnel():
 
 #Intersect
 def Intersect():
-    if os.path.isfile("usr/bin/intersect"):
+    if os.path.isfile("/usr/bin/intersect"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -200,7 +200,7 @@ def Intersect():
 
 #Nishang
 def Nishang():
-    if os.path.isfile("usr/bin/nishang"):
+    if os.path.isfile("/usr/bin/nishang"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -217,7 +217,7 @@ def Nishang():
 
 #Polenum
 def Polenum():
-    if os.path.isfile("usr/bin/polenum"):
+    if os.path.isfile("/usr/bin/polenum"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -234,7 +234,7 @@ def Polenum():
 
 #PowerSploit
 def PowerSploit():
-    if os.path.isfile("usr/bin/powersploit"):
+    if os.path.isfile("/usr/bin/powersploit"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -251,7 +251,7 @@ def PowerSploit():
 
 #Pwnat
 def Pwnat():
-    if os.path.isfile("usr/bin/pwnat"):
+    if os.path.isfile("/usr/bin/pwnat"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -268,7 +268,7 @@ def Pwnat():
 
 #RidEnum
 def RidEnum():
-    if os.path.isfile("usr/bin/ridenum"):
+    if os.path.isfile("/usr/bin/ridenum"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -285,7 +285,7 @@ def RidEnum():
 
 #Sbd
 def Sbd():
-    if os.path.isfile("usr/bin/sbd"):
+    if os.path.isfile("/usr/bin/sbd"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -302,7 +302,7 @@ def Sbd():
 
 #Shellter
 def Shellter():
-    if os.path.isfile("usr/bin/shellter"):
+    if os.path.isfile("/usr/bin/shellter"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -319,7 +319,7 @@ def Shellter():
 
 #U3-Pwn
 def U3Pwn():
-    if os.path.isfile("usr/bin/u3-pwn"):
+    if os.path.isfile("/usr/bin/u3-pwn"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -336,7 +336,7 @@ def U3Pwn():
 
 #Webshells
 def Webshells():
-    if os.path.isfile("usr/bin/webshells"):
+    if os.path.isfile("/usr/bin/webshells"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -353,7 +353,7 @@ def Webshells():
 
 #Weevely
 def Weevely():
-    if os.path.isfile("usr/bin/weevely"):
+    if os.path.isfile("/usr/bin/weevely"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -370,7 +370,7 @@ def Weevely():
 
 #Winexe
 def Winexe():
-    if os.path.isfile("usr/bin/winexe"):
+    if os.path.isfile("/usr/bin/winexe"):
         os.system("clear")
         print(B("Tools Available"))
         input()

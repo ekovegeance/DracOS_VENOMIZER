@@ -1,4 +1,4 @@
-#! usr/share/bin/python3
+#! /usr/share/bin/python3
 #! -*- coding: utf-8 -*-
 #! PasswordAttack.py
 import os
@@ -110,7 +110,7 @@ def Forensics():
         # Call function
         Xplico()
     elif menu == "0":
-        os.system("python3 $HOME/git/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
+        os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # //usr/bin/
     elif menu == "00":
         exit()
 
@@ -123,7 +123,7 @@ def back():
 #Function
 #Binwalk
 def Binwalk():
-    if os.path.isfile("usr/bin/binwalk"):
+    if os.path.isfile("/usr/bin/binwalk"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -140,7 +140,7 @@ def Binwalk():
 
 #Bulk Extractor
 def BulkExtractor():
-    if os.path.isfile("usr/bin/bulk_extractor"):
+    if os.path.isfile("/usr/bin/bulk_extractor"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -157,7 +157,7 @@ def BulkExtractor():
 
 #Capstone
 def Capstone():
-    if os.path.isfile("usr/bin/capstone"):
+    if os.path.isfile("/usr/bin/capstone"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -174,7 +174,7 @@ def Capstone():
 
 #Chntpw
 def Chntpw():
-    if os.path.isfile("usr/bin/chntpw"):
+    if os.path.isfile("/usr/bin/chntpw"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -191,7 +191,7 @@ def Chntpw():
 
 #Cuckoo
 def Cuckoo():
-    if os.path.isfile("usr/bin/cuckoo"):
+    if os.path.isfile("/usr/bin/cuckoo"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -208,7 +208,7 @@ def Cuckoo():
 
 #Dc3dd
 def Dc3dd():
-    if os.path.isfile("usr/bin/dc3dd"):
+    if os.path.isfile("/usr/bin/dc3dd"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -225,7 +225,7 @@ def Dc3dd():
 
 #DDrescue
 def DDrescue():
-    if os.path.isfile("usr/bin/ddrescue"):
+    if os.path.isfile("/usr/bin/ddrescue"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -242,7 +242,7 @@ def DDrescue():
 
 #DFF
 def DFF():
-    if os.path.isfile("usr/bin/dff"):
+    if os.path.isfile("/usr/bin/dff"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -259,7 +259,7 @@ def DFF():
 
 #DiStorm3
 def DiStorm3():
-    if os.path.isfile("usr/bin/distorm3"):
+    if os.path.isfile("/usr/bin/distorm3"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -276,7 +276,7 @@ def DiStorm3():
 
 #Dumpzilla
 def Dumpzilla():
-    if os.path.isfile("usr/bin/dumpzilla"):
+    if os.path.isfile("/usr/bin/dumpzilla"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -293,7 +293,7 @@ def Dumpzilla():
 
 #Extundelete
 def Extundelete():
-    if os.path.isfile("usr/bin/extundelete"):
+    if os.path.isfile("/usr/bin/extundelete"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -310,7 +310,7 @@ def Extundelete():
 
 #Foremost
 def Foremost():
-    if os.path.isfile("usr/bin/foremost"):
+    if os.path.isfile("/usr/bin/foremost"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -327,7 +327,7 @@ def Foremost():
 
 #Galleta
 def Galleta():
-    if os.path.isfile("usr/bin/galleta"):
+    if os.path.isfile("/usr/bin/galleta"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -343,7 +343,7 @@ def Galleta():
 
 #Guymager
 def Guymager():
-    if os.path.isfile("usr/bin/guymager"):
+    if os.path.isfile("/usr/bin/guymager"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -360,7 +360,7 @@ def Guymager():
 
 #IPhone Backup Analyzer
 def IPhone():
-    if os.path.isfile("usr/bin/iphonebackupanalyzer"):
+    if os.path.isfile("/usr/bin/iphonebackupanalyzer"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -377,7 +377,7 @@ def IPhone():
 
 #P0f
 def P0f():
-    if os.path.isfile("usr/bin/p0f"):
+    if os.path.isfile("/usr/bin/p0f"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -394,7 +394,7 @@ def P0f():
 
 #Pdf-parser
 def Pdf():
-    if os.path.isfile("usr/bin/pdf-parser"):
+    if os.path.isfile("/usr/bin/pdf-parser"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -411,7 +411,7 @@ def Pdf():
 
 #Pdfid
 def Pdfid():
-    if os.path.isfile("usr/bin/pdfid"):
+    if os.path.isfile("/usr/bin/pdfid"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -428,7 +428,7 @@ def Pdfid():
 
 #Pdgmail
 def Pdgmail():
-    if os.path.isfile("usr/bin/pdgmail"):
+    if os.path.isfile("/usr/bin/pdgmail"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -445,7 +445,7 @@ def Pdgmail():
 
 #Peepdf
 def Peepdf():
-    if os.path.isfile("usr/bin/peepdf"):
+    if os.path.isfile("/usr/bin/peepdf"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -462,7 +462,7 @@ def Peepdf():
 
 #RegRipper
 def Regripper():
-    if os.path.isfile("usr/bin/regripper"):
+    if os.path.isfile("/usr/bin/regripper"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -479,7 +479,7 @@ def Regripper():
 
 #Volatility
 def Volatility():
-    if os.path.isfile("usr/bin/volatility"):
+    if os.path.isfile("/usr/bin/volatility"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -496,7 +496,7 @@ def Volatility():
 
 #Xplico
 def Xplico():
-    if os.path.isfile("usr/bin/xplico"):
+    if os.path.isfile("/usr/bin/xplico"):
         os.system("clear")
         print(B("Tools Available"))
         input()

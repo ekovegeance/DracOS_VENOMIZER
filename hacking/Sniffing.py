@@ -1,4 +1,4 @@
-#! usr/share/bin/python3
+#! /usr/share/bin/python3
 #! -*- coding: utf-8 -*-
 #! Stress.py
 import os
@@ -151,7 +151,7 @@ def Sniffing():
         # Call function
         zaproxy()
     elif menu == "0":
-        os.system("python3 $HOME/git/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
+        os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # //usr/bin/
     elif menu == "00":
         exit()
 
@@ -163,7 +163,7 @@ def back():
 #function
 #Bettercap
 def Bettercap():
-    if os.path.isfile("usr/bin/bettercap"):
+    if os.path.isfile("/usr/bin/bettercap"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -180,7 +180,7 @@ def Bettercap():
 
 #Brup Suite
 def Brup_Suite():
-    if os.path.isfile("usr/bin/brup"):
+    if os.path.isfile("/usr/bin/brup"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -197,7 +197,7 @@ def Brup_Suite():
 
 #DNSChef
 def DNSChef():
-    if os.path.isfile("usr/bin/dnschef"):
+    if os.path.isfile("/usr/bin/dnschef"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -214,7 +214,7 @@ def DNSChef():
 
 #Fiked
 def Fiked():
-    if os.path.isfile("usr/bin/fiked"):
+    if os.path.isfile("/usr/bin/fiked"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -231,7 +231,7 @@ def Fiked():
 
 #Hamster-sidejack
 def Hamster_sidejack():
-    if os.path.isfile("usr/bin/hamster-sidejack"):
+    if os.path.isfile("/usr/bin/hamster-sidejack"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -248,7 +248,7 @@ def Hamster_sidejack():
 
 #HexInject
 def HexInject():
-    if os.path.isfile("usr/bin/hexinject"):
+    if os.path.isfile("/usr/bin/hexinject"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -265,7 +265,7 @@ def HexInject():
 
 #IaxFlood
 def IaxFlood():
-    if os.path.isfile("usr/bin/iaxflood"):
+    if os.path.isfile("/usr/bin/iaxflood"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -282,7 +282,7 @@ def IaxFlood():
     
 #Inviteflood
 def Inviteflood():
-    if os.path.isfile("usr/bin/inviteflood"):
+    if os.path.isfile("/usr/bin/inviteflood"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -299,7 +299,7 @@ def Inviteflood():
 
 #iSMTP
 def iSMTP():
-    if os.path.isfile("usr/bin/ismtp"):
+    if os.path.isfile("/usr/bin/ismtp"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -316,7 +316,7 @@ def iSMTP():
 
 #isr-evilgrade
 def isr_evilgrade():
-    if os.path.isfile("usr/bin/isr-evilgrade"):
+    if os.path.isfile("/usr/bin/isr-evilgrade"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -333,7 +333,7 @@ def isr_evilgrade():
 
 #Mitmproxy
 def Mitmproxy():
-    if os.path.isfile("usr/bin/mitmproxy"):
+    if os.path.isfile("/usr/bin/mitmproxy"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -350,7 +350,7 @@ def Mitmproxy():
 
 #ohrwurm
 def ohrwurm():
-    if os.path.isfile("usr/bin/ohrwurm"):
+    if os.path.isfile("/usr/bin/ohrwurm"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -367,7 +367,7 @@ def ohrwurm():
 
 #protos-sip
 def protos_sip():
-    if os.path.isfile("usr/bin/protos-sip"):
+    if os.path.isfile("/usr/bin/protos-sip"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -384,7 +384,7 @@ def protos_sip():
 
 #rebind
 def rebind():
-    if os.path.isfile("usr/bin/rebind"):
+    if os.path.isfile("/usr/bin/rebind"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -401,7 +401,7 @@ def rebind():
 
 #responder
 def responder():
-    if os.path.isfile("usr/bin/responder"):
+    if os.path.isfile("/usr/bin/responder"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -418,7 +418,7 @@ def responder():
 
 #rtpbreak
 def rtpbreak():
-    if os.path.isfile("usr/bin/rtpbreak"):
+    if os.path.isfile("/usr/bin/rtpbreak"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -435,7 +435,7 @@ def rtpbreak():
 
 #rtpinsertsound
 def rtpinsertsound():
-    if os.path.isfile("usr/bin/rtpinsertsound"):
+    if os.path.isfile("/usr/bin/rtpinsertsound"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -452,7 +452,7 @@ def rtpinsertsound():
 
 #rtpmixsound
 def rtpmixsound():
-    if os.path.isfile("usr/bin/rtpmixsound"):
+    if os.path.isfile("/usr/bin/rtpmixsound"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -469,7 +469,7 @@ def rtpmixsound():
 
 #sctpscan
 def sctpscan():
-    if os.path.isfile("usr/bin/sctpscan"):
+    if os.path.isfile("/usr/bin/sctpscan"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -486,7 +486,7 @@ def sctpscan():
 
 #SIPArmyKnife
 def SIPArmyKnife():
-    if os.path.isfile("usr/bin/SIPArmyKnife"):
+    if os.path.isfile("/usr/bin/SIPArmyKnife"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -503,7 +503,7 @@ def SIPArmyKnife():
 
 #SIPp
 def SIPp():
-    if os.path.isfile("usr/bin/SIPp"):
+    if os.path.isfile("/usr/bin/SIPp"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -520,7 +520,7 @@ def SIPp():
 
 #SIPVicious
 def SIPVicious():
-    if os.path.isfile("usr/bin/SIPVicious"):
+    if os.path.isfile("/usr/bin/SIPVicious"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -537,7 +537,7 @@ def SIPVicious():
 
 #SniffJoke
 def SniffJoke():
-    if os.path.isfile("usr/bin/SniffJoke"):
+    if os.path.isfile("/usr/bin/SniffJoke"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -554,7 +554,7 @@ def SniffJoke():
 
 #SSLsplit
 def SSLsplit():
-    if os.path.isfile("usr/bin/sslsplit"):
+    if os.path.isfile("/usr/bin/sslsplit"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -571,7 +571,7 @@ def SSLsplit():
 
 #sslstrip
 def sslstrip():
-    if os.path.isfile("usr/bin/sslstrip"):
+    if os.path.isfile("/usr/bin/sslstrip"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -588,7 +588,7 @@ def sslstrip():
 
 #thc-ipv6
 def thc_ipv6():
-    if os.path.isfile("usr/bin/thc-ipv6"):
+    if os.path.isfile("/usr/bin/thc-ipv6"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -605,7 +605,7 @@ def thc_ipv6():
 
 #VoIPHopper
 def VoIPHopper():
-    if os.path.isfile("usr/bin/VoIPHopper"):
+    if os.path.isfile("/usr/bin/VoIPHopper"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -622,7 +622,7 @@ def VoIPHopper():
 
 #WebScarab
 def WebScarab():
-    if os.path.isfile("usr/bin/webscarab"):
+    if os.path.isfile("/usr/bin/webscarab"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -639,7 +639,7 @@ def WebScarab():
 
 #Wifi Honey
 def Wifi_Honey():
-    if os.path.isfile("usr/bin/wifi-honey"):
+    if os.path.isfile("/usr/bin/wifi-honey"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -656,7 +656,7 @@ def Wifi_Honey():
 
 #Wireshark
 def Wireshark():
-    if os.path.isfile("usr/bin/wireshark"):
+    if os.path.isfile("/usr/bin/wireshark"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -673,7 +673,7 @@ def Wireshark():
 
 #xspy
 def xspy():
-    if os.path.isfile("usr/bin/xspy"):
+    if os.path.isfile("/usr/bin/xspy"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -690,7 +690,7 @@ def xspy():
 
 #Yersinia
 def Yersinia():
-    if os.path.isfile("usr/bin/yersinia"):
+    if os.path.isfile("/usr/bin/yersinia"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -707,7 +707,7 @@ def Yersinia():
 
 #zaproxy 
 def zaproxy():
-    if os.path.isfile("usr/bin/zaproxy"):
+    if os.path.isfile("/usr/bin/zaproxy"):
         os.system("clear")
         print(B("Tools Available"))
         input()

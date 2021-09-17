@@ -20,12 +20,40 @@ def Report():
      """))
     print(R('00. exit'))
     menu = input(G("[")+R("DracOS")+G("]select> "))
-    # if menu == '1':
-
-    #elif menu == '0':
-    #    os.system('python3 $HOME/git/DracOS_VENOMIZER/venomizer.py')
-    #elif menu == '00':
-    #    exit()
+    if menu == '1':
+        # Call Function
+        CaseFile()
+    elif menu == '2':
+        # Call Function
+        cherrytree()
+    elif menu == '3':
+        # Call Function
+        CutyCapt()
+    elif menu == '4':
+        # Call Function
+        dos2unix()
+    elif menu == '5':
+        # Call Function
+        Dradis()
+    elif menu == '6':
+        # Call Function
+        MagicTree()
+    elif menu == '7':
+        # Call Function
+        Metagoofil()
+    elif menu == '8':
+        # Call Function
+        Nipper_ng()
+    elif menu == '9':
+        #Call Function
+        pipal()
+    elif menu == '10':
+        #Call Function
+        RDPY()
+    elif menu == '0':
+        os.system('python3 /usr/bin/DracOS_VENOMIZER/venomizer.py')
+    elif menu == '00':
+        exit()
 
 
 #Function

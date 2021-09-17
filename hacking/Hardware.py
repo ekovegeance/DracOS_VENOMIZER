@@ -1,4 +1,4 @@
-#! usr/share/bin/python3
+#! /usr/share/bin/python3
 #! -*- coding: utf-8 -*-
 #! PasswordAttack.py
 import os
@@ -42,7 +42,7 @@ def Hardware():
         # Call function
         Smalis()
     elif menu == "0":
-        os.system("python3 $HOME/git/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
+        os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # //usr/bin/
     elif menu == "00":
         exit()
 
@@ -54,7 +54,7 @@ def back():
 #Function
 #Android-sdk
 def Android_sdk():
-    if os.path.isfile("usr/bin/android-sdk"):
+    if os.path.isfile("/usr/bin/android-sdk"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -71,7 +71,7 @@ def Android_sdk():
 
 #Apktool
 def Apktool():
-    if os.path.isfile("usr/bin/apktool"):
+    if os.path.isfile("/usr/bin/apktool"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -88,7 +88,7 @@ def Apktool():
 
 #Arduino
 def Arduino():
-    if os.path.isfile("usr/bin/arduino"):
+    if os.path.isfile("/usr/bin/arduino"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -105,7 +105,7 @@ def Arduino():
 
 #Dex2jar
 def Dex2jar():
-    if os.path.isfile("usr/bin/dex2jar"):
+    if os.path.isfile("/usr/bin/dex2jar"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -122,7 +122,7 @@ def Dex2jar():
 
 #Sakis3G
 def Sakis3G():
-    if os.path.isfile("usr/bin/sakis3g"):
+    if os.path.isfile("/usr/bin/sakis3g"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -139,7 +139,7 @@ def Sakis3G():
 
 #Smalis
 def Smalis():
-    if os.path.isfile("usr/bin/smali"):
+    if os.path.isfile("/usr/bin/smali"):
         os.system("clear")
         print(B("Tools Available"))
         input()

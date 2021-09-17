@@ -1,4 +1,4 @@
-#! usr/share/bin/python3
+#! /usr/share/bin/python3
 #! -*- coding: utf-8 -*-
 #! PasswordAttack.py
 import os
@@ -175,7 +175,7 @@ def PassAtck():
         # Call function
         zaproxy()
     elif menu == "0":
-        os.system("python3 $HOME/git/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
+        os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # //usr/bin/
     elif menu == "00":
         exit()
 
@@ -184,7 +184,7 @@ def back():
 #Funciton
 #BruteSpray
 def BruteSpray():
-    if os.path.isfile("usr/bin/brutespray"):
+    if os.path.isfile("/usr/bin/brutespray"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -201,7 +201,7 @@ def BruteSpray():
 
 #Brup Suite
 def BrupSuite():
-    if os.path.isfile("usr/bin/brup"):
+    if os.path.isfile("/usr/bin/brup"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -218,7 +218,7 @@ def BrupSuite():
 
 #CeWL
 def CeWL():
-    if os.path.isfile("usr/bin/cewl"):
+    if os.path.isfile("/usr/bin/cewl"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -235,7 +235,7 @@ def CeWL():
 
 #chntpw
 def chntpw():
-    if os.path.isfile("usr/bin/chntpw"):
+    if os.path.isfile("/usr/bin/chntpw"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -252,7 +252,7 @@ def chntpw():
 
 #cisco-auditing-tool
 def cisco_auditing_tool():
-    if os.path.isfile("usr/bin/cisco-auditing-tool"):
+    if os.path.isfile("/usr/bin/cisco-auditing-tool"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -269,7 +269,7 @@ def cisco_auditing_tool():
 
 #CmosPwd
 def CmosPwd():
-    if os.path.isfile("usr/bin/cmos-pwd"):
+    if os.path.isfile("/usr/bin/cmos-pwd"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -286,7 +286,7 @@ def CmosPwd():
 
 #Creddump
 def Creddump():
-    if os.path.isfile("usr/bin/creddump"):
+    if os.path.isfile("/usr/bin/creddump"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -303,7 +303,7 @@ def Creddump():
 
 #Crowbar
 def Crowbar():
-    if os.path.isfile("usr/bin/crowbar"):
+    if os.path.isfile("/usr/bin/crowbar"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -320,7 +320,7 @@ def Crowbar():
 
 #Crunch
 def Crunch():
-    if os.path.isfile("usr/bin/crunch"):
+    if os.path.isfile("/usr/bin/crunch"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -337,7 +337,7 @@ def Crunch():
 
 #Findmyhash
 def Findmyhash():
-    if os.path.isfile("usr/bin/findmyhash"):
+    if os.path.isfile("/usr/bin/findmyhash"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -354,7 +354,7 @@ def Findmyhash():
 
 #Gpp-decrypt
 def Gpp_decrypt():
-    if os.path.isfile("usr/bin/gpp-decrypt"):
+    if os.path.isfile("/usr/bin/gpp-decrypt"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -371,7 +371,7 @@ def Gpp_decrypt():
 
 #Hash-identifier
 def Hash_identifier():
-    if os.path.isfile("usr/bin/hash-identifier"):
+    if os.path.isfile("/usr/bin/hash-identifier"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -387,7 +387,7 @@ def Hash_identifier():
 
 #Hashcat
 def Hashcat():
-    if os.path.isfile("usr/bin/hashcat"):
+    if os.path.isfile("/usr/bin/hashcat"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -404,7 +404,7 @@ def Hashcat():
 
 #HexorBase
 def HexorBase():
-    if os.path.isfile("usr/bin/hexorbase"):
+    if os.path.isfile("/usr/bin/hexorbase"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -421,7 +421,7 @@ def HexorBase():
 
 #THC-Hydra
 def THC_Hydra():
-    if os.path.isfile("usr/bin/hydra"):
+    if os.path.isfile("/usr/bin/hydra"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -438,7 +438,7 @@ def THC_Hydra():
 
 #John the Ripper
 def John_the_Ripper():
-    if os.path.isfile("usr/bin/john"):
+    if os.path.isfile("/usr/bin/john"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -455,7 +455,7 @@ def John_the_Ripper():
 
 #Johnny
 def Johnny():
-    if os.path.isfile("usr/bin/johnny"):
+    if os.path.isfile("/usr/bin/johnny"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -472,7 +472,7 @@ def Johnny():
 
 #keimpx
 def keimpx():
-    if os.path.isfile("usr/bin/keimpx"):
+    if os.path.isfile("/usr/bin/keimpx"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -489,7 +489,7 @@ def keimpx():
 
 #Maltego Teeth
 def Maltego_Teeth():
-    if os.path.isfile("usr/bin/maltego"):
+    if os.path.isfile("/usr/bin/maltego"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -506,7 +506,7 @@ def Maltego_Teeth():
 
 #Maskprocessor
 def Maskprocessor():
-    if os.path.isfile("usr/bin/maskprocessor"):
+    if os.path.isfile("/usr/bin/maskprocessor"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -523,7 +523,7 @@ def Maskprocessor():
 
 #Multiforcer
 def Multiforcer():
-    if os.path.isfile("usr/bin/multiforcer"):
+    if os.path.isfile("/usr/bin/multiforcer"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -540,7 +540,7 @@ def Multiforcer():
 
 #Ncrack
 def Ncrack():
-    if os.path.isfile("usr/bin/ncrack"):
+    if os.path.isfile("/usr/bin/ncrack"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -557,7 +557,7 @@ def Ncrack():
 
 #Oclgausscrack
 def Oclgausscrack():
-    if os.path.isfile("usr/bin/oclgausscrack"):
+    if os.path.isfile("/usr/bin/oclgausscrack"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -574,7 +574,7 @@ def Oclgausscrack():
 
 #Ophcrack
 def Ophcrack():
-    if os.path.isfile("usr/bin/ophcrack"):
+    if os.path.isfile("/usr/bin/ophcrack"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -591,7 +591,7 @@ def Ophcrack():
 
 #PACK
 def PACK():
-    if os.path.isfile("usr/bin/pack"):
+    if os.path.isfile("/usr/bin/pack"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -608,7 +608,7 @@ def PACK():
 
 #patator
 def Patator():
-    if os.path.isfile("usr/bin/patator"):
+    if os.path.isfile("/usr/bin/patator"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -625,7 +625,7 @@ def Patator():
 
 #Phrasendrescher
 def Phrasendrescher():
-    if os.path.isfile("usr/bin/phrasendrescher"):
+    if os.path.isfile("/usr/bin/phrasendrescher"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -642,7 +642,7 @@ def Phrasendrescher():
 
 #Polenum
 def Polenum():
-    if os.path.isfile("usr/bin/polenum"):
+    if os.path.isfile("/usr/bin/polenum"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -659,7 +659,7 @@ def Polenum():
 
 #RainbowCrack
 def RainbowCrack():
-    if os.path.isfile("usr/bin/rainbowcrack"):
+    if os.path.isfile("/usr/bin/rainbowcrack"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -676,7 +676,7 @@ def RainbowCrack():
 
 #Rcracki-mt
 def Rcracki_mt():
-    if os.path.isfile("usr/bin/rcracki-mt"):
+    if os.path.isfile("/usr/bin/rcracki-mt"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -693,7 +693,7 @@ def Rcracki_mt():
 
 #RSMangler
 def RSMangler():
-    if os.path.isfile("usr/bin/rsmangler"):
+    if os.path.isfile("/usr/bin/rsmangler"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -710,7 +710,7 @@ def RSMangler():
 
 #SecLists
 def SecLists():
-    if os.path.isfile("usr/bin/secLists"):
+    if os.path.isfile("/usr/bin/secLists"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -727,7 +727,7 @@ def SecLists():
 
 #SQLdict
 def SQLdict():
-    if os.path.isfile("usr/bin/sqldict"):
+    if os.path.isfile("/usr/bin/sqldict"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -744,7 +744,7 @@ def SQLdict():
 
 #Statsprocessor
 def Statsprocessor():
-    if os.path.isfile("usr/bin/statsprocessor"):
+    if os.path.isfile("/usr/bin/statsprocessor"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -761,7 +761,7 @@ def Statsprocessor():
 
 #THC-pptp-bruter
 def THC_pptp_bruter():
-    if os.path.isfile("usr/bin/thc-pptp-bruter"):
+    if os.path.isfile("/usr/bin/thc-pptp-bruter"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -778,7 +778,7 @@ def THC_pptp_bruter():
 
 #TrueCrack
 def TrueCrack():
-    if os.path.isfile("usr/bin/truecrack"):
+    if os.path.isfile("/usr/bin/truecrack"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -795,7 +795,7 @@ def TrueCrack():
     
 #WebScarab
 def WebScarab():
-    if os.path.isfile("usr/bin/webscarab"):
+    if os.path.isfile("/usr/bin/webscarab"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -812,7 +812,7 @@ def WebScarab():
 
 #Wordlists
 def Wordlists():
-    if os.path.isfile("usr/bin/wordlists"):
+    if os.path.isfile("/usr/bin/wordlists"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -829,7 +829,7 @@ def Wordlists():
 
 #zaproxy
 def zaproxy():
-    if os.path.isfile("usr/bin/zaproxy"):
+    if os.path.isfile("/usr/bin/zaproxy"):
         os.system("clear")
         print(B("Tools Available"))
         input()

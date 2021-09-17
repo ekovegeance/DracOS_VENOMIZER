@@ -175,7 +175,7 @@ def InfoGat():
         # Call function
         sslsplit()
     elif menu == "0":
-        os.system("python3 $HOME/git/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
+        os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
     elif menu == "00":
         exit()
 

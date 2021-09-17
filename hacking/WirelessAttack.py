@@ -226,7 +226,7 @@ def WireAttack():
         # Call Function
         wifite()      
     elif menu == '0':
-        os.system('python3 $HOME/git/DracOS_VENOMIZER/venomizer.py')
+        os.system('python3 /usr/bin/DracOS_VENOMIZER/venomizer.py')
     elif menu == '00':
         exit()
 
