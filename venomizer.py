@@ -91,7 +91,7 @@ def menu():
         else:
             back()
     elif menu == '99':
-        os.system('sudo git pull')
+        os.system('cd /usr/bin/DracOS_VENOMIZER/ && sudo git pull')
     elif menu == '1':
         hacking.InfoGat()
     elif menu == '2':
