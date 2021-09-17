@@ -10,7 +10,7 @@ import sys
 import Logo
 import os.path
 import os
-from install import install
+
 
 
 # if os.path.isfile('sudo /usr/local/lib/python3.7/dist-packages/termcolor.py'):
