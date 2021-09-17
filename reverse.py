@@ -71,7 +71,7 @@ def back():
 #Function
 #Apktool
 def Apktool():
-    if os.path.isfile("usr/bin/apktool"):
+    if os.path.isfile("/usr/bin/apktool") or os.path.isfile('/usr/share/apktool'):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -81,14 +81,17 @@ def Apktool():
             'xterm -T "☣ INSTALL Apktool ☣" -geometry 100x30 -e "sudo apt install apktool"'
         )
         os.system("clear")
-        print(B("Apktool Already Installed"))
+        if os.path.isfile("/usr/bin/apktool"):
+            print(B("Apktool Already Installed"))
+        else:
+            print(R("apktool Not Installed"))
         input()
         back()
     # end Apktool
 
 #Dex2jar
 def Dex2jar():
-    if os.path.isfile("usr/bin/dex2jar"):
+    if os.path.isfile("/usr/share/dex2jar"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -98,14 +101,17 @@ def Dex2jar():
             'xterm -T "☣ INSTALL Dex2jar ☣" -geometry 100x30 -e "sudo apt install dex2jar"'
         )
         os.system("clear")
-        print(B("Dex2jar Already Installed"))
+        if os.path.isfile("/usr/share/dex2jar"):
+            print(B("Dex2jar Already Installed"))
+        else:
+            print(R("dex2jar Not Installed"))
         input()
         back()
     # end Dex2jar
 
 #Edb-debugger
 def Edb_debugger():
-    if os.path.isfile("usr/bin/edb-debugger"):
+    if os.path.isfile("/usr/bin/edb"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -115,14 +121,17 @@ def Edb_debugger():
             'xterm -T "☣ INSTALL Edb-debugger ☣" -geometry 100x30 -e "sudo apt install edb-debugger"'
         )
         os.system("clear")
-        print(B("Edb-debugger Already Installed"))
+        if os.path.isfile('/usr/bin/edb'):
+            print(B("Edb-debugger Already Installed"))
+        else:
+            print(R('edb-debugger Not Installed'))
         input()
         back()
     # end Edb-debugger
 
 #Jad
 def Jad():
-    if os.path.isfile("usr/bin/jad"):
+    if os.path.isfile("/usr/bin/jad"):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -132,7 +141,10 @@ def Jad():
             'xterm -T "☣ INSTALL Jad ☣" -geometry 100x30 -e "sudo apt install jad"'
         )
         os.system("clear")
-        print(B("Jad Already Installed"))
+        if os.path.isfile('/usr/bin/jad'):
+            print(B("Jad Already Installed"))
+        else:
+            print(R('jad Not Installed'))
         input()
         back()
     # end Jad
@@ -149,7 +161,10 @@ def Javasnoop():
             'xterm -T "☣ INSTALL Javasnoop ☣" -geometry 100x30 -e "sudo apt install javasnoop"'
         )
         os.system("clear")
-        print(B("Javasnoop Already Installed"))
+        if os.path.isfile('usr/bin/javasnoop'):
+            print(B("Javasnoop Already Installed"))
+        else:
+            print(R('javasnoop Not Installed'))
         input()
         back()
     # end Javasnoop
@@ -166,7 +181,10 @@ def JD_GUI():
             'xterm -T "☣ INSTALL JD-GUI ☣" -geometry 100x30 -e "sudo apt install jd-gui"'
         )
         os.system("clear")
-        print(B("JD-GUI Already Installed"))
+        if os.path.isfile('usr/bin/jd-gui'):
+            print(B("JD-GUI Already Installed"))
+        else:
+            print(R('jd-gui Not Installed'))
         input()
         back()
     # end JD-GUI
@@ -183,7 +201,10 @@ def OllyDbg():
             'xterm -T "☣ INSTALL OllyDbg ☣" -geometry 100x30 -e "sudo apt install ollydbg"'
         )
         os.system("clear")
-        print(B("OllyDbg Already Installed"))
+        if os.path.isfile('usr/bin/ollydbg'):
+            print(B("ollydbg Already Installed"))
+        else:
+            print(R('ollydbg Not Installed'))
         input()
         back()
     # end OllyDbg
@@ -200,7 +221,10 @@ def Smali():
             'xterm -T "☣ INSTALL Smali ☣" -geometry 100x30 -e "sudo apt install smali"'
         )
         os.system("clear")
-        print(B("Smali Already Installed"))
+        if os.path.isfile('usr/bin/smali'):
+            print(B("Smali Already Installed"))
+        else:
+            print(R('smali Not Installed'))
         input()
         back()
     # end Smali
@@ -217,7 +241,10 @@ def Valgrind():
             'xterm -T "☣ INSTALL Valgrind ☣" -geometry 100x30 -e "sudo apt install valgrind"'
         )
         os.system("clear")
-        print(B("Valgrind Already Installed"))
+        if os.path.isfile('usr/bin/valgrind'):
+            print(B("Valgrind Already Installed"))
+        else:
+            print(R('Valgrind Not Installed'))
         input()
         back()
     # end Valgrind
