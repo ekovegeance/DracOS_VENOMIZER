@@ -94,7 +94,8 @@ def menu():
         os.system(
             'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin && sudo git pull"'
         )
-        print(B("Tools Already Update"))
+        print(B("Tools Updating"))
+        print(R("[ DONE ]"))
         input()
         back()
     elif menu == '1':
