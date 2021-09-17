@@ -1,5 +1,6 @@
 from .InformatingGathering import *
 from .VulnerabilityAssesment import *
+from .WirelessAttack import *
 from .Exploit import *
 from .WebApplications import *
 from .Stress import *

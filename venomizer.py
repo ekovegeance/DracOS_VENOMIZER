@@ -93,8 +93,8 @@ def menu():
         hacking.InfoGat()
     elif menu == '2':
         hacking.VulnAs()
-    #elif menu == '3':
-        #hacking.()    
+    elif menu == '3':
+        hacking.WireAttack()    
     elif menu == '4':        
         hacking.WebApp()
     elif menu == '5':
