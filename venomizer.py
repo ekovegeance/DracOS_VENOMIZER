@@ -91,9 +91,9 @@ def menu():
         else:
             back()
     elif menu == '99':
-        os.system('cd /usr/bin/DracOS_VENOMIZER/ && sudo git pull')
-        print("Tools Already to Update")
-        back()
+        os.system(
+            'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin && sudo git pull"'
+        )
     elif menu == '1':
         hacking.InfoGat()
     elif menu == '2':
