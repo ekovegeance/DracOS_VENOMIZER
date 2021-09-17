@@ -91,7 +91,7 @@ def menu():
         else:
             back()
     elif menu == '99':
-        os.system('git pull')
+        os.system('sudo git pull')
     elif menu == '1':
         hacking.InfoGat()
     elif menu == '2':
