@@ -79,7 +79,8 @@ def menu():
     print(c('11. Reverse Engineering', 'green'))
     print(c('12. Reporting Tools', 'green'))
     print(c('13. Hardware Hacking', 'green'))
-    print(c('0.  Update Tools', 'green'))
+    print(c('0.  Update Repository', 'green'))
+    print(c('99. Update tools Venomizer', 'green'))
     print(c('00. exit'))
     menu = input(DracOS)
     if menu == '0':
@@ -88,7 +89,9 @@ def menu():
                 os.system('sudo apt update')
                 back()
         else:
-            back()  
+            back()
+    elif menu == '99':
+        os.system('sudo git pull')
     elif menu == '1':
         hacking.InfoGat()
     elif menu == '2':
