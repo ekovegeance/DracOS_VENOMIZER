@@ -173,7 +173,10 @@ def Bettercap():
             'xterm -T "☣ INSTALL Bettercap ☣" -geometry 100x30 -e "sudo apt install bettercap"'
         )
         os.system("clear")
-        print(B("Bettercap Already Installed"))
+        if os.path.isfile("/usr/bin/bettercap"):
+            print(B("Bettercap Already Installed"))
+        else:
+            print(R("Bettercap Not Installed"))
         input()
         back()
     # end Bettercap
@@ -190,7 +193,10 @@ def Brup_Suite():
             'xterm -T "☣ INSTALL Brup Suite ☣" -geometry 100x30 -e "sudo apt install brup"'
         )
         os.system("clear")
-        print(B("Brup Suite Already Installed"))
+        if os.path.isfile("/usr/bin/brup"):
+            print(B("Brup Suite Already Installed"))
+        else:
+            print(R("Brup Suite Not Installed"))
         input()
         back()
     # end Brup_Suite
@@ -207,7 +213,10 @@ def DNSChef():
             'xterm -T "☣ INSTALL DNSChef ☣" -geometry 100x30 -e "sudo apt install dnschef"'
         )
         os.system("clear")
-        print(B("DNSChef Already Installed"))
+        if os.path.isfile("/usr/bin/dnschef"):
+            print(B("DNSChef Already Installed"))
+        else:
+            print(R("DNSChef Not Installed"))
         input()
         back()
     # end DNSChef
@@ -224,7 +233,10 @@ def Fiked():
             'xterm -T "☣ INSTALL Fiked ☣" -geometry 100x30 -e "sudo apt install fiked"'
         )
         os.system("clear")
-        print(B("Fiked Already Installed"))
+        if os.path.isfile("/usr/bin/fiked"):
+            print(B("Fiked Already Installed"))
+        else:
+            print(R("Fiked Not Installed"))
         input()
         back()
     # end Fiked
@@ -241,7 +253,10 @@ def Hamster_sidejack():
             'xterm -T "☣ INSTALL Hamster-sidejack ☣" -geometry 100x30 -e "sudo apt install hamster-sidejack"'
         )
         os.system("clear")
-        print(B("Hamster-sidejack Already Installed"))
+        if os.path.isfile("/usr/bin/hamster-sidejack"):
+            print(B("Hamster-sidejack Already Installed"))
+        else:
+            print(R("Hamster-sidejack Not Installed"))
         input()
         back()
     # end Hamster_sidejack
@@ -258,7 +273,10 @@ def HexInject():
             'xterm -T "☣ INSTALL HexInject ☣" -geometry 100x30 -e "sudo apt install hexinject"'
         )
         os.system("clear")
-        print(B("HexInject Already Installed"))
+        if os.path.isfile("/usr/bin/hexinject"):
+            print(B("HexInject Already Installed"))
+        else:
+            print(R("HexInject Not Installed"))
         input()
         back()
     # end HexInject
@@ -275,7 +293,10 @@ def IaxFlood():
             'xterm -T "☣ INSTALL IaxFlood ☣" -geometry 100x30 -e "sudo apt install iaxflood"'
         )
         os.system("clear")
-        print(B("IaxFlood Already Installed"))
+        if os.path.isfile("/usr/bin/iaxflood"):
+            print(B("IaxFlood Already Installed"))
+        else:
+            print(R("IaxFlood Not Installed"))
         input()
         back()
     # end IaxFlood
@@ -292,7 +313,10 @@ def Inviteflood():
             'xterm -T "☣ INSTALL Inviteflood ☣" -geometry 100x30 -e "sudo apt install inviteflood"'
         )
         os.system("clear")
-        print(B("Inviteflood Already Installed"))
+        if os.path.isfile("/usr/bin/inviteflood"):
+            print(B("Inviteflood Already Installed"))
+        else:
+            print(R("Inviteflood Not Installed"))
         input()
         back()
     # end Inviteflood
@@ -309,7 +333,10 @@ def iSMTP():
             'xterm -T "☣ INSTALL iSMTP ☣" -geometry 100x30 -e "sudo apt install ismtp"'
         )
         os.system("clear")
-        print(B("iSMTP Already Installed"))
+        if os.path.isfile("/usr/bin/ismtp"):
+            print(B("iSMTP Already Installed"))
+        else:
+            print(R("iSMTP Not Installed"))
         input()
         back()
     # end iSMTP
@@ -326,7 +353,10 @@ def isr_evilgrade():
             'xterm -T "☣ INSTALL isr-evilgrade ☣" -geometry 100x30 -e "sudo apt install isr-evilgrade"'
         )
         os.system("clear")
-        print(B("isr-evilgrade Already Installed"))
+        if os.path.isfile("/usr/bin/isr-evilgrade"):
+            print(B("isr-evilgrade Already Installed"))
+        else:
+            print(R("isr-evilgrade Not Installed"))
         input()
         back()
     # end isr_evilgrade
@@ -343,7 +373,10 @@ def Mitmproxy():
             'xterm -T "☣ INSTALL Mitmproxy ☣" -geometry 100x30 -e "sudo apt install mitmproxy"'
         )
         os.system("clear")
-        print(B("Mitmproxy Already Installed"))
+        if os.path.isfile("/usr/bin/mitmproxy"):
+            print(B("Mitmproxy Already Installed"))
+        else:
+            print(R("Mitmproxy Not Installed"))
         input()
         
     # end Mitmproxy
@@ -360,7 +393,10 @@ def ohrwurm():
             'xterm -T "☣ INSTALL ohrwurm ☣" -geometry 100x30 -e "sudo apt install ohrwurm"'
         )
         os.system("clear")
-        print(B("ohrwurm Already Installed"))
+        if os.path.isfile("/usr/bin/ohrwurm"):
+            print(B("ohrwurm Already Installed"))
+        else:
+            print(R("ohrwurm Not Installed"))
         input()
         back()
     # end ohrwurm
@@ -377,7 +413,10 @@ def protos_sip():
             'xterm -T "☣ INSTALL protos-sip ☣" -geometry 100x30 -e "sudo apt install protos-sip"'
         )
         os.system("clear")
-        print(B("protos-sip Already Installed"))
+        if os.path.isfile("/usr/bin/protos-sip"):
+            print(B("protos-sip Already Installed"))
+        else:
+            print(R("protos-sip Not Installed"))
         input()
         back()
     # end protos_sip
@@ -394,7 +433,10 @@ def rebind():
             'xterm -T "☣ INSTALL rebind ☣" -geometry 100x30 -e "sudo apt install rebind"'
         )
         os.system("clear")
-        print(B("rebind Already Installed"))
+        if os.path.isfile("/usr/bin/rebind"):
+            print(B("rebind Already Installed"))
+        else:
+            print(R("rebind Not Installed"))
         input()
         back()
     # end rebind
@@ -411,7 +453,10 @@ def responder():
             'xterm -T "☣ INSTALL Responder ☣" -geometry 100x30 -e "sudo apt install responder"'
         )
         os.system("clear")
-        print(B("Responder Already Installed"))
+        if os.path.isfile("/usr/bin/responder"):
+            print(B("responder Already Installed"))
+        else:
+            print(R("responder Not Installed"))
         input()
         back()
     # end responder
@@ -428,7 +473,10 @@ def rtpbreak():
             'xterm -T "☣ INSTALL rtpbreak ☣" -geometry 100x30 -e "sudo apt install rtpbreak"'
         )
         os.system("clear")
-        print(B("rtpbreak Already Installed"))
+        if os.path.isfile("/usr/bin/rtpbreak"):
+            print(B("rtpbreak Already Installed"))
+        else:
+            print(R("rtpbreak Not Installed"))
         input()
         back()
     # end rtpbreak
@@ -445,7 +493,10 @@ def rtpinsertsound():
             'xterm -T "☣ INSTALL rtpinsertsound ☣" -geometry 100x30 -e "sudo apt install rtpinsertsound"'
         )
         os.system("clear")
-        print(B("rtpinsertsound Already Installed"))
+        if os.path.isfile("/usr/bin/rtpinsertsound"):
+            print(B("rtpinsertsound Already Installed"))
+        else:
+            print(R("rtpinsertsound Not Installed"))
         input()
         back()
     # end rtpinsertsound
@@ -462,7 +513,10 @@ def rtpmixsound():
             'xterm -T "☣ INSTALL rtpmixsound ☣" -geometry 100x30 -e "sudo apt install rtpmixsound"'
         )
         os.system("clear")
-        print(B("rtpmixsound Already Installed"))
+        if os.path.isfile("/usr/bin/rtpmixsound"):
+            print(B("rtpmixsound Already Installed"))
+        else:
+            print(R("rtpmixsound Not Installed"))
         input()
         back()
     # end rtpmixsound
@@ -479,7 +533,10 @@ def sctpscan():
             'xterm -T "☣ INSTALL sctpscan ☣" -geometry 100x30 -e "sudo apt install sctpscan"'
         )
         os.system("clear")
-        print(B("sctpscan Already Installed"))
+        if os.path.isfile("/usr/bin/sctpscan"):
+            print(B("sctpscan Already Installed"))
+        else:
+            print(R("sctpscan Not Installed"))
         input()
         back()
     # end sctpscan
@@ -496,7 +553,10 @@ def SIPArmyKnife():
             'xterm -T "☣ INSTALL SIPArmyKnife ☣" -geometry 100x30 -e "sudo apt install siparmyknife"'
         )
         os.system("clear")
-        print(B("SIPArmyKnife Already Installed"))
+        if os.path.isfile("/usr/bin/SIPArmyKnife"):
+            print(B("SIPArmyKnife Already Installed"))
+        else:
+            print(R("SIPArmyKnife Not Installed"))
         input()
         back()
     # end SIPArmyKnife
@@ -513,7 +573,10 @@ def SIPp():
             'xterm -T "☣ INSTALL SIPp ☣" -geometry 100x30 -e "sudo apt install sipp"'
         )
         os.system("clear")
-        print(B("SIPp Already Installed"))
+        if os.path.isfile("/usr/bin/SIPp"):
+            print(B("SIPp Already Installed"))
+        else:
+            print(R("SIPp Not Installed"))
         input()
         back()
     # end SIPp
@@ -530,7 +593,10 @@ def SIPVicious():
             'xterm -T "☣ INSTALL SIPVicious ☣" -geometry 100x30 -e "sudo apt install sipvicious"'
         )
         os.system("clear")
-        print(B("SIPVicious Already Installed"))
+        if os.path.isfile("/usr/bin/SIPVicious"):
+            print(B("SIPVicious Already Installed"))
+        else:
+            print(R("SIPVicious Not Installed"))
         input()
         back()
     # end SIPVicious
@@ -547,7 +613,10 @@ def SniffJoke():
             'xterm -T "☣ INSTALL SniffJoke ☣" -geometry 100x30 -e "sudo apt install sniffjoke"'
         )
         os.system("clear")
-        print(B("SniffJoke Already Installed"))
+        if os.path.isfile("/usr/bin/SniffJoke"):
+            print(B("SniffJoke Already Installed"))
+        else:
+            print(R("SniffJoke Not Installed"))
         input()
         back()
     # end SniffJoke
@@ -564,7 +633,10 @@ def SSLsplit():
             'xterm -T "☣ INSTALL SSLsplit ☣" -geometry 100x30 -e "sudo apt install sslsplit"'
         )
         os.system("clear")
-        print(B("sslsplit Already Installed"))
+        if os.path.isfile("/usr/bin/sslsplit"):
+            print(B("sslsplit Already Installed"))
+        else:
+            print(R("sslsplit Not Installed"))
         input()
         back()
     # end sslsplit
@@ -581,7 +653,10 @@ def sslstrip():
             'xterm -T "☣ INSTALL sslstrip ☣" -geometry 100x30 -e "sudo apt install sslstrip"'
         )
         os.system("clear")
-        print(B("sslstrip Already Installed"))
+        if os.path.isfile("/usr/bin/sslstrip"):
+            print(B("sslstrip Already Installed"))
+        else:
+            print(R("sslstrip Not Installed"))
         input()
         back()
     # end sslstrip
@@ -598,7 +673,10 @@ def thc_ipv6():
             'xterm -T "☣ INSTALL thc-ipv6 ☣" -geometry 100x30 -e "sudo apt install thc-ipv6"'
         )
         os.system("clear")
-        print(B("thc-ipv6 Already Installed"))
+        if os.path.isfile("/usr/bin/thc-ipv6"):
+            print(B("thc-ipv6 Already Installed"))
+        else:
+            print(R("thc-ipv6 Not Installed"))
         input()
         back()
     # end thc-ipv6
@@ -615,7 +693,10 @@ def VoIPHopper():
             'xterm -T "☣ INSTALL VoIPHopper ☣" -geometry 100x30 -e "sudo apt install voiphopper"'
         )
         os.system("clear")
-        print(B("VoIPHopper Already Installed"))
+        if os.path.isfile("/usr/bin/VoIPHopper"):
+            print(B("VoIPHopper Already Installed"))
+        else:
+            print(R("VoIPHopper Not Installed"))
         input()
         back()
     # end VoIPHopper
@@ -632,7 +713,10 @@ def WebScarab():
             'xterm -T "☣ INSTALL WebScarab ☣" -geometry 100x30 -e "sudo apt install webscarab"'
         )
         os.system("clear")
-        print(B("WebScarab Already Installed"))
+        if os.path.isfile("/usr/bin/webscarab"):
+            print(B("WebScarab Already Installed"))
+        else:
+            print(R("WebScarab Not Installed"))
         input()
         back()
     # end WebScarab
@@ -649,7 +733,10 @@ def Wifi_Honey():
             'xterm -T "☣ INSTALL Wifi Honey ☣" -geometry 100x30 -e "sudo apt install wifi-honey"'
         )
         os.system("clear")
-        print(B("Wifi Honey Already Installed"))
+        if os.path.isfile("/usr/bin/wifi-honey"):
+            print(B("Wifi Honey Already Installed"))
+        else:
+            print(R("Wifi Honey Not Installed"))
         input()
         back()
     # end Wifi Honey
@@ -666,7 +753,10 @@ def Wireshark():
             'xterm -T "☣ INSTALL Wireshark ☣" -geometry 100x30 -e "sudo apt install wireshark"'
         )
         os.system("clear")
-        print(B("Wireshark Already Installed"))
+        if os.path.isfile("/usr/bin/wireshark"):
+            print(B("Wireshark Already Installed"))
+        else:
+            print(R("Wireshark Not Installed"))
         input()
         back()
     # end Wireshark
@@ -683,7 +773,10 @@ def xspy():
             'xterm -T "☣ INSTALL xspy ☣" -geometry 100x30 -e "sudo apt install xspy"'
         )
         os.system("clear")
-        print(B("xspy Already Installed"))
+        if os.path.isfile("/usr/bin/xspy"):
+            print(B("xspy Already Installed"))
+        else:
+            print(R("xspy Not Installed"))
         input()
         back()
     # end xspy
@@ -700,7 +793,10 @@ def Yersinia():
             'xterm -T "☣ INSTALL Yersinia ☣" -geometry 100x30 -e "sudo apt install yersinia"'
         )
         os.system("clear")
-        print(B("Yersinia Already Installed"))
+        if os.path.isfile("/usr/bin/yersinia"):
+            print(B("Yersinia Already Installed"))
+        else:
+            print(R("Yersinia Not Installed"))
         input()
         back()
     # end Yersinia
@@ -717,7 +813,10 @@ def zaproxy():
             'xterm -T "☣ INSTALL zaproxy ☣" -geometry 100x30 -e "sudo apt install zaproxy"'
         )
         os.system("clear")
-        print(B("zaproxy Already Installed"))
+        if os.path.isfile("/usr/bin/zaproxy"):
+            print(B("zaproxy Already Installed"))
+        else:
+            print(R("zaproxy Not Installed"))
         input()
         back()
     # end zaproxy

@@ -194,10 +194,13 @@ def BruteSpray():
             'xterm -T "☣ INSTALL BruteSpray ☣" -geometry 100x30 -e "sudo apt install brutespray"'
         )
         os.system("clear")
-        print(B("BruteSpray Already Installed"))
+        if os.path.isfile("/usr/bin/brutespray"):
+            print(B("brutespray Already Installed"))
+        else:
+            print(R("BruteSpray Not Installed"))
         input()
         back()
-    # end BruteSpray
+        # end BruteSpray
 
 #Brup Suite
 def BrupSuite():
@@ -211,7 +214,10 @@ def BrupSuite():
             'xterm -T "☣ INSTALL Brup Suite ☣" -geometry 100x30 -e "sudo apt install burpsuite"'
         )
         os.system("clear")
-        print(B("Brup Suite Already Installed"))
+        if os.path.isfile("/usr/bin/brup"):
+            print(B("Brup Suite Already Installed"))
+        else:
+            print(R("Brup Suite Not Installed"))
         input()
         back()
     # end BrupSuite
@@ -228,7 +234,10 @@ def CeWL():
             'xterm -T "☣ INSTALL CeWL ☣" -geometry 100x30 -e "sudo apt install cewl"'
         )
         os.system("clear")
-        print(B("CeWL Already Installed"))
+        if os.path.isfile("/usr/bin/cewl"):
+            print(B("CeWL Already Installed"))
+        else:
+            print(R("CeWL Not Installed"))
         input()
         back()
     # end CeWL
@@ -245,7 +254,10 @@ def chntpw():
             'xterm -T "☣ INSTALL chntpw ☣" -geometry 100x30 -e "sudo apt install chntpw"'
         )
         os.system("clear")
-        print(B("chntpw Already Installed"))
+        if os.path.isfile("/usr/bin/chntpw"):
+            print(B("chntpw Already Installed"))
+        else:
+            print(R("chntpw Not Installed"))
         input()
         back()
     # end chntpw
@@ -262,7 +274,10 @@ def cisco_auditing_tool():
             'xterm -T "☣ INSTALL cisco-auditing-tool ☣" -geometry 100x30 -e "sudo apt install cisco-auditing-tool"'
         )
         os.system("clear")
-        print(B("cisco-auditing-tool Already Installed"))
+        if os.path.isfile("/usr/bin/cisco-auditing-tool"):
+            print(B("cisco-auditing-tool Already Installed"))
+        else:
+            print(R("cisco-auditing-tool Not Installed"))
         input()
         back()
     # end cisco-auditing-tool
@@ -279,7 +294,10 @@ def CmosPwd():
             'xterm -T "☣ INSTALL CmosPwd ☣" -geometry 100x30 -e "sudo apt install cmos-pwd"'
         )
         os.system("clear")
-        print(B("CmosPwd Already Installed"))
+        if os.path.isfile("/usr/bin/cmos-pwd"):
+            print(B("CmosPwd Already Installed"))
+        else:
+            print(R("CmosPwd Not Installed"))
         input()
         back()
     # end CmosPwd
@@ -296,7 +314,10 @@ def Creddump():
             'xterm -T "☣ INSTALL Creddump ☣" -geometry 100x30 -e "sudo apt install creddump"'
         )
         os.system("clear")
-        print(B("Creddump Already Installed"))
+        if os.path.isfile("/usr/bin/creddump"):
+            print(B("Creddump Already Installed"))
+        else:
+            print(R("Creddump Not Installed"))
         input()
         back()
     # end Creddump
@@ -313,7 +334,10 @@ def Crowbar():
             'xterm -T "☣ INSTALL Crowbar ☣" -geometry 100x30 -e "sudo apt install crowbar"'
         )
         os.system("clear")
-        print(B("Crowbar Already Installed"))
+        if os.path.isfile("/usr/bin/crowbar"):
+            print(B("Crowbar Already Installed"))
+        else:
+            print(R("Crowbar Not Installed"))
         input()
         back()
     # end Crowbar
@@ -330,7 +354,10 @@ def Crunch():
             'xterm -T "☣ INSTALL Crunch ☣" -geometry 100x30 -e "sudo apt install crunch"'
         )
         os.system("clear")
-        print(B("Crunch Already Installed"))
+        if os.path.isfile("/usr/bin/crunch"):
+            print(B("Crunch Already Installed"))
+        else:
+            print(R("Crunch Not Installed"))
         input()
         back()
     # end Crunch
@@ -347,7 +374,10 @@ def Findmyhash():
             'xterm -T "☣ INSTALL Findmyhash ☣" -geometry 100x30 -e "sudo apt install findmyhash"'
         )
         os.system("clear")
-        print(B("Findmyhash Already Installed"))
+        if os.path.isfile("/usr/bin/findmyhash"):
+            print(B("Findmyhash Already Installed"))
+        else:
+            print(R("Findmyhash Not Installed"))
         input()
         back()
     # end Findmyhash
@@ -364,7 +394,10 @@ def Gpp_decrypt():
             'xterm -T "☣ INSTALL Gpp-decrypt ☣" -geometry 100x30 -e "sudo apt install gpp-decrypt"'
         )
         os.system("clear")
-        print(B("Gpp-decrypt Already Installed"))
+        if os.path.isfile("/usr/bin/gpp-decrypt"):
+            print(B("Gpp-decrypt Already Installed"))
+        else:
+            print(R("Gpp-decrypt Not Installed"))
         input()
         back()
     # end Gpp-decrypt
@@ -380,7 +413,10 @@ def Hash_identifier():
             'xterm -T "☣ INSTALL Hash-identifier ☣" -geometry 100x30 -e "sudo apt install hash-identifier"'
         )
         os.system("clear")
-        print(B("Hash-identifier Already Installed"))
+        if os.path.isfile("/usr/bin/hash-identifier"):
+            print(B("Hash-identifier Already Installed"))
+        else:
+            print(R("Hash-identifier Not Installed"))
         input()
         back()
     # end Hash-identifier
@@ -397,7 +433,10 @@ def Hashcat():
             'xterm -T "☣ INSTALL Hashcat ☣" -geometry 100x30 -e "sudo apt install hashcat"'
         )
         os.system("clear")
-        print(B("Hashcat Already Installed"))
+        if os.path.isfile("/usr/bin/hashcat"):
+            print(B("Hashcat Already Installed"))
+        else:
+            print(R("Hashcat Not Installed"))
         input()
         back()
     # end Hashcat
@@ -414,7 +453,10 @@ def HexorBase():
             'xterm -T "☣ INSTALL HexorBase ☣" -geometry 100x30 -e "sudo apt install hexorbase"'
         )
         os.system("clear")
-        print(B("HexorBase Already Installed"))
+        if os.path.isfile("/usr/bin/hexorbase"):
+            print(B("HexorBase Already Installed"))
+        else:
+            print(R("HexorBase Not Installed"))
         input()
         back()
     # end HexorBase
@@ -431,7 +473,10 @@ def THC_Hydra():
             'xterm -T "☣ INSTALL THC-Hydra ☣" -geometry 100x30 -e "sudo apt install hydra"'
         )
         os.system("clear")
-        print(B("THC-Hydra Already Installed"))
+        if os.path.isfile("/usr/bin/hydra"):
+            print(B("THC-Hydra Already Installed"))
+        else:
+            print(R("THC-Hydra Not Installed"))
         input()
         back()
     # end THC-Hydra
@@ -448,7 +493,10 @@ def John_the_Ripper():
             'xterm -T "☣ INSTALL John the Ripper ☣" -geometry 100x30 -e "sudo apt install john"'
         )
         os.system("clear")
-        print(B("John the Ripper Already Installed"))
+        if os.path.isfile("/usr/bin/john"):
+            print(B("John the Ripper Already Installed"))
+        else:
+            print(R("John the Ripper Not Installed"))
         input()
         back()
     # end John the Ripper
@@ -465,7 +513,10 @@ def Johnny():
             'xterm -T "☣ INSTALL Johnny ☣" -geometry 100x30 -e "sudo apt install johnny"'
         )
         os.system("clear")
-        print(B("Johnny Already Installed"))
+        if os.path.isfile("/usr/bin/johnny"):
+            print(B("Johnny Already Installed"))
+        else:
+            print(R("Johnny Not Installed"))
         input()
         back()
     # end Johnny
@@ -482,7 +533,10 @@ def keimpx():
             'xterm -T "☣ INSTALL keimpx ☣" -geometry 100x30 -e "sudo apt install keimpx"'
         )
         os.system("clear")
-        print(B("keimpx Already Installed"))
+        if os.path.isfile("/usr/bin/keimpx"):
+            print(B("keimpx Already Installed"))
+        else:
+            print(R("keimpx Not Installed"))
         input()
         back()
     # end keimpx
@@ -499,7 +553,10 @@ def Maltego_Teeth():
             'xterm -T "☣ INSTALL Maltego Teeth ☣" -geometry 100x30 -e "sudo apt install maltego"'
         )
         os.system("clear")
-        print(B("Maltego Teeth Already Installed"))
+        if os.path.isfile("/usr/bin/maltego"):
+            print(B("Maltego Teeth Already Installed"))
+        else:
+            print(R("Maltego Teeth Not Installed"))
         input()
         back()
     # end Maltego Teeth
@@ -516,7 +573,10 @@ def Maskprocessor():
             'xterm -T "☣ INSTALL Maskprocessor ☣" -geometry 100x30 -e "sudo apt install maskprocessor"'
         )
         os.system("clear")
-        print(B("Maskprocessor Already Installed"))
+        if os.path.isfile("/usr/bin/maskprocessor"):
+            print(B("Maskprocessor Already Installed"))
+        else:
+            print(R("Maskprocessor Not Installed"))
         input()
         back()
     # end Maskprocessor
@@ -533,7 +593,10 @@ def Multiforcer():
             'xterm -T "☣ INSTALL Multiforcer ☣" -geometry 100x30 -e "sudo apt install multiforcer"'
         )
         os.system("clear")
-        print(B("Multiforcer Already Installed"))
+        if os.path.isfile("/usr/bin/multiforcer"):
+            print(B("Multiforcer Already Installed"))
+        else:
+            print(R("Multiforcer Not Installed"))
         input()
         back()
     # end Multiforcer
@@ -550,7 +613,10 @@ def Ncrack():
             'xterm -T "☣ INSTALL Ncrack ☣" -geometry 100x30 -e "sudo apt install ncrack"'
         )
         os.system("clear")
-        print(B("Ncrack Already Installed"))
+        if os.path.isfile("/usr/bin/ncrack"):
+            print(B("Ncrack Already Installed"))
+        else:
+            print(R("Ncrack Not Installed"))
         input()
         back()
     # end Ncrack
@@ -567,7 +633,10 @@ def Oclgausscrack():
             'xterm -T "☣ INSTALL Oclgausscrack ☣" -geometry 100x30 -e "sudo apt install oclgausscrack"'
         )
         os.system("clear")
-        print(B("Oclgausscrack Already Installed"))
+        if os.path.isfile("/usr/bin/oclgausscrack"):
+            print(B("Oclgausscrack Already Installed"))
+        else:
+            print(R("Oclgausscrack Not Installed"))
         input()
         back()
     # end Oclgausscrack
@@ -584,7 +653,10 @@ def Ophcrack():
             'xterm -T "☣ INSTALL Ophcrack ☣" -geometry 100x30 -e "sudo apt install ophcrack"'
         )
         os.system("clear")
-        print(B("Ophcrack Already Installed"))
+        if os.path.isfile("/usr/bin/ophcrack"):
+            print(B("Ophcrack Already Installed"))
+        else:
+            print(R("Ophcrack Not Installed"))
         input()
         back()
     # end Ophcrack
@@ -601,7 +673,10 @@ def PACK():
             'xterm -T "☣ INSTALL PACK ☣" -geometry 100x30 -e "sudo apt install pack"'
         )
         os.system("clear")
-        print(B("PACK Already Installed"))
+        if os.path.isfile("/usr/bin/pack"):
+            print(B("PACK Already Installed"))
+        else:
+            print(R("PACK Not Installed"))
         input()
         back()
     # end PACK
@@ -618,7 +693,10 @@ def Patator():
             'xterm -T "☣ INSTALL Patator ☣" -geometry 100x30 -e "sudo apt install patator"'
         )
         os.system("clear")
-        print(B("Patator Already Installed"))
+        if os.path.isfile("/usr/bin/patator"):
+            print(B("Patator Already Installed"))
+        else:
+            print(R("Patator Not Installed"))
         input()
         back()
     # end Patator
@@ -635,7 +713,10 @@ def Phrasendrescher():
             'xterm -T "☣ INSTALL Phrasendrescher ☣" -geometry 100x30 -e "sudo apt install phrasendrescher"'
         )
         os.system("clear")
-        print(B("Phrasendrescher Already Installed"))
+        if os.path.isfile("/usr/bin/phrasendrescher"):
+            print(B("Phrasendrescher Already Installed"))
+        else:
+            print(R("Phrasendrescher Not Installed"))
         input()
         back()
     # end Phrasendrescher
@@ -652,7 +733,10 @@ def Polenum():
             'xterm -T "☣ INSTALL Polenum ☣" -geometry 100x30 -e "sudo apt install polenum"'
         )
         os.system("clear")
-        print(B("Polenum Already Installed"))
+        if os.path.isfile("/usr/bin/polenum"):
+            print(B("Polenum Already Installed"))
+        else:
+            print(R("Polenum Not Installed"))
         input()
         back()
     # end Polenum
@@ -669,7 +753,10 @@ def RainbowCrack():
             'xterm -T "☣ INSTALL RainbowCrack ☣" -geometry 100x30 -e "sudo apt install rainbowcrack"'
         )
         os.system("clear")
-        print(B("RainbowCrack Already Installed"))
+        if os.path.isfile("/usr/bin/rainbowcrack"):
+            print(B("RainbowCrack Already Installed"))
+        else:
+            print(R("RainbowCrack Not Installed"))
         input()
         back()
     # end RainbowCrack
@@ -686,7 +773,10 @@ def Rcracki_mt():
             'xterm -T "☣ INSTALL Rcracki-mt ☣" -geometry 100x30 -e "sudo apt install rcracki-mt"'
         )
         os.system("clear")
-        print(B("Rcracki-mt Already Installed"))
+        if os.path.isfile("/usr/bin/rcracki-mt"):
+            print(B("Rcracki-mt Already Installed"))
+        else:
+            print(R("Rcracki-mt Not Installed"))
         input()
         back()
     # end Rcracki-mt
@@ -703,7 +793,10 @@ def RSMangler():
             'xterm -T "☣ INSTALL RSMangler ☣" -geometry 100x30 -e "sudo apt install rsmangler"'
         )
         os.system("clear")
-        print(B("RSMangler Already Installed"))
+        if os.path.isfile("/usr/bin/rsmangler"):
+            print(B("RSMangler Already Installed"))
+        else:
+            print(R("RSMangler Not Installed"))
         input()
         back()
     # end RSMangler
@@ -720,7 +813,10 @@ def SecLists():
             'xterm -T "☣ INSTALL SecLists ☣" -geometry 100x30 -e "sudo apt install secLists"'
         )
         os.system("clear")
-        print(B("SecLists Already Installed"))
+        if os.path.isfile("/usr/bin/secLists"):
+            print(B("SecLists Already Installed"))
+        else:
+            print(R("SecLists Not Installed"))
         input()
         back()
     # end SecLists
@@ -737,7 +833,10 @@ def SQLdict():
             'xterm -T "☣ INSTALL SQLdict ☣" -geometry 100x30 -e "sudo apt install sqldict"'
         )
         os.system("clear")
-        print(B("SQLdict Already Installed"))
+        if os.path.isfile("/usr/bin/sqldict"):
+            print(B("SQLdict Already Installed"))
+        else:
+            print(R("SQLdict Not Installed"))
         input()
         back()
     # end SQLdict
@@ -754,7 +853,10 @@ def Statsprocessor():
             'xterm -T "☣ INSTALL Statsprocessor ☣" -geometry 100x30 -e "sudo apt install statsprocessor"'
         )
         os.system("clear")
-        print(B("Statsprocessor Already Installed"))
+        if os.path.isfile("/usr/bin/statsprocessor"):
+            print(B("Statsprocessor Already Installed"))
+        else:
+            print(R("Statsprocessor Not Installed"))
         input()
         back()
     # end Statsprocessor
@@ -771,7 +873,10 @@ def THC_pptp_bruter():
             'xterm -T "☣ INSTALL THC-pptp-bruter ☣" -geometry 100x30 -e "sudo apt install thc-pptp-bruter"'
         )
         os.system("clear")
-        print(B("THC-pptp-bruter Already Installed"))
+        if os.path.isfile("/usr/bin/thc-pptp-bruter"):
+            print(B("THC-pptp-bruter Already Installed"))
+        else:
+            print(R("THC-pptp-bruter Not Installed"))
         input()
         back()
     # end THC-pptp-bruter
@@ -788,7 +893,10 @@ def TrueCrack():
             'xterm -T "☣ INSTALL TrueCrack ☣" -geometry 100x30 -e "sudo apt install truecrack"'
         )
         os.system("clear")
-        print(B("TrueCrack Already Installed"))
+        if os.path.isfile("/usr/bin/truecrack"):
+            print(B("TrueCrack Already Installed"))
+        else:
+            print(R("TrueCrack Not Installed"))
         input()
         back()
     # end TrueCrack
@@ -805,7 +913,10 @@ def WebScarab():
             'xterm -T "☣ INSTALL WebScarab ☣" -geometry 100x30 -e "sudo apt install webscarab"'
         )
         os.system("clear")
-        print(B("WebScarab Already Installed"))
+        if os.path.isfile("/usr/bin/webscarab"):
+            print(B("WebScarab Already Installed"))
+        else:
+            print(R("WebScarab Not Installed"))
         input()
         back()
     # end WebScarab
@@ -822,7 +933,10 @@ def Wordlists():
             'xterm -T "☣ INSTALL Wordlists ☣" -geometry 100x30 -e "sudo apt install wordlists"'
         )
         os.system("clear")
-        print(B("Wordlists Already Installed"))
+        if os.path.isfile("/usr/bin/wordlists"):
+            print(B("Wordlists Already Installed"))
+        else:
+            print(R("Wordlists Not Installed"))
         input()
         back()
     # end Wordlists
@@ -839,7 +953,10 @@ def zaproxy():
             'xterm -T "☣ INSTALL zaproxy ☣" -geometry 100x30 -e "sudo apt install zaproxy"'
         )
         os.system("clear")
-        print(B("zaproxy Already Installed"))
+        if os.path.isfile("/usr/bin/zaproxy"):
+            print(B("zaproxy Already Installed"))
+        else:
+            print(R("zaproxy Not Installed"))
         input()
         back()
     # end zaproxy        

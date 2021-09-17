@@ -108,10 +108,13 @@ def Cryptcat():
             'xterm -T "☣ INSTALL Cryptcat ☣" -geometry 100x30 -e "sudo apt install cryptcat"'
         )
         os.system("clear")
-        print(B("Cryptcat Already Installed"))
+        if os.path.isfile("/usr/bin/cryptcat"):
+            print(B("Cryptcat Already Installed"))
+        else:
+            print(R("Not Installing Cryptcat"))
         input()
         back()
-    # end Cryptcat
+        # end Cryptcat
 
 #Cymothoa
 def Cymothoa():
@@ -125,7 +128,10 @@ def Cymothoa():
             'xterm -T "☣ INSTALL Cymothoa ☣" -geometry 100x30 -e "sudo apt install cymothoa"'
         )
         os.system("clear")
-        print(B("Cymothoa Already Installed"))
+        if os.path.isfile("/usr/bin/cymothoa"):
+            print(B("Cymothoa Already Installed"))
+        else:
+            print(R("Not Installing Cymothoa"))
         input()
         back()
     # end Cymothoa
@@ -142,7 +148,10 @@ def Dbd():
             'xterm -T "☣ INSTALL Dbd ☣" -geometry 100x30 -e "sudo apt install dbd"'
         )
         os.system("clear")
-        print(B("Dbd Already Installed"))
+        if os.path.isfile("/usr/bin/dbd"):
+            print(B("Dbd Already Installed"))
+        else:
+            print(R("Not Installing Dbd"))
         input()
         back()
     # end Dbd
@@ -159,7 +168,10 @@ def Dns2tcp():
             'xterm -T "☣ INSTALL Dns2tcp ☣" -geometry 100x30 -e "sudo apt install dns2tcp"'
         )
         os.system("clear")
-        print(B("Dns2tcp Already Installed"))
+        if os.path.isfile("/usr/bin/dns2tcp"):
+            print(B("Dns2tcp Already Installed"))
+        else:    
+            print(R("Not Installing Dns2tcp"))
         input()
         back()
     # end Dns2tcp
@@ -176,7 +188,10 @@ def HTTPTunnel():
             'xterm -T "☣ INSTALL HTTPTunnel ☣" -geometry 100x30 -e "sudo apt install http-tunnel"'
         )
         os.system("clear")
-        print(B("HTTPTunnel Already Installed"))
+        if os.path.isfile("/usr/bin/http-tunnel"):
+            print(B("HTTPTunnel Already Installed"))
+        else:    
+            print(R("Not Installing HTTPTunnel"))
         input()
         back()
     # end HTTPTunnel
@@ -193,7 +208,10 @@ def Intersect():
             'xterm -T "☣ INSTALL Intersect ☣" -geometry 100x30 -e "sudo apt install intersect"'
         )
         os.system("clear")
-        print(B("Intersect Already Installed"))
+        if os.path.isfile("/usr/bin/intersect"):
+            print(B("Intersect Already Installed"))
+        else:    
+            print(R("Not Installing Intersect"))
         input()
         back()
     # end Intersect
@@ -210,7 +228,10 @@ def Nishang():
             'xterm -T "☣ INSTALL Nishang ☣" -geometry 100x30 -e "sudo apt install nishang"'
         )
         os.system("clear")
-        print(B("Nishang Already Installed"))
+        if os.path.isfile('/usr/bin/nishang'):
+            print(B("Nishang Already Installed"))
+        else:    
+            print(R("Not Installing Nishang"))
         input()
         back()
     # end Nishang
@@ -227,7 +248,10 @@ def Polenum():
             'xterm -T "☣ INSTALL Polenum ☣" -geometry 100x30 -e "sudo apt install polenum"'
         )
         os.system("clear")
-        print(B("Polenum Already Installed"))
+        if os.path.isfile("/usr/bin/polenum"):
+            print(B("Polenum Already Installed"))
+        else:    
+            print(R("Not Installing Polenum"))
         input()
         back()
     # end Polenum
@@ -244,7 +268,10 @@ def PowerSploit():
             'xterm -T "☣ INSTALL PowerSploit ☣" -geometry 100x30 -e "sudo apt install powersploit"'
         )
         os.system("clear")
-        print(B("PowerSploit Already Installed"))
+        if os.path.isfile("/usr/bin/powersploit"):
+            print(B("PowerSploit Already Installed"))
+        else:    
+            print(R("Not Installing PowerSploit"))
         input()
         back()
     # end PowerSploit
@@ -261,7 +288,10 @@ def Pwnat():
             'xterm -T "☣ INSTALL Pwnat ☣" -geometry 100x30 -e "sudo apt install pwnat"'
         )
         os.system("clear")
-        print(B("Pwnat Already Installed"))
+        if os.path.isfile("/usr/bin/pwnat"):
+            print(B("Pwnat Already Installed"))
+        else:    
+            print(R("Not Installing Pwnat"))
         input()
         back()
     # end Pwnat
@@ -278,7 +308,10 @@ def RidEnum():
             'xterm -T "☣ INSTALL RidEnum ☣" -geometry 100x30 -e "sudo apt install ridenum"'
         )
         os.system("clear")
-        print(B("RidEnum Already Installed"))
+        if os.path.isfile("/usr/bin/ridenum"):
+            print(B("RidEnum Already Installed"))
+        else:    
+            print(R("Not Installing RidEnum"))
         input()
         back()
     # end RidEnum
@@ -295,7 +328,10 @@ def Sbd():
             'xterm -T "☣ INSTALL Sbd ☣" -geometry 100x30 -e "sudo apt install sbd"'
         )
         os.system("clear")
-        print(B("Sbd Already Installed"))
+        if os.path.isfile("/usr/bin/sbd"):
+            print(B("Sbd Already Installed"))
+        else:    
+            print(R("Not Installing Sbd"))
         input()
         back()
     # end Sbd
@@ -312,7 +348,10 @@ def Shellter():
             'xterm -T "☣ INSTALL Shellter ☣" -geometry 100x30 -e "sudo apt install shellter"'
         )
         os.system("clear")
-        print(B("Shellter Already Installed"))
+        if os.path.isfile("/usr/bin/shellter"):
+            print(B("Shellter Already Installed"))
+        else:    
+            print(R("Not Installing Shellter"))
         input()
         back()
     # end Shellter
@@ -329,7 +368,10 @@ def U3Pwn():
             'xterm -T "☣ INSTALL U3-Pwn ☣" -geometry 100x30 -e "sudo apt install u3-pwn"'
         )
         os.system("clear")
-        print(B("U3-Pwn Already Installed"))
+        if os.path.isfile("/usr/bin/u3-pwn"):
+            print(B("U3-Pwn Already Installed"))
+        else:    
+            print(R("Not Installing U3-Pwn"))
         input()
         back()
     # end U3-Pwn
@@ -346,7 +388,10 @@ def Webshells():
             'xterm -T "☣ INSTALL Webshells ☣" -geometry 100x30 -e "sudo apt install webshells"'
         )
         os.system("clear")
-        print(B("Webshells Already Installed"))
+        if os.path.isfile("/usr/bin/webshells"):
+            print(B("Webshells Already Installed"))
+        else:    
+            print(R("Not Installing Webshells"))
         input()
         back()
     # end Webshells
@@ -363,7 +408,10 @@ def Weevely():
             'xterm -T "☣ INSTALL Weevely ☣" -geometry 100x30 -e "sudo apt install weevely"'
         )
         os.system("clear")
-        print(B("Weevely Already Installed"))
+        if os.path.isfile("/usr/bin/weevely"):
+            print(B("Weevely Already Installed"))
+        else:    
+            print(R("Not Installing Weevely"))
         input()
         back()
     # end Weevely
@@ -380,7 +428,10 @@ def Winexe():
             'xterm -T "☣ INSTALL Winexe ☣" -geometry 100x30 -e "sudo apt install winexe"'
         )
         os.system("clear")
-        print(B("Winexe Already Installed"))
+        if os.path.isfile("/usr/bin/winexe"):
+            print(B("Winexe Already Installed"))
+        else:    
+            print(R("Not Installing Winexe"))
         input()
         back()
     # end Winexe

@@ -94,7 +94,10 @@ def DHCPig():
             'xterm -T "☣ INSTALL DHCPig ☣" -geometry 100x30 -e "sudo apt install dhcpig"'
         )
         os.system("clear")
-        print(B("DHCPig Already Installed"))
+        if os.path.isfile("/usr/bin/dhcpig"):
+            print(B("DHCPig Already Installed"))
+        else:
+            print(R("DHCPig Not Installed"))
         input()
         back()
     # end DHCPig
@@ -111,7 +114,10 @@ def FunkLoad():
             'xterm -T "☣ INSTALL FunkLoad ☣" -geometry 100x30 -e "sudo apt install funkload"'
         )
         os.system("clear")
-        print(B("FunkLoad Already Installed"))
+        if os.path.isfile("/usr/bin/funkload"):
+            print(B("FunkLoad Already Installed"))
+        else:
+            print(R("FunkLoad Not Installed"))
         input()
         back()
     # end FunkLoad
@@ -128,7 +134,10 @@ def iaxflood():
             'xterm -T "☣ INSTALL iaxflood ☣" -geometry 100x30 -e "sudo apt install iaxflood"'
         )
         os.system("clear")
-        print(B("iaxflood Already Installed"))
+        if os.path.isfile("/usr/bin/iaxflood"):
+            print(B("iaxflood Already Installed"))
+        else:
+            print(R("iaxflood Not Installed"))
         input()
         back()
     # end iaxflood
@@ -145,7 +154,10 @@ def Inundator():
             'xterm -T "☣ INSTALL Inundator ☣" -geometry 100x30 -e "sudo apt install inundator"'
         )
         os.system("clear")
-        print(B("Inundator Already Installed"))
+        if os.path.isfile("/usr/bin/inundator"):
+            print(B("Inundator Already Installed"))
+        else:
+            print(R("Inundator Not Installed"))
         input()
         back()
     # end Inundator
@@ -162,7 +174,10 @@ def inviteflood():
             'xterm -T "☣ INSTALL inviteflood ☣" -geometry 100x30 -e "sudo apt install inviteflood"'
         )
         os.system("clear")
-        print(B("inviteflood Already Installed"))
+        if os.path.isfile("/usr/bin/inviteflood"):
+            print(B("inviteflood Already Installed"))
+        else:
+            print(R("inviteflood Not Installed"))
         input()
         back()
     # end inviteflood
@@ -179,7 +194,10 @@ def ipv6toolkit():
             'xterm -T "☣ INSTALL ipv6toolkit ☣" -geometry 100x30 -e "sudo apt install ipv6toolkit"'
         )
         os.system("clear")
-        print(B("ipv6toolkit Already Installed"))
+        if os.path.isfile("/usr/bin/ipv6toolkit"):
+            print(B("ipv6toolkit Already Installed"))
+        else:
+            print(R("ipv6toolkit Not Installed"))
         input()
         back()
     # end ipv6toolkit
@@ -196,7 +214,10 @@ def mdk3():
             'xterm -T "☣ INSTALL mdk3 ☣" -geometry 100x30 -e "sudo apt install mdk3"'
         )
         os.system("clear")
-        print(B("mdk3 Already Installed"))
+        if os.path.isfile("/usr/bin/mdk3"):
+            print(B("mdk3 Already Installed"))
+        else:
+            print(R("mdk3 Not Installed"))
         input()
         back()
     # end mdk3
@@ -213,7 +234,10 @@ def Reaver():
             'xterm -T "☣ INSTALL Reaver ☣" -geometry 100x30 -e "sudo apt install reaver"'
         )
         os.system("clear")
-        print(B("Reaver Already Installed"))
+        if os.path.isfile("/usr/bin/reaver"):
+            print(B("Reaver Already Installed"))
+        else:
+            print(R("Reaver Not Installed"))
         input()
         back()
     # end Reaver
@@ -230,7 +254,10 @@ def rtpflood():
             'xterm -T "☣ INSTALL rtpflood ☣" -geometry 100x30 -e "sudo apt install rtpflood"'
         )
         os.system("clear")
-        print(B("rtpflood Already Installed"))
+        if os.path.isfile("/usr/bin/rtpflood"):
+            print(B("rtpflood Already Installed"))
+        else:
+            print(R("rtpflood Not Installed"))
         input()
         back()
     # end rtpflood
@@ -247,7 +274,10 @@ def SlowHTTPTest():
             'xterm -T "☣ INSTALL SlowHTTPTest ☣" -geometry 100x30 -e "sudo apt install slowhttptest"'
         )
         os.system("clear")
-        print(B("SlowHTTPTest Already Installed"))
+        if os.path.isfile("/usr/bin/slowhttptest"):
+            print(B("SlowHTTPTest Already Installed"))
+        else:
+            print(R("SlowHTTPTest Not Installed"))
         input()
         back()
     # end SlowHTTPTest
@@ -264,7 +294,10 @@ def t50():
             'xterm -T "☣ INSTALL t50 ☣" -geometry 100x30 -e "sudo apt install t50"'
         )
         os.system("clear")
-        print(B("t50 Already Installed"))
+        if os.path.isfile("/usr/bin/t50"):
+            print(B("t50 Already Installed"))
+        else:
+            print(R("t50 Not Installed"))
         input()
         back()
     # end t50
@@ -281,7 +314,10 @@ def Termineter():
             'xterm -T "☣ INSTALL Termineter ☣" -geometry 100x30 -e "sudo apt install termineter"'
         )
         os.system("clear")
-        print(B("Termineter Already Installed"))
+        if os.path.isfile("/usr/bin/termineter"):
+            print(B("Termineter Already Installed"))
+        else:
+            print(R("Termineter Not Installed"))
         input()
         back()
     # end Termineter
@@ -298,7 +334,10 @@ def THC_IPV6():
             'xterm -T "☣ INSTALL THC-IPV6 ☣" -geometry 100x30 -e "sudo apt install thc-ipv6"'
         )
         os.system("clear")
-        print(B("THC-IPV6 Already Installed"))
+        if os.path.isfile("/usr/bin/thc-ipv6"):
+            print(B("THC-IPV6 Already Installed"))
+        else:
+            print(R("THC-IPV6 Not Installed"))
         input()
         back()
     # end THC-IPV6
@@ -315,7 +354,10 @@ def THC_SSL_DOS():
             'xterm -T "☣ INSTALL THC-SSL-DOS ☣" -geometry 100x30 -e "sudo apt install thc-ssl-dos"'
         )
         os.system("clear")
-        print(B("THC-SSL-DOS Already Installed"))
+        if os.path.isfile("/usr/bin/thc-ssl-dos"):
+            print(B("THC-SSL-DOS Already Installed"))
+        else:
+            print(R("THC-SSL-DOS Not Installed"))
         input()
         back()
     # end THC-SSL-DOS          
