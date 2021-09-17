@@ -4,7 +4,7 @@
 
 #! import packages hacking
 import hacking
-from color import R
+from color import *
 from termcolor import colored as c
 import sys
 import Logo
@@ -94,6 +94,9 @@ def menu():
         os.system(
             'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin && sudo git pull"'
         )
+        print(B("Tools Already Update"))
+        input()
+        back()
     elif menu == '1':
         hacking.InfoGat()
     elif menu == '2':
