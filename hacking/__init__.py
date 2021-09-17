@@ -9,4 +9,5 @@ from .Sniffing import *
 from .PasswordAttack import *
 from .Maintaining import *
 from .Reverse import *
+from .Reporting import *
 from .Hardware import *

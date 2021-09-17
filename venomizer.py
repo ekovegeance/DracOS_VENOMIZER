@@ -112,7 +112,7 @@ def menu():
     elif menu == '11':
         hacking.Reverse()
     elif menu == '12':
-        hacking.Reporting()
+        hacking.Report()
     elif menu == '13':
         hacking.Hardware()
     elif menu == '00':
