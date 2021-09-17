@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=venomizer 
+Comment=Hacking tolls Package Manager.
+Exec=xfce4-terminal  --geometry=600x630 -e "bash -c 'vnm';-bash"
+Icon=/usr/share/icons/dracos.ico
+Terminal=true
+Type=Application
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+StartupNotify=true
+StartupNotify=false
