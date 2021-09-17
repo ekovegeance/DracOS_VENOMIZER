@@ -5,7 +5,7 @@ import os
 from color import *
 import Logo
 
-def Maintining():
+def MaintiningF():
     os.system("clear")
     Logo.logo_19()
     print(
@@ -93,7 +93,7 @@ def Maintining():
 
 
 def back():
-    Maintining()
+    MaintiningF()
 
 #Function
 #Cryptcat

@@ -2,11 +2,12 @@
 #! -*- coding: utf-8 -*-
 #! venomizer.py
 
+#! import packages hacking
+import hacking
 from color import R
 from termcolor import colored as c
 import sys
 import Logo
-import hack, exploit, InformatingGathering, VulnerabilityAssesment, PasswordAttack, Stress, Maintaining, Forensic, reverse#, webAttack, dll
 import os.path
 import os
 from install import install
@@ -65,26 +66,20 @@ def menu():
     os.system('clear')
     LOGO()
     # print(c('[PERHATIAN UNTUK PERTAMA KALI LAKUKAN SETUP!!!] klik Y', 'green'))
-    print(c('0.  sudo apt update', 'green'))
-    print(c('1.  sudo apt upgrade', 'green'))
-    print(c('2.  Install', 'green'))
-    print(c('3.  Check Update Tools', 'green'))
-    print(c('4.  Hacking', 'green'))
-    print(c('5.  Informating gathering', 'green'))
-    print(c('6.  Vulnerability Assessment', 'green'))
-    print(c('7.  Web Attack', 'green'))
-    print(c('8.  Exploitation Tools', 'green'))
-    print(c('9.  Privilege Escalation', 'green'))
-    print(c('10. Password Attack', 'green'))
-    print(c('11. Social Engineering', 'green'))
-    print(c('12. Man In The Middle attack', 'green'))
-    print(c('13. Stress Testing', 'green'))
-    print(c('14. Wireless Attack', 'green'))
-    print(c('15. Maintining Access', 'green'))
-    print(c('16. Forensic Tools', 'green'))
-    print(c('17. Reverse Engineering', 'green'))
-    print(c('18. Malware Analysis', 'green'))
-    print(c('19. Covering Track', 'green'))
+    print(c('1.  Information Gathering', 'green'))
+    print(c('2.  Vulnerability Analysis', 'green'))
+    print(c('3.  Wireless Attacks', 'green'))
+    print(c('4.  Web Applications', 'green'))
+    print(c('5.  Exploitation Tools', 'green'))
+    print(c('6.  Stress Testing', 'green'))
+    print(c('7.  Forensics Tools', 'green'))
+    print(c('8.  Sniffing & Spoofing', 'green'))
+    print(c('9.  Password Attacks', 'green'))
+    print(c('10. Maintaining Access', 'green'))
+    print(c('11. Reverse Engineering', 'green'))
+    print(c('12. Reporting Tools', 'green'))
+    print(c('13. Hardware Hacking', 'green'))
+    print(c('0.  Update Tools', 'green'))
     print(c('00. exit'))
     menu = input(DracOS)
     if menu == '0':
@@ -93,57 +88,33 @@ def menu():
                 os.system('sudo apt update')
                 back()
         else:
-            back()
+            back()  
     elif menu == '1':
-        var = input('sudo apt upgrade(y/n)? ')
-        if var == 'y':
-            os.system('sudo apt upgrade')
-            back()
-        else:
-            back()
+        hacking.InfoGat()
     elif menu == '2':
-        install()
-    # elif menu == '3':
-    #     check_update_tools()
-    elif menu == '4':
-        hack.hacking()
+        hacking.VulnAs()
+    #elif menu == '3':
+        #hacking.()    
+    elif menu == '4':        
+        hacking.WebApp()
     elif menu == '5':
-        # os.system('python3 $HOME/git/DracOS_VENOMIZER/InformatingGathering.py')
-        InformatingGathering.InfoGat()
+        hacking.Exploit()
     elif menu == '6':
-        VulnerabilityAssesment.VulnAs()
-    # elif menu == '7':
-    #     WebAttack()
+        hacking.Stress()
+    elif menu == '7':
+        hacking.Forensics()
     elif menu == '8':
-        # os.system('python3 $HOME/git/DracOS_VENOMIZER/exploit.py')
-        exploit.Exploit()
-    # # elif menu == '9':
-    #     PrivilegeEscalation()
+        hacking.Sniffing()
+    elif menu == '9':
+        hacking.PassAtck()
     elif menu == '10':
-        # os.system('python3 $HOME/git/DracOS_VENOMIZER/PasswordAttack.py')
-        PasswordAttack.PassAtck()
-    # elif menu == '11':
-    #     SocialEngineering()
-    # elif menu == '12':
-    #     ManInTheMiddleAttack()
+        hacking.MaintiningF()
+    elif menu == '11':
+        hacking.Reverse()
+    elif menu == '12':
+        hacking.Reporting()
     elif menu == '13':
-        # os.system('python3 $HOME/git/DracOS_VENOMIZER/Stress.py')
-        Stress.Stress()
-    # elif menu == '14':
-    #     WirelessAttack()
-    elif menu == '15':
-        # os.system('python3 $HOME/git/DracOS_VENOMIZER/Maintaining.py')
-        Maintaining.Maintining()
-    elif menu == '16':
-        # os.system('python3 $HOME/git/DracOS_VENOMIZER/Forensic.py')
-        Forensic.Forensics()
-    elif menu == '17':
-        # os.system('python3 $HOME/git/DracOS_VENOMIZER/reverse.py')
-        reverse.Reverse()
-    # elif menu == '18':
-    #     MalwareAnalysis()
-    # elif menu == '19':
-    #     CoveringTrack()
+        hacking.Hardware()
     elif menu == '00':
         print(R("Thanks for using venomizer "))
         os.system('exit')
