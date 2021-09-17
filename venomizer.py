@@ -92,6 +92,7 @@ def menu():
             back()
     elif menu == '99':
         os.system('cd /usr/bin/DracOS_VENOMIZER/ && sudo git pull')
+        print("Tools Already to Update")
         back()
     elif menu == '1':
         hacking.InfoGat()
