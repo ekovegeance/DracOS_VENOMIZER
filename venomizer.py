@@ -79,7 +79,7 @@ def menu():
     print(c('11. Reverse Engineering', 'green'))
     print(c('12. Reporting Tools', 'green'))
     print(c('13. Hardware Hacking', 'green'))
-    print(c('0. Update Tools', 'green'))
+    print(c('0.  Update Tools', 'green'))
     print(c('00. exit'))
     menu = input(DracOS)
     if menu == '0':
