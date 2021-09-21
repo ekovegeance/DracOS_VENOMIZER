@@ -178,6 +178,8 @@ def InfoGat():
         os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
     elif menu == "00":
         exit()
+    else:
+        print(R('Wrong Input!'))
 
 
 # tambah fungsi tools lalu panggil ke dalam fungsi InfoGat
@@ -267,7 +269,7 @@ def sublist3r():
 
 # arp-scan
 def arp_scan():
-    if os.path.isfile("/usr/bin/arp-scan"):
+    if os.path.isfile("/usr/bin/arp-scan") or os.path.isfile('/usr/sbin/arp-scan') or os.path.isfile('/usr/share/arp-scan'):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -295,7 +297,7 @@ def automater():
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Automater ☣" -geometry 100x30 -e "sudo apt install automater"'
+            'xterm -T "☣ INSTALL Automater ☣" -geometry 100x30 -e "git clone https://gitlab.com/kalilinux/packages/automater.git"'
         )
         os.system("clear")
         if os.path.isfile("/usr/bin/automater"):

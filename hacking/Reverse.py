@@ -61,6 +61,8 @@ def Reverse():
         os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
     elif menu == "00":
         exit()
+    else:
+        print(R('Wrong Input!'))
 
 
 

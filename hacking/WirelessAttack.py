@@ -229,6 +229,8 @@ def WireAttack():
         os.system('python3 /usr/bin/DracOS_VENOMIZER/venomizer.py')
     elif menu == '00':
         exit()
+    else:
+        print(R('Wrong Input!'))
 
 
 #Function
