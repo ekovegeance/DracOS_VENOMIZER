@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 from color import *
 import Logo
@@ -279,7 +280,7 @@ def arp_scan():
             'xterm -T "☣ INSTALL ARP-SCAN ☣" -geometry 100x30 -e "sudo apt install arp-scan"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/arp-scan"):
+        if os.path.isfile("/usr/bin/arp-scan") or os.path.isfile('/usr/sbin/arp-scan') or os.path.isfile('/usr/share/arp-scan'):
             print(B("ARP-SCAN Already Installed"))
         else:
             print(R("Error Installing ARP-SCAN"))
@@ -312,6 +313,7 @@ def automater():
 # Braa
 def braa():
     if os.path.isfile("/usr/bin/braa"):
+        
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -563,7 +565,7 @@ def fierce():
 
 # Firewalk
 def firewalk():
-    if os.path.isfile("/usr/bin/firewalk"):
+    if os.path.isfile("/usr/bin/firewalk") or os.path.isfile('/usr/sbin/firewalk'):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -687,7 +689,7 @@ def goofile():
 
 # Hping3
 def hping3():
-    if os.path.isfile("/usr/bin/hping3"):
+    if os.path.isfile("/usr/bin/hping3") or os.path.isfile('/usr/sbin/hping3'):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -697,7 +699,7 @@ def hping3():
             'xterm -T "☣ INSTALL Hping3 ☣" -geometry 100x30 -e "sudo apt install hping3"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/hping3"):
+        if os.path.isfile("/usr/bin/hping3") or os.path.isfile('/usr/sbin/hping3'):
             print(B("Hping3 Already Installed"))
         else:
             print(R("Error Installing Hping3"))
