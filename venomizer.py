@@ -133,7 +133,7 @@ def menu():
         os.system('clear')
         back()
     else:
-        print(c('Wrong Input!'), 'red')
+        print(c('Wrong Input!', 'red'))
         input()
         back()
 
