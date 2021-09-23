@@ -115,6 +115,8 @@ def Forensics():
         exit()
     else:
         print(R('Wrong Input!'))
+        input()
+        back()
 
 
 

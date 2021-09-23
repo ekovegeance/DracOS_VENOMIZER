@@ -1,4 +1,4 @@
-#! usr/share/bin/python3
+#!/usr/bin/python3
 #! -*- coding: utf-8 -*-
 #! venomizer.py
 
@@ -132,7 +132,10 @@ def menu():
     elif menu == 'clear':
         os.system('clear')
         back()
-
+    else:
+        print(C('Wrong Input!'), 'red')
+        input()
+        back()
 
 def back():
     menu()

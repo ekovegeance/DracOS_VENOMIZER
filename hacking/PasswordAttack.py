@@ -180,6 +180,8 @@ def PassAtck():
         exit()
     else:
         print(R('Wrong Input!'))
+        input()
+        back()
 
 def back():
     PassAtck()

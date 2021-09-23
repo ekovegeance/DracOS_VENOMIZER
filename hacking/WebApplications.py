@@ -188,6 +188,8 @@ def WebApp():
         exit()
     else:
         print(R('Wrong Input!'))
+        input()
+        back()
 
 
 

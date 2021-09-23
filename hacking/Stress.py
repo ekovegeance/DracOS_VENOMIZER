@@ -79,6 +79,8 @@ def Stress():
         exit()
     else:
         print(R('Wrong Input!'))
+        input()
+        back()
 
 
 

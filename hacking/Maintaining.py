@@ -91,6 +91,8 @@ def MaintiningF():
         exit()
     else:
         print(R('Wrong Input!'))
+        input()
+        back()
 
 
 
