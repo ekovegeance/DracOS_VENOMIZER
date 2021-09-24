@@ -1,4 +1,4 @@
-#! usr/share/bin/python3
+#!/usr/bin/python3
 #! -*- coding: utf-8 -*-
 import os
 from color import*
@@ -238,17 +238,17 @@ def WireAttack():
 #Function
 #Airbase-ng
 def Airbase_ng():
-    if os.path.isfile("/usr/bin/airbase-ng"):
+    if os.path.isfile("/usr/bin/airbase-ng") or os.path.isfile('/usr/sbin/airbase-ng'):
         os.system("clear")
         print(B("Tools Available"))
         input()
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Airbase-ng ☣" -geometry 100x30 -e "sudo apt install airbase-ng"'
+            'xterm -T "☣ INSTALL Airbase-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/airbase-ng"):
+        if os.path.isfile("/usr/bin/airbase-ng") or os.path.isfile('/usr/sbin/airbase-ng'):
             print(B("Airbase-ng Already Installed"))
         else:
             print(R("Airbase-ng Not Installed"))
@@ -258,7 +258,7 @@ def Airbase_ng():
 
 #Aircrack-ng
 def Aircrack_ng():
-    if os.path.isfile("/usr/bin/aircrack-ng"):
+    if os.path.isfile("/usr/bin/aircrack-ng") or os.path.isfile('/usr/include/aircrack-ng'):
         os.system("clear")
         print(B("Tools Available"))
         input()
@@ -268,7 +268,7 @@ def Aircrack_ng():
             'xterm -T "☣ INSTALL Aircrack-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/aircrack-ng"):
+        if os.path.isfile("/usr/bin/aircrack-ng") or os.path.isfile('/usr/include/aircrack-ng'):
             print(B("Aircrack-ng Already Installed"))
         else:
             print(R("Aircrack-ng Not Installed"))
@@ -285,7 +285,7 @@ def Airdecap_ng():
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Airdecap-ng ☣" -geometry 100x30 -e "sudo apt install airdecap-ng"'
+            'xterm -T "☣ INSTALL Airdecap-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
         )
         os.system("clear")
         if os.path.isfile("/usr/bin/airdecap-ng"):
@@ -298,17 +298,17 @@ def Airdecap_ng():
 
 #Aireplay-ng
 def Aireplay_ng():
-    if os.path.isfile("/usr/bin/aireplay-ng"):
+    if os.path.isfile("/usr/bin/aireplay-ng") or os.path.isfile('/usr/sbin/aireplay-ng'):
         os.system("clear")
         print(B("Tools Available"))
         input()
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Aireplay-ng ☣" -geometry 100x30 -e "sudo apt install aireplay-ng"'
+            'xterm -T "☣ INSTALL Aireplay-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/aireplay-ng"):
+        if os.path.isfile("/usr/bin/aireplay-ng") or os.path.isfile('/usr/sbin/aireplay-ng'):
             print(B("Aireplay-ng Already Installed"))
         else:
             print(R("Aireplay-ng Not Installed"))
@@ -338,17 +338,17 @@ def airgraph_ng():
 
 #Airmon-ng
 def Airmon_ng():
-    if os.path.isfile("/usr/bin/airmon-ng"):
+    if os.path.isfile("/usr/sbin/airmon-ng"):
         os.system("clear")
         print(B("Tools Available"))
         input()
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Airmon-ng ☣" -geometry 100x30 -e "sudo apt install airmon-ng"'
+            'xterm -T "☣ INSTALL Airmon-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/airmon-ng"):
+        if os.path.isfile("/usr/sbin/airmon-ng"):
             print(B("Airmon-ng Already Installed"))
         else:
             print(R("Airmon-ng Not Installed"))
@@ -358,17 +358,17 @@ def Airmon_ng():
 
 #Airodump-ng
 def Airodump_ng():
-    if os.path.isfile("/usr/bin/airodump-ng"):
+    if os.path.isfile("/usr/sbin/airodump-ng"):
         os.system("clear")
         print(B("Tools Available"))
         input()
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Airodump-ng ☣" -geometry 100x30 -e "sudo apt install airodump-ng"'
+            'xterm -T "☣ INSTALL Airodump-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/airodump-ng"):
+        if os.path.isfile("/usr/sbin/airodump-ng"):
             print(B("airodump-ng Already Installed"))
         else:
             print(R("airodump-ng Not Installed"))
@@ -378,17 +378,17 @@ def Airodump_ng():
 
 #airodump-ng-oui-update
 def airodump_ng_oui_update():
-    if os.path.isfile("/usr/bin/airodump-ng-oui-update"):
+    if os.path.isfile("/usr/sbin/airodump-ng-oui-update"):
         os.system("clear")
         print(B("Tools Available"))
         input()
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Airodump-ng-oui-update ☣" -geometry 100x30 -e "sudo apt install airodump-ng-oui-update"'
+            'xterm -T "☣ INSTALL Airodump-ng-oui-update ☣" -geometry 100x30 -e "sudo apt install aircrack-ng'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/airodump-ng-oui-update"):
+        if os.path.isfile("/usr/sbin/airodump-ng-oui-update"):
             print(B("airodump-ng-oui-update Already Installed"))
         else:
             print(R("airodump-ng-oui-update Not Installed"))
