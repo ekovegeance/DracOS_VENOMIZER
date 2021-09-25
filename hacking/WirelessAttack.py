@@ -418,17 +418,17 @@ def Airolib_ng():
 
 #Airserv-ng
 def Airserv_ng():
-    if os.path.isfile("/usr/bin/airserv-ng"):
+    if os.path.isfile("/usr/sbin/airserv-ng"):
         os.system("clear")
         print(B("Tools Available"))
         input()
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Airserv-ng ☣" -geometry 100x30 -e "sudo apt install airserv-ng"'
+            'xterm -T "☣ INSTALL Airserv-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/airserv-ng"):
+        if os.path.isfile("/usr/sbin/airserv-ng"):
             print(B("Airserv-ng Already Installed"))
         else:
             print(R("Airserv-ng Not Installed"))
@@ -438,17 +438,17 @@ def Airserv_ng():
 
 #Airtun-ng
 def Airtun_ng():
-    if os.path.isfile("/usr/bin/airtun-ng"):
+    if os.path.isfile("/usr/sbin/airtun-ng"):
         os.system("clear")
         print(B("Tools Available"))
         input()
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Airtun-ng ☣" -geometry 100x30 -e "sudo apt install airtun-ng"'
+            'xterm -T "☣ INSTALL Airtun-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/airtun-ng"):
+        if os.path.isfile("/usr/sbin/airtun-ng"):
             print(B("Airtun-ng Already Installed"))
         else:
             print(R("Airtun-ng Not Installed"))
@@ -478,14 +478,14 @@ def Asleap():
 
 #Besside-ng
 def Besside_ng():
-    if os.path.isfile("/usr/bin/besside-ng"):
+    if os.path.isfile("/usr/sbin/besside-ng"):
         os.system("clear")
         print(B("Tools Available"))
         input()
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Besside-ng ☣" -geometry 100x30 -e "sudo apt install besside-ng"'
+            'xterm -T "☣ INSTALL Besside-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
         )
         os.system("clear")
         if os.path.isfile("/usr/bin/besside-ng"):
@@ -1317,3 +1317,5 @@ def wpaclean():
 
 def back():
     WireAttack()
+
+
