@@ -105,7 +105,9 @@ def menu():
         )
         print(B("Tools Updating"))
         print(R("[ DONE ]"))
+        print(G("Restart, please click Enter..."))
         input()
+        os.system("exit && vnm")
         back()
     elif menu == '1':
         hacking.InfoGat()
