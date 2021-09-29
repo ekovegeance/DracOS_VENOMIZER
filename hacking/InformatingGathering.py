@@ -32,7 +32,7 @@ def InfoGat():
     20. Fragroute(Not Found)
     21. fragrouter
     22. Ghost-Phisher(Not Found)
-    23. GoLismero
+    23. GoLismero(Not Found)
     24. Goofile
     25. Hping3
     26. Inspy
