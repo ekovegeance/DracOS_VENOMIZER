@@ -41,7 +41,7 @@ def InfoGat():
     29. Maltego Teeth
     30. Masscan
     31. Metagoofil
-    32. Miranda
+    32. Miranda(Not Found)
     33. Nikto
     34. Ntop
     35. Recon-ng
