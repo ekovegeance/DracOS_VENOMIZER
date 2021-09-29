@@ -18,7 +18,7 @@ def InfoGat():
     6.  Automater
     7.  Braa
     8.  Casefile
-    9.  Cdpsnarf
+    9.  Cdpsnarf (not found)
     10. Cisco-torch
     11. Dmitry
     12. Dnsenum
