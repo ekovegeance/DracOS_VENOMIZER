@@ -18,7 +18,7 @@ def InfoGat():
     6.  Automater
     7.  Braa
     8.  Casefile
-    9.  Cdpsnarf (not found)
+    9.  Cdpsnarf (Not Found)
     10. Cisco-torch
     11. Dmitry
     12. Dnsenum
@@ -29,7 +29,7 @@ def InfoGat():
     17. python-faraday
     18. Fierce
     19. Firewalk
-    20. Fragroute
+    20. Fragroute(Not Found)
     21. fragrouter
     22. Ghost-Phisher
     23. GoLismero
