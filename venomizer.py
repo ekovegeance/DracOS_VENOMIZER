@@ -108,7 +108,6 @@ def menu():
         print(G("Restart, please click Enter..."))
         input()
         os.system("vnm")
-        back()
     elif menu == '1':
         hacking.InfoGat()
     elif menu == '2':
