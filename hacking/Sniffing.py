@@ -1,6 +1,4 @@
-#! /usr/share/bin/python3
-#! -*- coding: utf-8 -*-
-#! Stress.py
+
 import os
 from color import *
 import Logo
