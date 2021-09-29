@@ -92,7 +92,7 @@ def menu():
             back()
     elif menu == '99':
         os.system(
-            'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin/DracOS_VENOMIZER/ && sudo git pull"'
+            'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin/DracOS_VENOMIZER/ sudo git pull"'
         )
         print(B("Tools Updating"))
         print(R("[ DONE ]"))
