@@ -1,4 +1,4 @@
-#! /usr/share/bin/python3
+#!/usr/bin/python3
 #! -*- coding: utf-8 -*-
 #! PasswordAttack.py
 import os
@@ -61,8 +61,8 @@ def Android_sdk():
     if os.path.isfile("/usr/bin/android-sdk"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Android-sdk ☣" -geometry 100x30 -e "sudo apt install android-sdk"'
@@ -72,8 +72,8 @@ def Android_sdk():
             print(B("Android-sdk Already Installed"))
         else:
             print(R("Android-sdk Not Installed"))
-        input()
-        back()
+    input()
+    back()
         # end android-sdk
 
 #Apktool
@@ -81,8 +81,8 @@ def Apktool():
     if os.path.isfile("/usr/bin/apktool"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Apktool ☣" -geometry 100x30 -e "sudo apt install apktool"'
@@ -92,8 +92,8 @@ def Apktool():
             print(B("Apktool Already Installed"))
         else:
             print(R("Apktool Not Installed"))
-        input()
-        back()
+    input()
+    back()
     # end apktool
 
 #Arduino
@@ -101,8 +101,8 @@ def Arduino():
     if os.path.isfile("/usr/bin/arduino"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Arduino ☣" -geometry 100x30 -e "sudo apt install arduino"'
@@ -112,8 +112,8 @@ def Arduino():
             print(B("Arduino Already Installed"))
         else:
             print(R("Arduino Not Installed"))
-        input()
-        back()
+    input()
+    back()
     # end arduino
 
 #Dex2jar
@@ -121,8 +121,8 @@ def Dex2jar():
     if os.path.isfile("/usr/bin/dex2jar"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dex2jar ☣" -geometry 100x30 -e "sudo apt install dex2jar"'
@@ -132,8 +132,8 @@ def Dex2jar():
             print(B("Dex2jar Already Installed"))
         else:
             print(R("Dex2jar Not Installed"))
-        input()
-        back()
+    input()
+    back()
     # end dex2jar
 
 #Sakis3G
@@ -141,8 +141,8 @@ def Sakis3G():
     if os.path.isfile("/usr/bin/sakis3g"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Sakis3G ☣" -geometry 100x30 -e "sudo apt install sakis3g"'
@@ -152,8 +152,8 @@ def Sakis3G():
             print(B("Sakis3G Already Installed"))
         else:
             print(R("Sakis3G Not Installed"))
-        input()
-        back()
+    input()
+    back()
     # end sakis3g
 
 #Smalis
@@ -161,8 +161,8 @@ def Smalis():
     if os.path.isfile("/usr/bin/smali"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Smalis ☣" -geometry 100x30 -e "sudo apt install smali"'
@@ -172,8 +172,8 @@ def Smalis():
             print(B("Smalis Already Installed"))
         else:
             print(R("Smalis Not Installed"))
-        input()
-        back()
+    input()
+    back()
     # end smalis
 
 

@@ -718,7 +718,7 @@ def Fern_Wifi_Cracker():
 
 #FreeRADIUS-WPE
 def FreeRADIUS_WPE():
-    if os.path.isfile("/usr/bin/freeradius-wpe"):
+    if os.path.isfile("/usr/bin/freeradius-wpe") or os.path.isfile('/usr/sbin/freeradius-wpe') or os.path.isfile('/usr/lib/freeradius-wpe') or os.path.isfile('/etc/freeradius-wpe'):
         os.system("clear")
         print(B("Tools Available"))
         input()

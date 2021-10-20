@@ -11,7 +11,6 @@ import Logo
 import os.path
 import os
 
-
 # if os.path.isfile('sudo /usr/local/lib/python3.7/dist-packages/termcolor.py'):
 #     print()
 # else:
