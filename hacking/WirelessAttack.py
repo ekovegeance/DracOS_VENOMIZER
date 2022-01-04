@@ -61,6 +61,7 @@ def WireAttack():
     52. wifitap
     53. wifite
     54. wpaclean
+    55. Airgeddon (New Update)
     0.  back
      """))
     print(R('00. exit'))
@@ -225,6 +226,10 @@ def WireAttack():
     elif menu == '53':
         # Call Function
         wifite()      
+        
+    elif menu == '55':
+        # Call Function
+        airgeddon()
     elif menu == '0':
         os.system('python3 /usr/bin/DracOS_VENOMIZER/venomizer.py')
     elif menu == '00':
@@ -1312,6 +1317,26 @@ def wpaclean():
         input()
         back()
     # end wpaclean
+    
+#Airgeddon
+def airgeddon():
+    if os.path.isfile("/usr/bin/airgeddon"):
+        os.system("clear")
+        print(B("Tools Available"))
+        input()
+        back()
+    else:
+        os.system(
+            'xterm -T "☣ INSTALL airgeddon ☣" -geometry 100x30 -e "sudo apt install airgeddon"'
+        )
+        os.system("clear")
+        if os.path.isfile("/usr/bin/airgeddon"):
+            print(B("airgeddon Already Installed"))
+        else:
+            print(R("airgeddon Not Installed"))
+        input()
+        back()
+    # end airgeddon
 
 def back():
     WireAttack()
