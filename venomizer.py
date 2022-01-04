@@ -1,4 +1,4 @@
-#! usr/share/bin/python3
+#!/usr/bin/python3
 #! -*- coding: utf-8 -*-
 #! venomizer.py
 
@@ -11,13 +11,11 @@ import Logo
 import os.path
 import os
 
-
-
 # if os.path.isfile('sudo /usr/local/lib/python3.7/dist-packages/termcolor.py'):
 #     print()
 # else:
 #     os.system('xterm -T " INSTALL TERMCOLOR " -geometry 100x30 -e "sudo pip install termcolor -y"')
-#check if root 
+# check if root
 # def checkroot():
 #     if os.geteuid() != 0:
 #         print(c("[-]", 'red')+c(" You must be root to run this script", 'red'))
@@ -28,37 +26,47 @@ if os.path.isfile('/usr/bin/git'):
     print()
 else:
     # jika belum install dulu
-    os.system('xterm -T "☣ INSTALL GIT ☣" -geometry 100x30 -e "sudo apt-get install git -y"')
+    os.system(
+        'xterm -T "☣ INSTALL GIT ☣" -geometry 100x30 -e "sudo apt-get install git -y"')
 
-# 
+#
 # logo
+
+
 def LOGO():
     os.system("clear")
-    print(c("        -os:",'red'))
+    print(c("        -os:", 'red'))
     print("            "+c("-os/`", 'red'))
-    print("            "+c("  :s", 'red')+c("y+-`",'red'))
-    print("            "+c("   `/y", 'red')+c("yyy+.",'red'))
-    print("            "+c("     `+y", 'red')+c("yyyo-",'red'))
-    print("            "+c("       `/y", 'red')+c("yyys:",'red'))
-    print(c("`:osssoo",'red')+c("oo++-",'red'),c("        +y", 'red')+c("yyyyy/`",'red'))
-    print(c("   ./yyyy",'red')+c("yyo ",'red'),c("        yo`", 'red')+c(":syyyy+.",'red'))
-    print(c("      -oyy",'red')+c("y+ ",'red')+c("        +-   :y", 'red')+c("yyyyo-",'red'))
-    print(c("        `:s",'red')+c("y:",'red')+c("        `.    `/y", 'red')+c("yyyys:",'red'))
-    print(c("           .",'red')+c("/o')+/.`",'red')+c("           .oyy", 'red')+c("so+oo:`",'red'))
-    print(c("              :+oo+//::::///:-.`",'red')+c("     `.`",'red'))
+    print("            "+c("  :s", 'red')+c("y+-`", 'red'))
+    print("            "+c("   `/y", 'red')+c("yyy+.", 'red'))
+    print("            "+c("     `+y", 'red')+c("yyyo-", 'red'))
+    print("            "+c("       `/y", 'red')+c("yyys:", 'red'))
+    print(c("`:osssoo", 'red')+c("oo++-", 'red'),
+          c("        +y", 'red')+c("yyyyy/`", 'red'))
+    print(c("   ./yyyy", 'red')+c("yyo ", 'red'),
+          c("        yo`", 'red')+c(":syyyy+.", 'red'))
+    print(c("      -oyy", 'red')+c("y+ ", 'red') +
+          c("        +-   :y", 'red')+c("yyyyo-", 'red'))
+    print(c("        `:s", 'red')+c("y:", 'red') +
+          c("        `.    `/y", 'red')+c("yyyys:", 'red'))
+    print(c("           .", 'red')+c("/o')+/.`", 'red') +
+          c("           .oyy", 'red')+c("so+oo:`", 'red'))
+    print(c("              :+oo+//::::///:-.`", 'red')+c("     `.`", 'red'))
     print(c('=================================================================', 'green'))
     print("__      _______ __   __  _____  ___  ___ _____ ___________ _____   ")
     print("\ \    / / ____|  \  | |/ ___ \|   \/   |_   _|___  |  ___| __   \ ")
     print(" \ \  / /| |__ |   \ | | |   | | |\  /| | | |    / /| |__ | |__) / ")
     print("  \ \/ / |  __|| |\ \| | |   | | | \/ | | | |   / / |  __||  _  /  ")
-    print("   \  /  | |___| | \   | |___| | |    | |_| |_ / /__| |___| | \ \  ") 
+    print("   \  /  | |___| | \   | |___| | |    | |_| |_ / /__| |___| | \ \  ")
     print("    \/   |_____|_|  \__|\_____/|_|    |_|_____/_____|_____|_|  \_\ ")
-    print(c('[(c) 2018 |', 'red'), c('dracos-linux.org | https://github.com/dracos-linux', 'red')+c(']', 'red'))
+    print(c('[(c) 2018 |', 'red'), c(
+        'dracos-linux.org | https://github.com/dracos-linux', 'red')+c(']', 'red'))
 
 
 # menu
 global DracOS
-DracOS = c('[','green')+c('DracOS','red')+c(']> ','green')
+DracOS = c('[', 'green')+c('DracOS', 'red')+c(']> ', 'green')
+
 
 def menu():
     # checkroot()
@@ -85,26 +93,27 @@ def menu():
     menu = input(DracOS)
     if menu == '0':
         var = input('sudo apt update(y/n)? ')
-        if var == 'y': 
-                os.system('sudo apt update')
-                back()
+        if var == 'y':
+            os.system('sudo apt update')
+            back()
         else:
             back()
     elif menu == '99':
         os.system(
-            'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin && sudo git pull"'
+            'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin/DracOS_VENOMIZER/ && sudo git pull"'
         )
         print(B("Tools Updating"))
         print(R("[ DONE ]"))
+        print(G("Restart, please click Enter..."))
         input()
-        back()
+        os.system("vnm")
     elif menu == '1':
         hacking.InfoGat()
     elif menu == '2':
         hacking.VulnAs()
     elif menu == '3':
-        hacking.WireAttack()    
-    elif menu == '4':        
+        hacking.WireAttack()
+    elif menu == '4':
         hacking.WebApp()
     elif menu == '5':
         hacking.Exploit()
@@ -131,6 +140,10 @@ def menu():
         exit()
     elif menu == 'clear':
         os.system('clear')
+        back()
+    else:
+        print(c('Wrong Input!', 'red'))
+        input()
         back()
 
 

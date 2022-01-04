@@ -56,6 +56,8 @@ def Report():
         exit()
     else:
         print(R('Wrong Input!'))
+        input()
+        back()
 
 #Function
 #CaseFile

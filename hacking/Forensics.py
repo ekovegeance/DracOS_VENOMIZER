@@ -1,4 +1,4 @@
-#! /usr/share/bin/python3
+#!/usr/bin/python3
 #! -*- coding: utf-8 -*-
 #! PasswordAttack.py
 import os
@@ -115,6 +115,8 @@ def Forensics():
         exit()
     else:
         print(R('Wrong Input!'))
+        input()
+        back()
 
 
 
@@ -128,8 +130,8 @@ def Binwalk():
     if os.path.isfile("/usr/bin/binwalk"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Binwalk ☣" -geometry 100x30 -e "sudo apt install binwalk"'
@@ -139,8 +141,8 @@ def Binwalk():
             print(B("Binwalk Already Installed"))
         else:
             print(R("Not Installing Binwalk"))
-        input()
-        back()
+    input()
+    back()
     # end Binwalk
 
 #Bulk Extractor
@@ -148,8 +150,8 @@ def BulkExtractor():
     if os.path.isfile("/usr/bin/bulk_extractor"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Bulk Extractor ☣" -geometry 100x30 -e "sudo apt install bulk_extractor"'
@@ -159,8 +161,8 @@ def BulkExtractor():
             print(B("Bulk Extractor Already Installed"))
         else:
             print(R("Not Installing Bulk Extractor"))
-        input()
-        back()
+    input()
+    back()
     # end Bulk Extractor
 
 #Capstone
@@ -168,8 +170,8 @@ def Capstone():
     if os.path.isfile("/usr/bin/capstone"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Capstone ☣" -geometry 100x30 -e "sudo apt install capstone"'
@@ -179,8 +181,8 @@ def Capstone():
             print(B("Capstone Already Installed"))
         else:
             print(R("Not Installing Capstone"))
-        input()
-        back()
+    input()
+    back()
         # end Capstone
 
 #Chntpw
@@ -188,8 +190,8 @@ def Chntpw():
     if os.path.isfile("/usr/bin/chntpw"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Chntpw ☣" -geometry 100x30 -e "sudo apt install chntpw"'
@@ -199,16 +201,16 @@ def Chntpw():
             print(B("Chntpw Already Installed"))
         else:
             print(R("Not Installing Chntpw"))
-        input()
-        back()
+    input()
+    back()
 
 #Cuckoo
 def Cuckoo():
     if os.path.isfile("/usr/bin/cuckoo"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Cuckoo ☣" -geometry 100x30 -e "sudo apt install cuckoo"'
@@ -218,8 +220,8 @@ def Cuckoo():
             print(B("Cuckoo Already Installed"))
         else:
             print(R("Not Installing Cuckoo"))
-        input()
-        back()
+    input()
+    back()
     # end Cuckoo
 
 #Dc3dd
@@ -227,8 +229,8 @@ def Dc3dd():
     if os.path.isfile("/usr/bin/dc3dd"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dc3dd ☣" -geometry 100x30 -e "sudo apt install dc3dd"'
@@ -238,8 +240,8 @@ def Dc3dd():
             print(B("Dc3dd Already Installed"))
         else:
             print(R("Not Installing Dc3dd"))
-        input()
-        back()
+    input()
+    back()
         # end Dc3dd
 
 #DDrescue
@@ -247,8 +249,8 @@ def DDrescue():
     if os.path.isfile("/usr/bin/ddrescue"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL DDrescue ☣" -geometry 100x30 -e "sudo apt install ddrescue"'
@@ -258,8 +260,8 @@ def DDrescue():
             print(B("DDrescue Already Installed"))
         else:
             print(R("Not Installing DDrescue"))
-        input()
-        back()
+    input()
+    back()
     # end DDrescue
 
 #DFF
@@ -267,8 +269,8 @@ def DFF():
     if os.path.isfile("/usr/bin/dff"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL DFF ☣" -geometry 100x30 -e "sudo apt install dff"'
@@ -278,8 +280,8 @@ def DFF():
             print(B("DFF Already Installed"))
         else:
             print(R("Not Installing DFF"))
-        input()
-        back()
+    input()
+    back()
     # end DFF
 
 #DiStorm3
@@ -287,8 +289,8 @@ def DiStorm3():
     if os.path.isfile("/usr/bin/distorm3"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL DiStorm3 ☣" -geometry 100x30 -e "sudo apt install distorm3"'
@@ -298,8 +300,8 @@ def DiStorm3():
             print(B("DiStorm3 Already Installed"))
         else:
             print(R("Not Installing DiStorm3"))
-        input()
-        back()
+    input()
+    back()
     # end DiStorm3
 
 #Dumpzilla
@@ -307,8 +309,8 @@ def Dumpzilla():
     if os.path.isfile("/usr/bin/dumpzilla"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Dumpzilla ☣" -geometry 100x30 -e "sudo apt install dumpzilla"'
@@ -318,8 +320,8 @@ def Dumpzilla():
             print(B("Dumpzilla Already Installed"))
         else:
             print(R("Not Installing Dumpzilla"))
-        input()
-        back()
+    input()
+    back()
     # end Dumpzilla
 
 #Extundelete
@@ -327,8 +329,8 @@ def Extundelete():
     if os.path.isfile("/usr/bin/extundelete"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Extundelete ☣" -geometry 100x30 -e "sudo apt install extundelete"'
@@ -338,8 +340,8 @@ def Extundelete():
             print(B("Extundelete Already Installed"))
         else:
             print(R("Not Installing Extundelete"))
-        input()
-        back()
+    input()
+    back()
     # end Extundelete
 
 #Foremost
@@ -347,8 +349,8 @@ def Foremost():
     if os.path.isfile("/usr/bin/foremost"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Foremost ☣" -geometry 100x30 -e "sudo apt install foremost"'
@@ -358,8 +360,8 @@ def Foremost():
             print(B("Foremost Already Installed"))
         else:
             print(R("Not Installing Foremost"))
-        input()
-        back()
+    input()
+    back()
     # end Foremost
 
 #Galleta
@@ -367,7 +369,7 @@ def Galleta():
     if os.path.isfile("/usr/bin/galleta"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
+        # input()
     else:
         os.system(
             'xterm -T "☣ INSTALL Galleta ☣" -geometry 100x30 -e "sudo apt install galleta"'
@@ -377,8 +379,8 @@ def Galleta():
             print(B("Galleta Already Installed"))
         else:
             print(R("Not Installing Galleta"))
-        input()
-        back()
+    input()
+    back()
     # end Galleta
 
 #Guymager
@@ -386,8 +388,8 @@ def Guymager():
     if os.path.isfile("/usr/bin/guymager"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Guymager ☣" -geometry 100x30 -e "sudo apt install guymager"'
@@ -397,8 +399,8 @@ def Guymager():
             print(B("Guymager Already Installed"))
         else:
             print(R("Not Installing Guymager"))
-        input()
-        back()
+    input()
+    back()
     # end Guymager
 
 #IPhone Backup Analyzer
@@ -406,8 +408,8 @@ def IPhone():
     if os.path.isfile("/usr/bin/iphonebackupanalyzer"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL IPhone Backup Analyzer ☣" -geometry 100x30 -e "sudo apt install iphonebackupanalyzer"'
@@ -417,8 +419,8 @@ def IPhone():
             print(B("IPhone Backup Analyzer Already Installed"))
         else:
             print(R("Not Installing IPhone Backup Analyzer"))
-        input()
-        back()
+    input()
+    back()
     # end IPhone Backup Analyzer
 
 #P0f
@@ -426,8 +428,8 @@ def P0f():
     if os.path.isfile("/usr/bin/p0f"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL P0f ☣" -geometry 100x30 -e "sudo apt install p0f"'
@@ -437,8 +439,8 @@ def P0f():
             print(B("P0f Already Installed"))
         else:
             print(R("Not Installing P0f"))
-        input()
-        back()
+    input()
+    back()
     # end P0f
 
 #Pdf-parser
@@ -446,8 +448,8 @@ def Pdf():
     if os.path.isfile("/usr/bin/pdf-parser"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Pdf-parser ☣" -geometry 100x30 -e "sudo apt install pdf-parser"'
@@ -457,8 +459,8 @@ def Pdf():
             print(B("Pdf-parser Already Installed"))
         else:
             print(R("Not Installing Pdf-parser"))
-        input()
-        back()
+    input()
+    back()
     # end Pdf-parser
 
 #Pdfid
@@ -466,8 +468,8 @@ def Pdfid():
     if os.path.isfile("/usr/bin/pdfid"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Pdfid ☣" -geometry 100x30 -e "sudo apt install pdfid"'
@@ -477,8 +479,8 @@ def Pdfid():
             print(B("Pdfid Already Installed"))
         else:
             print(R("Not Installing Pdfid"))
-        input()
-        back()
+    input()
+    back()
     # end Pdfid
 
 #Pdgmail
@@ -486,8 +488,8 @@ def Pdgmail():
     if os.path.isfile("/usr/bin/pdgmail"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Pdgmail ☣" -geometry 100x30 -e "sudo apt install pdgmail"'
@@ -497,8 +499,8 @@ def Pdgmail():
             print(B("Pdgmail Already Installed"))
         else:
             print(R("Not Installing Pdgmail"))
-        input()
-        back()
+    input()
+    back()
     # end Pdgmail
 
 #Peepdf
@@ -506,8 +508,8 @@ def Peepdf():
     if os.path.isfile("/usr/bin/peepdf"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Peepdf ☣" -geometry 100x30 -e "sudo apt install peepdf"'
@@ -517,8 +519,8 @@ def Peepdf():
             print(B("Peepdf Already Installed"))
         else:
             print(R("Not Installing Peepdf"))
-        input()
-        back()
+    input()
+    back()
     # end Peepdf
 
 #RegRipper
@@ -526,8 +528,8 @@ def Regripper():
     if os.path.isfile("/usr/bin/regripper"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL RegRipper ☣" -geometry 100x30 -e "sudo apt install regripper"'
@@ -537,8 +539,8 @@ def Regripper():
             print(B("RegRipper Already Installed"))
         else:
             print(R("Not Installing RegRipper"))
-        input()
-        back()
+    input()
+    back()
     # end RegRipper
 
 #Volatility
@@ -546,8 +548,8 @@ def Volatility():
     if os.path.isfile("/usr/bin/volatility"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Volatility ☣" -geometry 100x30 -e "sudo apt install volatility"'
@@ -557,8 +559,8 @@ def Volatility():
             print(B("Volatility Already Installed"))
         else:
             print(R("Not Installing Volatility"))
-        input()
-        back()
+    input()
+    back()
     # end Volatility
 
 #Xplico
@@ -566,8 +568,8 @@ def Xplico():
     if os.path.isfile("/usr/bin/xplico"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             'xterm -T "☣ INSTALL Xplico ☣" -geometry 100x30 -e "sudo apt install xplico"'
@@ -577,12 +579,9 @@ def Xplico():
             print(B("Xplico Already Installed"))
         else:
             print(R("Not Installing Xplico"))
-        input()
-        back()
+    input()
+    back()
     # end Xplico
-
-
-
 
 
 # Looping

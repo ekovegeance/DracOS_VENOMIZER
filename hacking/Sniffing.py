@@ -1,6 +1,4 @@
-#! /usr/share/bin/python3
-#! -*- coding: utf-8 -*-
-#! Stress.py
+
 import os
 from color import *
 import Logo
@@ -156,6 +154,8 @@ def Sniffing():
         exit()
     else:
         print(R('Wrong Input!'))
+        input()
+        back()
 
 
 def back():

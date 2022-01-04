@@ -1,7 +1,9 @@
 # DracOS_VENOMIZER
 | Gambar |
 | ------ |
-|![](https://github.com/dracos-linux/DracOS_VENOMIZER/blob/main/img/1.png) |
+|![](https://github.com/dracos-linux/DracOS_VENOMIZER/blob/main/img/vnm.png) |
+#### Leader: Me
+#### Author: [Eko Saputra](https://github.com/ekovegeance)
 
 # Penetration Tools List 
 - Link : https://github.com/dracos-linux/DracOS_VENOMIZER 
