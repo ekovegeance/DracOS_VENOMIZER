@@ -10,16 +10,19 @@ import sys
 import Logo
 import os.path
 import os
+from sys import exit
+
+
 
 # if os.path.isfile('sudo /usr/local/lib/python3.7/dist-packages/termcolor.py'):
 #     print()
 # else:
 #     os.system('xterm -T " INSTALL TERMCOLOR " -geometry 100x30 -e "sudo pip install termcolor -y"')
-# check if root
-# def checkroot():
-#     if os.geteuid() != 0:
-#         print(c("[-]", 'red')+c(" You must be root to run this script", 'red'))
-#         sys.exit()
+# cek root
+def checkroot():
+    if os.geteuid() != 0:
+        print(c("[-]", 'red')+c(" You must be root to run this script", 'red'))
+        sys.exit()
 # cek apakah file git sudah ada!
 # jika sudah ada maka kita lewati
 if os.path.isfile('/usr/bin/git'):
@@ -59,7 +62,7 @@ def LOGO():
     print("  \ \/ / |  __|| |\ \| | |   | | | \/ | | | |   / / |  __||  _  /  ")
     print("   \  /  | |___| | \   | |___| | |    | |_| |_ / /__| |___| | \ \  ")
     print("    \/   |_____|_|  \__|\_____/|_|    |_|_____/_____|_____|_|  \_\ ")
-    print(c('[(c) 2018 |', 'red'), c(
+    print(c('[(c) 2022 |', 'red'), c(
         'dracos-linux.org | https://github.com/dracos-linux', 'red')+c(']', 'red'))
 
 
@@ -69,7 +72,8 @@ DracOS = c('[', 'green')+c('DracOS', 'red')+c(']> ', 'green')
 
 
 def menu():
-    # checkroot()
+    checkroot()
+
     # call logo
     os.system('clear')
     LOGO()
@@ -90,6 +94,7 @@ def menu():
     print(c('0.  Update Repository', 'green'))
     print(c('99. Update tools Venomizer', 'green'))
     print(c('00. exit'))
+
     menu = input(DracOS)
     if menu == '0':
         var = input('sudo apt update(y/n)? ')
@@ -151,5 +156,7 @@ def back():
     menu()
 
 
-while menu():
+while menu():    
     menu()
+        
+
