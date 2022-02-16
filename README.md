@@ -8,17 +8,15 @@
 # Penetration Tools List 
 - Link : https://github.com/dracos-linux/DracOS_VENOMIZER 
 - Information Gathering
-- Vulnerability Assessment
-- Web Attack
-- Exploitation Testing
-- Privilege Escalation
-- Password Attack
-- Social Engineering
-- Man In The Middle Attack
-- Stress Testing
+- Vulnerability Analysis
 - Wireless Attack
+- Web Applications
+- Exploitation Tools
+- Stress Testing
+- Forensic Tools
+- Sniffing & Spoofing
+- Password Attack
 - Maintaining Access
-- Forensics Tools
 - Reverse Engineering
-- Malware Analysis
-- Covering Track
+- Reporting Tools
+- Hardware Hacking
