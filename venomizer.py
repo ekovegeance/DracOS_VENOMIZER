@@ -62,6 +62,7 @@ def LOGO():
     print("  \ \/ / |  __|| |\ \| | |   | | | \/ | | | |   / / |  __||  _  /  ")
     print("   \  /  | |___| | \   | |___| | |    | |_| |_ / /__| |___| | \ \  ")
     print("    \/   |_____|_|  \__|\_____/|_|    |_|_____/_____|_____|_|  \_\ ")
+    print(c("Version : 1.2.7     Codename : Mr. Robot", "blue"))
     print(c('[(c) 2022 |', 'red'), c(
         'dracos-linux.org | https://github.com/dracos-linux', 'red')+c(']', 'red'))
 

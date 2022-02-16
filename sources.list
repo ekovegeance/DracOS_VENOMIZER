@@ -1,0 +1,9 @@
+#Repository Mirror data utama Indonesia
+# 
+
+#Repository Mirror Parrotsec linux Indonesia 
+#
+#Repository Kali Linux
+deb http://http.kali.org/kali kali-rolling main non-free contrib
+
+#Repository DracOS GNU/Linux (Coming soon)
