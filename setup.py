@@ -28,7 +28,8 @@ def banner():
 #Update Repository
 print(os.getcwd())
 print(c("[✔]Add Repository","green"))
-subprocess.Popen("cp sources.list /etc/apt/sources.list", shell=True).wait()
+os.system("echo 'deb http://http.kali.org/kali kali-rolling main contrib non-free' >> /etc/apt/sources.list")
+os.system("gpg --keyserver hkps://keys.openpgp.org --recv-key 44C6513A8E4FB3D30875F758ED444FF07D8D0BF6")
 os.system('sudo apt-get update')
 print(c("[+]Repository is up to date","blue"))
 
