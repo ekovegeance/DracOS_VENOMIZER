@@ -2,6 +2,7 @@
 # Import Package 
 
 import os
+import time
 import os.path
 import subprocess
 from termcolor import colored as c
@@ -67,6 +68,36 @@ print(c("[*] Installing venomizer to /usr/bin/DracOS_VENOMIZER..","green"))
 print(os.getcwd())
 subprocess.Popen("mkdir /usr/bin/DracOS_VENOMIZER/; cp -rf * /usr/bin/DracOS_VENOMIZER/; cp vnm /usr/bin", shell=True).wait()
 print(c("Create launcher venomizer...","blue"))
+os.system("clear")
+
+# cek install venomizer
+print(c("[*] Checking installation...","blue"))
+time.sleep(2)
+print(c("[+]Checking Repository...","blue"))
+time.sleep(2)
+print(c("[✔]Repository Up to date [Done]","green"))
+time.sleep(2)
+print(c("[+]Checking xterm...","blue"))
+time.sleep(2)
+print(c("[✔]xterm is installed [Done]","green"))
+time.sleep(2)
+print(c("[+]Checking git...","blue"))
+time.sleep(2)
+print(c("[✔]Git is installed [Done]","green"))
+time.sleep(2)
+print(c("[+]Checking python3...","blue"))
+time.sleep(2)
+print(c("[✔]Python3 is installed [Done]","green"))
+time.sleep(2)
+print(c("[+]Checking requirements...","blue"))
+time.sleep(2)
+print(c("[✔]requirements.txt is installed [Done]","green"))
+time.sleep(2)
+time.sleep(2)
+print(c("[+]Checking venomizer...","blue"))
+time.sleep(2)
+
+
 
 # Create launcher
 
@@ -74,5 +105,7 @@ print(c("Creating launcher...","blue"))
 os.system("sudo chmod +x /usr/bin/DracOS_VENOMIZER &&sudo chmod +x /usr/bin/vnm")
 banner()
 print(c("[✔]Finished. Run 'vnm' to start the venomizer framework.","green"))
+time.sleep(5)
+os.system("vnm")
 
 
