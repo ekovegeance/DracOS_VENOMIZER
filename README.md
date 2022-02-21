@@ -31,15 +31,19 @@
 
 # Installation
 
-Clone the project
+Clone the venomizer
 
 ```bash
   git clone https://github.com/dracos-linux/DracOS_VENOMIZER.git
-  cd DracOS_VENOMIZER
-  sudo chmod +x setup.py && sudo python3 setup.py
+```
+
+Run Install
+
+```bash
+sudo chmod +x DracOS_VENOMIZER && cd DracOS_VENOMIZER
+sudo ./install.sh
 ```
 
 ## Support
 
 For support, email me@ekovegeance.com , or join our discord [BDCA](https://discord.gg/tCVcsqFMJN)
-
