@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-#! -*- coding: utf-8 -*-
-#! PasswordAttack.py
+
 import os
 from color import *
 import Logo
@@ -75,7 +74,7 @@ def tool_forensic(a):
         # back()
     else:
         os.system(
-            f'xterm -T "☣ INSTALL {a} ☣" -geometry 100x30 -e "sudo apt install {a}"'
+            f'sudo apt install {a}'
         )
         os.system("clear")
         if os.path.isfile(f"/usr/bin/{a}"):

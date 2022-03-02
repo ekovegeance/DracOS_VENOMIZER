@@ -58,14 +58,14 @@ def InfoGat():
     'dmitry','dnsenum','dnsmap','dnsrecon','dnstracer','dnswalk','python-faraday','fierce','firewalk',
     'fragroute','fragrouter','ghost-phisher','goofile','hping3','inspy','intrace','ismtp','maltego-teeth',
     'masscan','metagoofil','miranda','nikto','ntop','recon-ng','smbmap','smtp-user-enum','snmp-check','sslcaudit','sslsplit')
-    menu = input(G("[") + R("DracOS") + G("]select>"))
+    menu = int(input(G("[") + R("DracOS") + G("]select>")))
     if menu:
         menu -= 1
         # Call function
         info_gathering(lists[menu])
-    elif menu == "0":
+    elif menu == 0:
         os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
-    elif menu == "00":
+    elif menu == 00:
         exit()
     else:
         print(R('Wrong Input!'))
