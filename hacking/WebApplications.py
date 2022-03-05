@@ -215,6 +215,8 @@ def webApp_tool(a):
             print(B(f'{a} already installed'))
         else:
             print(B(f'{a} users not installed'))
+    input()
+    back()
 
 #apache-users
 def apache_users():
