@@ -52,10 +52,12 @@ def WebApp():
     43. zaproxy
     0. back """))
     print(R("    00. exit"))
+    lists = ()
     menu = input(G("[") + R("DracOS") + G("]select>"))
-    if menu == "1":
+    if menu:
+        menu -= 1
         # Call function
-        apache_users()
+        webApp_tool(lists[name])
     elif menu == "2":
         # Call function
         Arachni()
@@ -198,6 +200,21 @@ def WebApp():
 
 
 #Function
+def webApp_tool(a):
+    if os.path.isfile(f'/usr/bin/{a}'):
+        os.system('clear')
+        print(B('tools Available'))
+        # input()
+        # back()
+    else:
+        os.system(
+            f'xterm - T "install {a}" -geometry 100x30 -e "sudo apt install {a}"'
+        )
+        os.system('clear')
+        if os.path.isfile(f'/usr/bin/{a}'):
+            print(B(f'{a} already installed'))
+        else:
+            print(B(f'{a} users not installed'))
 
 #apache-users
 def apache_users():
@@ -215,8 +232,8 @@ def apache_users():
             print(B("Apache Users Already Installed"))
         else:
             print(R("Apache Users Not Installed"))
-        input()
-        back()
+    input()
+    back()
     # end apache-users
 
 #Arachni(nothing)
