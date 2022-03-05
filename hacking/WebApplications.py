@@ -71,12 +71,6 @@ def WebApp():
         input()
         back()
 
-
-
-
-
-
-
 #Function
 def webApp_tool(a):
     if os.path.isfile(f'/usr/bin/{a}'):
