@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-#! -*- coding: utf-8 -*-
-#! venomizer.py
+# -*- coding: utf-8 -*-
+# venomizer.py
 
-#! import packages hacking
+# import packages hacking
 import hacking
 from color import *
 from termcolor import colored as c
@@ -106,7 +106,7 @@ def menu():
             back()
     elif menu == '99':
         os.system(
-            'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin/DracOS_VENOMIZER/ && sudo git pull"'
+            f'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin/DracOS_VENOMIZER/ && sudo git pull"'
         )
         print(B("Tools Updating"))
         print(R("[ DONE ]"))
@@ -155,22 +155,6 @@ def menu():
 
 def back():
     menu()
-
-def tool_forensic(a):
-    if os.path.isfile(f"/usr/bin/{a}"):
-        os.system("clear")
-        print(B("Tools Available"))
-        # input()
-        # back()
-    else:
-        os.system(
-            f'sudo apt install {a}'
-        )
-        # os.system("clear")
-        if os.path.isfile(f"/usr/bin/{a}"):
-            print(B(f"{a} Already Installed"))
-        # elif os.path.isfile(f"/usr/bin/{a}")==False:
-        #     print(R(f"Not Installing {a}"))
 
 while menu():    
     menu()

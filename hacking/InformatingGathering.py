@@ -54,19 +54,22 @@ def InfoGat():
         )
     )
     print(R("    00. exit"))
+
     lists = ('nmap','amap','whatweb','sublist3r','arp-scan','automater','braa','casefile','cisco-torch',
     'dmitry','dnsenum','dnsmap','dnsrecon','dnstracer','dnswalk','python-faraday','fierce','firewalk',
     'fragroute','fragrouter','ghost-phisher','goofile','hping3','inspy','intrace','ismtp','maltego-teeth',
     'masscan','metagoofil','miranda','nikto','ntop','recon-ng','smbmap','smtp-user-enum','snmp-check','sslcaudit','sslsplit')
+
     menu = int(input(G("[") + R("DracOS") + G("]select>")))
     if menu:
         menu -= 1
         # Call function
         info_gathering(lists[menu])
     elif menu == 0:
-        os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
+        os.system(f"python3 {os.getcwd()}/venomizer.py")  # /usr/bin/
     elif menu == 00:
         exit()
+ 
     else:
         print(R('Wrong Input!'))
         input()
@@ -80,7 +83,7 @@ def info_gathering(a):
         os.system("clear")
         print(B("Tools Available"))
         input()
-        # back()
+        back()
     else:
         os.system(
             f'xterm -T "☣ INSTALL {a} ☣" -geometry 100x30 -e "sudo apt install {a}"'
@@ -97,6 +100,7 @@ def info_gathering(a):
 # fungsi untuk memanggil lagi InfoGat
 # supaya program tidak keluar
 def back():
+    os.system('clear')
     InfoGat()
 # Looping
 # while True:

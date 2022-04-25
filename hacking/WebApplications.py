@@ -59,12 +59,12 @@ def WebApp():
     'websploit','wfuzz','whatweb','wpscan','xsser')
     menu = int(input(G("[") + R("DracOS") + G("]select>")))
     if menu:
-        menu -= 1
+        menu = int(menu)-1
         # Call function
         webApp_tool(lists[name])
-    elif menu == 0:
-        os.system("python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
-    elif menu == 00:
+    elif menu == "0":
+        os.system(f"python3 {os.getcwd()}/venomizer.py")  # /usr/bin/
+    elif menu == "00":
         exit()
     else:
         print(R('Wrong Input!'))
