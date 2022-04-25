@@ -55,7 +55,7 @@ def WebApp():
     lists = ('apache-users','arachni','bbqsql','blindelephant','burpsuite','cutycapt','davtest','deblaze',
     'dirb','dirbuster','fimap','funkload','gobuster','grabber','hurl','jboss-autopwn','joomscan','jsql',
     'maltego-teeth','nikto','padbuster','paros','parsero','plecost','powerfuzzer','proxystrike','recon-ng',
-    'skipfish',,'sqlmap','sqlninja','sqlsus','ua-tester','uniscan','w3af','webscarab','webshag','webslayer',
+    'skipfish','sqlmap','sqlninja','sqlsus','ua-tester','uniscan','w3af','webscarab','webshag','webslayer',
     'websploit','wfuzz','whatweb','wpscan','xsser')
     menu = int(input(G("[") + R("DracOS") + G("]select>")))
     if menu:
