@@ -66,7 +66,7 @@ def InfoGat():
         # Call function
         info_gathering(lists[menu])
     elif menu == 0:
-        os.system(f"xfce4-terminal")  # /usr/bin/
+        os.system(f"/usr/bin/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
     elif menu == 00:
         exit()
  
@@ -82,8 +82,8 @@ def info_gathering(a):
     if os.path.isfile(f"/usr/bin/{a}"):
         os.system("clear")
         print(B("Tools Available"))
-        input()
-        back()
+        # input()
+        # back()
     else:
         os.system(
             f'xterm -T "☣ INSTALL {a} ☣" -geometry 100x30 -e "sudo apt install {a}"'
@@ -93,8 +93,8 @@ def info_gathering(a):
             print(B(f"{a} Already Installed"))
         else:
             print(R(f"Error Installing {a}"))
-        input()
-        back()
+    input()
+    back()
         # end info_gathering
 
 # fungsi untuk memanggil lagi InfoGat

@@ -62,14 +62,14 @@ def WebApp():
         menu = int(menu)-1
         # Call function
         webApp_tool(lists[name])
-    elif menu == "0":
-        os.system(f"python3 {os.getcwd()}/venomizer.py")  # /usr/bin/
-    elif menu == "00":
+    elif menu == 0:
+        os.system(f"python3 /usr/bin/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
+    elif menu == 00:
         exit()
     else:
         print(R('Wrong Input!'))
         input()
-        back()
+    back()
 
 #Function
 def webApp_tool(a):
