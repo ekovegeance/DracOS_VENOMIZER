@@ -95,8 +95,8 @@ def menu():
     print(c('0.  Update Repository', 'green'))
     print(c('99. Update tools Venomizer', 'green'))
     print(c('00. exit'))
-    lists = ('binwalk','nmap')
-    menu = int(input(DracOS))
+    
+    menu = input(DracOS)
     if menu == '0':
         var = input('sudo apt update(y/n)? ')
         if var == 'y':
@@ -113,10 +113,8 @@ def menu():
         print(G("Restart, please click Enter..."))
         input()
         os.system("vnm")
-    elif menu:
-        # hacking.InfoGat()
-        menu -= 1
-        tool_forensic(lists[menu])
+    elif menu == '1':
+        hacking.InfoGat()
     elif menu == '2':
         hacking.VulnAs()
     elif menu == '3':
