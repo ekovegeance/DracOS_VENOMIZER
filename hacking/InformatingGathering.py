@@ -66,7 +66,7 @@ def InfoGat():
         # Call function
         info_gathering(lists[menu])
     elif menu == 0:
-        os.system(f"vnm")  # /usr/bin/
+        os.system(f"xfce4-terminal")  # /usr/bin/
     elif menu == 00:
         exit()
  
