@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-#! -*- coding: utf-8 -*-
-#! venomizer.py
+# -*- coding: utf-8 -*-
+# venomizer.py
 
-#! import packages hacking
+# import packages hacking
 import hacking
 from color import *
 from termcolor import colored as c
@@ -95,7 +95,7 @@ def menu():
     print(c('0.  Update Repository', 'green'))
     print(c('99. Update tools Venomizer', 'green'))
     print(c('00. exit'))
-
+    
     menu = input(DracOS)
     if menu == '0':
         var = input('sudo apt update(y/n)? ')
@@ -106,7 +106,7 @@ def menu():
             back()
     elif menu == '99':
         os.system(
-            'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin/DracOS_VENOMIZER/ && sudo git pull"'
+            f'xterm -T "☣ INSTALL Update Tools Venomizer ☣" -geometry 100x30 -e "cd /usr/bin/DracOS_VENOMIZER/ && sudo git pull"'
         )
         print(B("Tools Updating"))
         print(R("[ DONE ]"))
@@ -155,7 +155,6 @@ def menu():
 
 def back():
     menu()
-
 
 while menu():    
     menu()

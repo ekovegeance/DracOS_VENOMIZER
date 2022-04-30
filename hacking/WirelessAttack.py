@@ -65,174 +65,17 @@ def WireAttack():
     0.  back
      """))
     print(R('00. exit'))
-
-    menu = input(G('[')+R("DracOS")+G("]select> "))
-    if menu == '1':
+    lists = ('airbase-ng','aircrack-ng','aircrack-ng','aircrack-ng','airgraph-ng','aircrack-ng','aireplay-ng','aircrack-ng',
+    'airolib-ng','aircrack-ng','aircrack-ng','asleap')
+    menu = int(input(G('[')+R("DracOS")+G("]select> ")))
+    if menu:
+        menu -= 1
         # Call Function
-        Airbase_ng()
-    elif menu == '2':
-        # Call Function
-        Aircrack_ng()
-    elif menu == '3':
-        # Call Function
-        Airdecap_ng()
-    elif menu == '4':
-        # Call Function
-        Aireplay_ng()
-    elif menu == '5':
-        # Call Function
-        airgraph_ng()
-    elif menu == '6':
-        # Call Function
-        Airmon_ng()
-    elif menu == '7':
-        # Call Function
-        Airodump_ng()
-    elif menu == '8':
-        # Call Function
-        airodump_ng_oui_update()
-    elif menu == '9':
-        # Call Function
-        Airolib_ng()
-    elif menu == '10':
-        # Call Function
-        Airserv_ng()
-    elif menu == '11':
-        # Call Function
-        Airtun_ng()
-    elif menu == '12':
-        # Call Function
-        Asleap()
-    elif menu == '13':
-        # Call Function
-        Besside_ng()
-    elif menu == '14':
-        # Call Function
-        Bluelog()
-    elif menu == '15':
-        # Call Function
-        BlueMaho()
-    elif menu == '16':
-        # Call Function
-        Bluepot()
-    elif menu == '17':
-        # Call Function
-        BlueRanger()
-    elif menu == '18':
-        # Call Function
-        Bluesnarfer()
-    elif menu == '19':
-        # Call Function
-        Bully()
-    elif menu == '20':
-        # Call Function
-        coWPAtty()
-    elif menu == '21':
-        # Call Function
-        crackle()
-    elif menu == '22':
-        # Call Function
-        eapmd5pass()
-    elif menu == '23':
-        # Call Function
-        Easside_ng()
-    elif menu == '24':
-        # Call Function
-        Fern_Wifi_Cracker()
-    elif menu == '25':
-        # Call Function
-        FreeRADIUS_WPE()
-    elif menu == '26':
-        # Call Function
-        Ghost_Phiser()
-    elif menu == '27':
-        # Call Function
-        GISKismet()
-    elif menu == '28':
-        # Call Function
-        Gqrx()
-    elif menu == '29':
-        # Call Function
-        gr_scan()
-    elif menu == '30':
-        # Call Function
-        hostapd_wpe()
-    elif menu == '31':
-        # Call Function
-        ivstools()
-    elif menu == '32':
-        # Call Function
-        kalibrate_rtl()
-    elif menu == '33':
-        # Call Function
-        KillerBee()
-    elif menu == '34':
-        # Call Function
-        Kismet()
-    elif menu == '35':
-        # Call Function
-        makeivs_ng()
-    elif menu == '36':
-        # Call Function
-        mdk3()
-    elif menu == '37':
-        # Call Function
-        mfcuk()
-    elif menu == '38':
-        # Call Function
-        mfoc()
-    elif menu == '39':
-        # Call Function
-        mfterm()
-    elif menu == '40':
-        # Call Function
-        multimon_ng()
-    elif menu == '41':
-        # Call Function
-        packetforge_ng()
-    elif menu == '42':
-        # Call Function
-        pixiewps()
-    elif menu == '43':
-        # Call Function
-        pyrit()
-    elif menu == '44':
-        # Call Function
-        reaver()
-    elif menu == '45':
-        # Call Function
-        redfang()
-    elif menu == '46':
-        # Call Function
-        rtlsdr_scanner()
-    elif menu == '47':
-        # Call Function
-        spooftooph()
-    elif menu == '48':
-        # Call Function
-        tkiptun_ng()
-    elif menu == '49':
-        # Call Function
-        wesside_ng()
-    elif menu == '50':
-        # Call Function
-        wifi_honey()
-    elif menu == '51':
-        # Call Function
-        wifiphiser()
-    elif menu == '52':
-        # Call Function
-        wifitap()
-    elif menu == '53':
-        # Call Function
-        wifite()      
-        
-    elif menu == '55':
-        # Call Function
-        airgeddon()
-    elif menu == '0':
+        wireless_tool(lists[name])
+    
+    elif menu == 0:
         os.system('python3 /usr/bin/DracOS_VENOMIZER/venomizer.py')
-    elif menu == '00':
+    elif menu == 00:
         exit()
     else:
         print(R('Wrong Input!'))
@@ -241,27 +84,27 @@ def WireAttack():
 
 
 #Function
-#Airbase-ng
-def Airbase_ng():
-    if os.path.isfile("/usr/bin/airbase-ng") or os.path.isfile('/usr/sbin/airbase-ng'):
+#Airbase-ng 1
+def wireless_tool(a):
+    if os.path.isfile(f"/usr/bin/{a}") or os.path.isfile(f'/usr/sbin/{a}'):
         os.system("clear")
         print(B("Tools Available"))
         input()
         back()
     else:
         os.system(
-            'xterm -T "☣ INSTALL Airbase-ng ☣" -geometry 100x30 -e "sudo apt install aircrack-ng"'
+            f'xterm -T "☣ INSTALL {a} ☣" -geometry 100x30 -e "sudo apt install {a}"'
         )
         os.system("clear")
-        if os.path.isfile("/usr/bin/airbase-ng") or os.path.isfile('/usr/sbin/airbase-ng'):
-            print(B("Airbase-ng Already Installed"))
+        if os.path.isfile(f"/usr/bin/{a}") or os.path.isfile(f'/usr/sbin/{a}'):
+            print(B(f"{a} Already Installed"))
         else:
-            print(R("Airbase-ng Not Installed"))
+            print(R(f"{a} Not Installed"))
         input()
         back()
     # end Airbase-ng
 
-#Aircrack-ng
+#Aircrack-ng 2
 def Aircrack_ng():
     if os.path.isfile("/usr/bin/aircrack-ng") or os.path.isfile('/usr/include/aircrack-ng'):
         os.system("clear")
@@ -281,7 +124,7 @@ def Aircrack_ng():
         back()
     # end Aircrack-ng
 
-#Airdecap-ng and Airdeclock-ng
+#Airdecap-ng and Airdeclock-ng 3
 def Airdecap_ng():
     if os.path.isfile("/usr/bin/airdecap-ng"):
         os.system("clear")
@@ -301,7 +144,7 @@ def Airdecap_ng():
         back()
     # end Airdecap-ng
 
-#Aireplay-ng
+#Aireplay-ng 4
 def Aireplay_ng():
     if os.path.isfile("/usr/bin/aireplay-ng") or os.path.isfile('/usr/sbin/aireplay-ng'):
         os.system("clear")
@@ -321,7 +164,7 @@ def Aireplay_ng():
         back()
     # end Aireplay-ng
 
-#airgraph-ng
+#airgraph-ng 5
 def airgraph_ng():
     if os.path.isfile("/usr/bin/airgraph-ng"):
         os.system("clear")
@@ -341,7 +184,7 @@ def airgraph_ng():
         back()
     # end airgraph-ng
 
-#Airmon-ng
+#Airmon-ng 6
 def Airmon_ng():
     if os.path.isfile("/usr/sbin/airmon-ng"):
         os.system("clear")
@@ -361,7 +204,7 @@ def Airmon_ng():
         back()
     # end Airmon-ng
 
-#Airodump-ng
+#Airodump-ng 7
 def Airodump_ng():
     if os.path.isfile("/usr/sbin/airodump-ng"):
         os.system("clear")
