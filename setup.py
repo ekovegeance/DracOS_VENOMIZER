@@ -36,28 +36,34 @@ os.system('sudo apt-get update')
 print(c("[+]Repository is up to date","blue"))
 
 #cek apakah file xterm sudah ada!
-if os.path.isfile('/usr/bin/xterm'):
-    print(c("[✔]xterm is installed","green"))
-else:
-    print(c("[!]Installing xterm...","red"))
-    subprocess.Popen("sudo apt-get install xterm -y", shell=True).wait()
-    print(c("[+]xterm is installed","blue"))
+def cek_xterm():
+    if os.path.isfile("/usr/bin/xterm"):
+        print(c("[✔]xterm is installed","green"))
+    else:
+        print(c("[!]xterm is not installed","red"))
+        print(c("[!]Installing xterm","blue"))
+        os.system("sudo apt-get install xterm")
+        print(c("[+]xterm is installed","green"))
     
 # cek apakah file git sudah ada!
-if os.path.isfile('/usr/bin/git'):
-    print(c("[✔]Git is installed","green"))
-else:
-    print(c("[!]Isntalling git...","red"))
-    subprocess.Popen("sudo apt-get install git -y",shell=True).wait()
-    print(c("[+]Git is installed","blue"))
+def cek_git():
+    if os.path.isfile("/usr/bin/git"):
+        print(c("[✔]git is installed","green"))
+    else:
+        print(c("[!]git is not installed","red"))
+        print(c("[!]Installing git","blue"))
+        os.system("sudo apt-get install git")
+        print(c("[+]git is installed","green"))
 
 #cek apakah file python3 sudah ada!
-if os.path.isfile('/usr/bin/python3'):
-    print(c("[✔]Python3 is installed","green"))
-else:
-    print(c("[!]Installing python3","red"))
-    subprocess.Popen("sudo apt-get install python3 -y",shell=True).wait()
-    print(c("[+]Installing python3","blue"))
+def cek_python3():
+    if os.path.isfile("/usr/bin/python3"):
+        print(c("[✔]python3 is installed","green"))
+    else:
+        print(c("[!]python3 is not installed","red"))
+        print(c("[!]Installing python3","blue"))
+        os.system("sudo apt-get install python3")
+        print(c("[+]python3 is installed","green"))
 
 # Install requirements
 print("Installing requirements.txt...")
@@ -71,36 +77,37 @@ print(c("Create launcher venomizer...","blue"))
 os.system("clear")
 
 # cek install venomizer
-print(c("[*] Checking installation...","blue"))
-time.sleep(2)
-print(c("[+]Checking Repository...","blue"))
-time.sleep(2)
-print(c("[✔]Repository Up to date [Done]","green"))
-time.sleep(2)
-print(c("[+]Checking xterm...","blue"))
-time.sleep(2)
-print(c("[✔]xterm is installed [Done]","green"))
-time.sleep(2)
-print(c("[+]Checking git...","blue"))
-time.sleep(2)
-print(c("[✔]Git is installed [Done]","green"))
-time.sleep(2)
-print(c("[+]Checking python3...","blue"))
-time.sleep(2)
-print(c("[✔]Python3 is installed [Done]","green"))
-time.sleep(2)
-print(c("[+]Checking requirements...","blue"))
-time.sleep(2)
-print(c("[✔]requirements.txt is installed [Done]","green"))
-time.sleep(2)
-time.sleep(2)
-print(c("[+]Checking venomizer...","blue"))
-time.sleep(2)
+def cek_install_venomizer():
+    print(c("[*] Checking installation...","blue"))
+    time.sleep(2)
+    print(c("[+]Checking Repository...","blue"))
+    time.sleep(2)
+    print(c("[✔]Repository Up to date [Done]","green"))
+    time.sleep(2)
+    print(c("[+]Checking xterm...","blue"))
+    time.sleep(2)
+    print(c("[✔]xterm is installed [Done]","green"))
+    time.sleep(2)
+    print(c("[+]Checking git...","blue"))
+    time.sleep(2)
+    print(c("[✔]Git is installed [Done]","green"))
+    time.sleep(2)
+    print(c("[+]Checking python3...","blue"))
+    time.sleep(2)
+    print(c("[✔]Python3 is installed [Done]","green"))
+    time.sleep(2)
+    print(c("[+]Checking requirements...","blue"))
+    time.sleep(2)
+    print(c("[✔]requirements.txt is installed [Done]","green"))
+    time.sleep(2)
+    time.sleep(2)
+    print(c("[+]Checking venomizer...","blue"))
+    time.sleep(2)
 
 
 
 # Create launcher
-
+cek_install_venomizer()
 print(c("Creating launcher...","blue"))
 os.system("sudo chmod +x /usr/bin/DracOS_VENOMIZER &&sudo chmod +x /usr/bin/vnm")
 banner()
