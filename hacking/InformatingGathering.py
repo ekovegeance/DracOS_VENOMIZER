@@ -4,7 +4,13 @@ from color import *
 import Logo
 
 #
+def checkroot():
+    if os.geteuid() != 0:
+        print(c("[-]", 'red')+c(" You must be root to run this script", 'red'))
+        sys.exit()
+
 def InfoGat():
+    checkroot()
     os.system("clear")
     Logo.logo_10()
 
@@ -22,7 +28,7 @@ def InfoGat():
     if menu in range(len(lists)):
         menu -=1
         # Call function
-        info_gathering(lists[menu])
+        info_gathering(lists[menu+1])
     elif menu == 101:
         os.system(f"/usr/bin/DracOS_VENOMIZER/venomizer.py")  # /usr/bin/
     elif menu == 102:
@@ -34,7 +40,7 @@ def InfoGat():
     back()
 
 def list_tool(a):
-    num = 0
+    num = -1
     for x in range(len(a)):
         num += 1
         if os.path.isfile(f'/usr/bin/{a[x]}'):
@@ -64,4 +70,7 @@ def info_gathering(a):
 # supaya program tidak keluar
 def back():
     os.system('clear')
+    InfoGat()
+
+if __name__ == '__main__':
     InfoGat()
